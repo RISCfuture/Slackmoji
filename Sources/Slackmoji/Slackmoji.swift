@@ -21,6 +21,14 @@ public final class Slackmoji {
     lazy private var slackmojiToEmoji = try! decoder.decode(Dictionary<String, Set<String>>.self, from: slackmojiToEmojiData)
     
     /**
+     Creates a new Slackmoji instance.
+     */
+    
+    public init() {
+        
+    }
+    
+    /**
      Given a Slack emoji shortcode, returns all possible emoji that the
      shortcode can map to. A single shortcode can map to multiple emoji because
      of differences in skin tone and other discriminators.
