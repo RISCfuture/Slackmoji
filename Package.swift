@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .target(
             name: "Slackmoji",
-            dependencies: [],
+            dependencies: ["RegularExpressions"],
         resources: [
             .process("Resources/EmojiToSlackmoji.plist"),
             .process("Resources/SlackmojiToEmoji.plist"),

@@ -1,4 +1,5 @@
 import Foundation
+import RegularExpressions
 
 /**
  This class contains methods for converting between Slack emoji shortcodes
@@ -7,9 +8,11 @@ import Foundation
  */
 
 public final class Slackmoji {
+    
     private var emojiToSlackmojiURL: URL {
         Bundle.module.url(forResource: "EmojiToSlackmoji", withExtension: "plist")!
     }
+    
     private var slackmojiToEmojiURL: URL {
         Bundle.module.url(forResource: "SlackmojiToEmoji", withExtension: "plist")!
     }
@@ -68,4 +71,46 @@ public final class Slackmoji {
             return Set()
         }
     }
+    
+    private let shortcodeRx = try! Regex(pattern: #":([A-Za-z0-9\-_]+):"#)
+    
+    /**
+     Given a string containing Slack shortcodes (surrounded by colons), returns
+     a string with those shortcodes converted to emoji. For example, given the
+     string `"I :heart: :bubble_tea:"`, this method would return "I ❤️ 🧋".
+     
+     Note that in some cases, a shortcode can resolve to multiple possible
+     emoji. In these situations, the first matching emoji is chosen. For more
+     control over which emoji to use for a given shortcode, use
+     ``shortcodeToEmoji(_:)``.
+     
+     - Parameter message: The message containing shortcodes.
+     - Returns: The same message, with shortcodes converted to emoji.
+     */
+    
+    public func messageWithShortcodesToEmoji(_ message: String) throws -> String {
+        try message.regexSub(shortcodeRx) { _index, match in
+            let shortcode = match.groups[0]!.match
+            return shortcodeToEmoji(shortcode).first ?? shortcode
+        }
+    }
+    
+//    private let emojiRx = try! Regex(pattern: #"(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])"#)
+//
+//    /**
+//     Given a string containing emoji, returns a string with the emoji converted
+//     to Slack shortcodes (surrounded by colons). For example, given the string
+//     "I ❤️ 🧋", this method would return `"I :heart: :bubble_tea:"`.
+//
+//     - Parameter message: The message containing emoji.
+//     - Returns: The same message, with emoji converted to shortcodes.
+//     - SeeAlso: ``emojiToShortcodes(_:)``
+//     */
+//
+//    public func messageWithEmojiToShortcodes(_ message: String) throws -> String {
+//        try message.regexSub(emojiRx) { _index, match in
+//            let emoji = match.fullMatch
+//            return emojiToShortcodes(emoji).first ?? emoji
+//        }
+//    }
 }

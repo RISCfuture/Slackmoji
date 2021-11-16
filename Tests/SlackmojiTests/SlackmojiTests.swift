@@ -58,5 +58,19 @@ class SlackmojiSpec: QuickSpec {
                     .to(equal(Set(["white_haired_man"])))
             }
         }
+        
+        describe("#messageWithShortcodesToEmoji") {
+            it("converts shortcodes in a message to emoji") {
+                expect(try! slackmoji.messageWithShortcodesToEmoji("I :heart: N7:heart: :tada:!"))
+                    .to(equal("I ❤️ N7❤️ 🎉!"))
+            }
+        }
+        
+//        describe("#messageWithEmojiToShortcodes") {
+//            it("converts emoji in a message to shortcodes") {
+//                expect(try! slackmoji.messageWithEmojiToShortcodes("I ❤️ N7❤️ 🎉!"))
+//                    .to(equal("I :heart: N7:heart: :tada:!"))
+//            }
+//        }
     }
 }
