@@ -1,4 +1,9 @@
-# Slackmoji
+# ``Slackmoji``
+
+A Swift package that converts between Slackmoji shortcodes and Unicode emoji
+characters.
+
+## Overview
 
 This library is a shortcode-to-Unicode converter for Slack emoji. It is able to
 convert between (e.g.) `:heart:` and ❤️. Note that Slack shortcodes can be
@@ -14,6 +19,9 @@ resources.
 Simply include this repository in your `Package.swift` file and mark it as a
 dependency for your project. That will give you access to two functions:
 
+* ``Slackmoji/Slackmoji/shortcodeToEmoji(_:)``
+* ``Slackmoji/Slackmoji/emojiToShortcodes(_:)``
+
 ``` swift
 import Slackmoji
 
@@ -25,6 +33,10 @@ slackmoji.emojiToShortcodes("❤️") //-> ["heart"]
 Note that adding/removing the leading and trailing colons is your
 responsibility.
 
+You can also convert emoji inline within strings:
+
+* ``Slackmoji/Slackmoji/messageWithShortcodesToEmoji(_:)``
+
 ## The plist data files
 
 Slackmoji shortcodes are generated from
@@ -35,21 +47,6 @@ property list file that is included as a bundled resource for this library.
 
 To regenerate this plist file, simply run the **Build Shortcode Plist** target
 from the project root directory.
-
-## Documentation
-
-DocC documentation is available, including tutorials and API documentation. For
-Xcode documentation, you can run
-
-```sh
-swift package generate-documentation --target Slackmoji
-```
-
-to generate a docarchive at
-`.build/plugins/Swift-DocC/outputs/Slackmoji.doccarchive`. You can open this
-docarchive file in Xcode for browseable API documentation. Or, within Xcode,
-open the SwiftNASR package in Xcode and choose **Build Documentation** from the
-**Product** menu.
 
 ## Tests
 
