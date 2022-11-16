@@ -1,3 +1,7 @@
 [submodule "emoji-data"]
 	path = emoji-data
 	url = https://github.com/iamcal/emoji-data.git
+[submodule "doc"]
+	path = doc
+	url = git@github.com:RISCfuture/Slackmoji.git
+	branch = docs
