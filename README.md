@@ -14,7 +14,7 @@ resources.
 Simply include this repository in your `Package.swift` file and mark it as a
 dependency for your project. That will give you access to two functions:
 
-``` swift
+```swift
 import Slackmoji
 
 let slackmoji = Slackmoji()
@@ -51,7 +51,7 @@ swift package generate-documentation --target Slackmoji
 to generate a docarchive at
 `.build/plugins/Swift-DocC/outputs/Slackmoji.doccarchive`. You can open this
 docarchive file in Xcode for browseable API documentation. Or, within Xcode,
-open the SwiftNASR package in Xcode and choose **Build Documentation** from the
+open the Slackmoji package in Xcode and choose **Build Documentation** from the
 **Product** menu.
 
 ## Tests
