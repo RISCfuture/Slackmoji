@@ -236,8 +236,8 @@
 	</array>
 	<key>☎️</key>
 	<array>
-		<string>telephone</string>
 		<string>phone</string>
+		<string>telephone</string>
 	</array>
 	<key>☑️</key>
 	<array>
@@ -405,8 +405,8 @@
 	</array>
 	<key>⚕️</key>
 	<array>
-		<string>medical_symbol</string>
 		<string>staff_of_aesculapius</string>
+		<string>medical_symbol</string>
 	</array>
 	<key>⚖️</key>
 	<array>
@@ -526,8 +526,8 @@
 	</array>
 	<key>⛵️</key>
 	<array>
-		<string>sailboat</string>
 		<string>boat</string>
+		<string>sailboat</string>
 	</array>
 	<key>⛷️</key>
 	<array>
@@ -571,8 +571,8 @@
 	</array>
 	<key>✉️</key>
 	<array>
-		<string>envelope</string>
 		<string>email</string>
+		<string>envelope</string>
 	</array>
 	<key>✊️</key>
 	<array>
@@ -580,8 +580,8 @@
 	</array>
 	<key>✋️</key>
 	<array>
-		<string>hand</string>
 		<string>raised_hand</string>
+		<string>hand</string>
 	</array>
 	<key>✌️</key>
 	<array>
@@ -1014,8 +1014,8 @@
 	</array>
 	<key>🇨🇳</key>
 	<array>
-		<string>cn</string>
 		<string>flag-cn</string>
+		<string>cn</string>
 	</array>
 	<key>🇨🇴</key>
 	<array>
@@ -1108,8 +1108,8 @@
 	</array>
 	<key>🇪🇸</key>
 	<array>
-		<string>flag-es</string>
 		<string>es</string>
+		<string>flag-es</string>
 	</array>
 	<key>🇪🇹</key>
 	<array>
@@ -2005,8 +2005,8 @@
 	</array>
 	<key>🌔</key>
 	<array>
-		<string>waxing_gibbous_moon</string>
 		<string>moon</string>
+		<string>waxing_gibbous_moon</string>
 	</array>
 	<key>🌕</key>
 	<array>
@@ -2062,8 +2062,8 @@
 	</array>
 	<key>🌤</key>
 	<array>
-		<string>sun_small_cloud</string>
 		<string>mostly_sunny</string>
+		<string>sun_small_cloud</string>
 	</array>
 	<key>🌥</key>
 	<array>
@@ -2090,8 +2090,8 @@
 	</array>
 	<key>🌪</key>
 	<array>
-		<string>tornado_cloud</string>
 		<string>tornado</string>
+		<string>tornado_cloud</string>
 	</array>
 	<key>🌫</key>
 	<array>
@@ -2383,8 +2383,8 @@
 	</array>
 	<key>🍳</key>
 	<array>
-		<string>fried_egg</string>
 		<string>cooking</string>
+		<string>fried_egg</string>
 	</array>
 	<key>🍴</key>
 	<array>
@@ -3017,8 +3017,8 @@
 	</array>
 	<key>🏮</key>
 	<array>
-		<string>lantern</string>
 		<string>izakaya_lantern</string>
+		<string>lantern</string>
 	</array>
 	<key>🏯</key>
 	<array>
@@ -3231,8 +3231,8 @@
 	</array>
 	<key>🐞</key>
 	<array>
-		<string>lady_beetle</string>
 		<string>ladybug</string>
+		<string>lady_beetle</string>
 	</array>
 	<key>🐟</key>
 	<array>
@@ -3288,8 +3288,8 @@
 	</array>
 	<key>🐬</key>
 	<array>
-		<string>flipper</string>
 		<string>dolphin</string>
+		<string>flipper</string>
 	</array>
 	<key>🐭</key>
 	<array>
@@ -3431,13 +3431,13 @@
 	</array>
 	<key>👍</key>
 	<array>
-		<string>+1</string>
 		<string>thumbsup</string>
+		<string>+1</string>
 	</array>
 	<key>👎</key>
 	<array>
-		<string>-1</string>
 		<string>thumbsdown</string>
+		<string>-1</string>
 	</array>
 	<key>👏</key>
 	<array>
@@ -3502,8 +3502,8 @@
 	</array>
 	<key>👞</key>
 	<array>
-		<string>mans_shoe</string>
 		<string>shoe</string>
+		<string>mans_shoe</string>
 	</array>
 	<key>👟</key>
 	<array>
@@ -5024,13 +5024,13 @@
 	<key>👫</key>
 	<array>
 		<string>woman_and_man_holding_hands</string>
-		<string>couple</string>
 		<string>man_and_woman_holding_hands</string>
+		<string>couple</string>
 	</array>
 	<key>👬</key>
 	<array>
-		<string>two_men_holding_hands</string>
 		<string>men_holding_hands</string>
+		<string>two_men_holding_hands</string>
 	</array>
 	<key>👭</key>
 	<array>
@@ -5718,8 +5718,8 @@
 	</array>
 	<key>💩</key>
 	<array>
-		<string>shit</string>
 		<string>hankey</string>
+		<string>shit</string>
 		<string>poop</string>
 	</array>
 	<key>💪</key>
@@ -6507,8 +6507,8 @@
 	</array>
 	<key>🖕</key>
 	<array>
-		<string>reversed_hand_with_middle_finger_extended</string>
 		<string>middle_finger</string>
+		<string>reversed_hand_with_middle_finger_extended</string>
 	</array>
 	<key>🖖</key>
 	<array>
@@ -7959,8 +7959,8 @@
 	</array>
 	<key>🤞</key>
 	<array>
-		<string>crossed_fingers</string>
 		<string>hand_with_index_and_middle_fingers_crossed</string>
+		<string>crossed_fingers</string>
 	</array>
 	<key>🤟</key>
 	<array>
@@ -8048,18 +8048,18 @@
 	</array>
 	<key>🤨</key>
 	<array>
-		<string>face_with_raised_eyebrow</string>
 		<string>face_with_one_eyebrow_raised</string>
+		<string>face_with_raised_eyebrow</string>
 	</array>
 	<key>🤩</key>
 	<array>
-		<string>star-struck</string>
 		<string>grinning_face_with_star_eyes</string>
+		<string>star-struck</string>
 	</array>
 	<key>🤪</key>
 	<array>
-		<string>zany_face</string>
 		<string>grinning_face_with_one_large_and_one_small_eye</string>
+		<string>zany_face</string>
 	</array>
 	<key>🤫</key>
 	<array>
@@ -8068,8 +8068,8 @@
 	</array>
 	<key>🤬</key>
 	<array>
-		<string>serious_face_with_symbols_covering_mouth</string>
 		<string>face_with_symbols_on_mouth</string>
+		<string>serious_face_with_symbols_covering_mouth</string>
 	</array>
 	<key>🤭</key>
 	<array>
@@ -8083,8 +8083,8 @@
 	</array>
 	<key>🤯</key>
 	<array>
-		<string>shocked_face_with_exploding_head</string>
 		<string>exploding_head</string>
+		<string>shocked_face_with_exploding_head</string>
 	</array>
 	<key>🤰</key>
 	<array>
@@ -8160,8 +8160,8 @@
 	</array>
 	<key>🤶</key>
 	<array>
-		<string>mother_christmas</string>
 		<string>mrs_claus</string>
+		<string>mother_christmas</string>
 	</array>
 	<key>🤷</key>
 	<array>

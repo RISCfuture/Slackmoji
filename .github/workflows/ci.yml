@@ -11,12 +11,12 @@ jobs:
     name: Build and Test
     strategy:
       matrix:
-        os: [macos-13, macos-12]
-        xcode: ["14"]
-        swift: ["5.7"]
+        os: [macos-14]
+        xcode: ["15"]
+        swift: ["5.9"]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: fwal/setup-swift@v1
         with:
           swift-version: ${{ matrix.swift }}
