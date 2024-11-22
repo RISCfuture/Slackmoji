@@ -236,8 +236,8 @@
 	</array>
 	<key>☎️</key>
 	<array>
-		<string>telephone</string>
 		<string>phone</string>
+		<string>telephone</string>
 	</array>
 	<key>☑️</key>
 	<array>
@@ -405,8 +405,8 @@
 	</array>
 	<key>⚕️</key>
 	<array>
-		<string>medical_symbol</string>
 		<string>staff_of_aesculapius</string>
+		<string>medical_symbol</string>
 	</array>
 	<key>⚖️</key>
 	<array>
@@ -492,6 +492,10 @@
 	<array>
 		<string>chains</string>
 	</array>
+	<key>⛓️‍💥</key>
+	<array>
+		<string>broken_chain</string>
+	</array>
 	<key>⛔️</key>
 	<array>
 		<string>no_entry</string>
@@ -571,8 +575,8 @@
 	</array>
 	<key>✉️</key>
 	<array>
-		<string>envelope</string>
 		<string>email</string>
+		<string>envelope</string>
 	</array>
 	<key>✊️</key>
 	<array>
@@ -657,8 +661,8 @@
 	</array>
 	<key>❗️</key>
 	<array>
-		<string>heavy_exclamation_mark</string>
 		<string>exclamation</string>
+		<string>heavy_exclamation_mark</string>
 	</array>
 	<key>❣️</key>
 	<array>
@@ -1150,9 +1154,9 @@
 	</array>
 	<key>🇬🇧</key>
 	<array>
-		<string>flag-gb</string>
-		<string>uk</string>
 		<string>gb</string>
+		<string>uk</string>
+		<string>flag-gb</string>
 	</array>
 	<key>🇬🇩</key>
 	<array>
@@ -1288,8 +1292,8 @@
 	</array>
 	<key>🇮🇹</key>
 	<array>
-		<string>it</string>
 		<string>flag-it</string>
+		<string>it</string>
 	</array>
 	<key>🇯🇪</key>
 	<array>
@@ -1615,8 +1619,8 @@
 	</array>
 	<key>🇷🇺</key>
 	<array>
-		<string>flag-ru</string>
 		<string>ru</string>
+		<string>flag-ru</string>
 	</array>
 	<key>🇷🇼</key>
 	<array>
@@ -1792,8 +1796,8 @@
 	</array>
 	<key>🇺🇸</key>
 	<array>
-		<string>flag-us</string>
 		<string>us</string>
+		<string>flag-us</string>
 	</array>
 	<key>🇺🇾</key>
 	<array>
@@ -2062,18 +2066,18 @@
 	</array>
 	<key>🌤</key>
 	<array>
-		<string>mostly_sunny</string>
 		<string>sun_small_cloud</string>
+		<string>mostly_sunny</string>
 	</array>
 	<key>🌥</key>
 	<array>
-		<string>sun_behind_cloud</string>
 		<string>barely_sunny</string>
+		<string>sun_behind_cloud</string>
 	</array>
 	<key>🌦</key>
 	<array>
-		<string>partly_sunny_rain</string>
 		<string>sun_behind_rain_cloud</string>
+		<string>partly_sunny_rain</string>
 	</array>
 	<key>🌧</key>
 	<array>
@@ -2090,8 +2094,8 @@
 	</array>
 	<key>🌪</key>
 	<array>
-		<string>tornado_cloud</string>
 		<string>tornado</string>
+		<string>tornado_cloud</string>
 	</array>
 	<key>🌫</key>
 	<array>
@@ -2197,6 +2201,10 @@
 	<array>
 		<string>mushroom</string>
 	</array>
+	<key>🍄‍🟫</key>
+	<array>
+		<string>brown_mushroom</string>
+	</array>
 	<key>🍅</key>
 	<array>
 		<string>tomato</string>
@@ -2224,6 +2232,10 @@
 	<key>🍋</key>
 	<array>
 		<string>lemon</string>
+	</array>
+	<key>🍋‍🟩</key>
+	<array>
+		<string>lime</string>
 	</array>
 	<key>🍌</key>
 	<array>
@@ -2383,8 +2395,8 @@
 	</array>
 	<key>🍳</key>
 	<array>
-		<string>fried_egg</string>
 		<string>cooking</string>
+		<string>fried_egg</string>
 	</array>
 	<key>🍴</key>
 	<array>
@@ -2684,56 +2696,128 @@
 	</array>
 	<key>🏃</key>
 	<array>
-		<string>runner</string>
 		<string>running</string>
+		<string>runner</string>
 	</array>
 	<key>🏃‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏃🏻‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃🏻‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃🏻‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃🏻‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃🏻‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏃🏼‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃🏼‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃🏼‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃🏼‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃🏼‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏃🏽‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃🏽‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃🏽‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃🏽‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃🏽‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏃🏾‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃🏾‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃🏾‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃🏾‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃🏾‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏃🏿‍♀️</key>
 	<array>
 		<string>woman-running</string>
 	</array>
+	<key>🏃🏿‍♀️‍➡️</key>
+	<array>
+		<string>woman_running_facing_right</string>
+	</array>
 	<key>🏃🏿‍♂️</key>
 	<array>
 		<string>man-running</string>
+	</array>
+	<key>🏃🏿‍♂️‍➡️</key>
+	<array>
+		<string>man_running_facing_right</string>
+	</array>
+	<key>🏃🏿‍➡️</key>
+	<array>
+		<string>person_running_facing_right</string>
 	</array>
 	<key>🏄</key>
 	<array>
@@ -3017,8 +3101,8 @@
 	</array>
 	<key>🏮</key>
 	<array>
-		<string>lantern</string>
 		<string>izakaya_lantern</string>
+		<string>lantern</string>
 	</array>
 	<key>🏯</key>
 	<array>
@@ -3231,8 +3315,8 @@
 	</array>
 	<key>🐞</key>
 	<array>
-		<string>ladybug</string>
 		<string>lady_beetle</string>
+		<string>ladybug</string>
 	</array>
 	<key>🐟</key>
 	<array>
@@ -3265,6 +3349,14 @@
 	<key>🐦</key>
 	<array>
 		<string>bird</string>
+	</array>
+	<key>🐦‍⬛</key>
+	<array>
+		<string>black_bird</string>
+	</array>
+	<key>🐦‍🔥</key>
+	<array>
+		<string>phoenix</string>
 	</array>
 	<key>🐧</key>
 	<array>
@@ -3465,8 +3557,8 @@
 	</array>
 	<key>👕</key>
 	<array>
-		<string>tshirt</string>
 		<string>shirt</string>
+		<string>tshirt</string>
 	</array>
 	<key>👖</key>
 	<array>
@@ -3502,8 +3594,8 @@
 	</array>
 	<key>👞</key>
 	<array>
-		<string>shoe</string>
 		<string>mans_shoe</string>
+		<string>shoe</string>
 	</array>
 	<key>👟</key>
 	<array>
@@ -3685,6 +3777,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -3705,9 +3801,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👨🏻‍⚕️</key>
 	<array>
@@ -3781,6 +3885,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨🏻‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨🏻‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -3801,9 +3909,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨🏻‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨🏻‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨🏻‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👨🏼‍⚕️</key>
 	<array>
@@ -3877,6 +3993,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨🏼‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨🏼‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -3897,9 +4017,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨🏼‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨🏼‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨🏼‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👨🏽‍⚕️</key>
 	<array>
@@ -3973,6 +4101,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨🏽‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨🏽‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -3993,9 +4125,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨🏽‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨🏽‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨🏽‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👨🏾‍⚕️</key>
 	<array>
@@ -4069,6 +4209,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨🏾‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨🏾‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -4089,9 +4233,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨🏾‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨🏾‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨🏾‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👨🏿‍⚕️</key>
 	<array>
@@ -4165,6 +4317,10 @@
 	<array>
 		<string>man_with_probing_cane</string>
 	</array>
+	<key>👨🏿‍🦯‍➡️</key>
+	<array>
+		<string>man_with_white_cane_facing_right</string>
+	</array>
 	<key>👨🏿‍🦰</key>
 	<array>
 		<string>red_haired_man</string>
@@ -4185,9 +4341,17 @@
 	<array>
 		<string>man_in_motorized_wheelchair</string>
 	</array>
+	<key>👨🏿‍🦼‍➡️</key>
+	<array>
+		<string>man_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👨🏿‍🦽</key>
 	<array>
 		<string>man_in_manual_wheelchair</string>
+	</array>
+	<key>👨🏿‍🦽‍➡️</key>
+	<array>
+		<string>man_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩</key>
 	<array>
@@ -4353,6 +4517,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -4373,9 +4541,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩🏻‍⚕️</key>
 	<array>
@@ -4481,6 +4657,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩🏻‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩🏻‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -4501,9 +4681,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩🏻‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩🏻‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩🏻‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩🏼‍⚕️</key>
 	<array>
@@ -4609,6 +4797,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩🏼‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩🏼‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -4629,9 +4821,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩🏼‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩🏼‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩🏼‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩🏽‍⚕️</key>
 	<array>
@@ -4737,6 +4937,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩🏽‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩🏽‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -4757,9 +4961,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩🏽‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩🏽‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩🏽‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩🏾‍⚕️</key>
 	<array>
@@ -4865,6 +5077,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩🏾‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩🏾‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -4885,9 +5101,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩🏾‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩🏾‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩🏾‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👩🏿‍⚕️</key>
 	<array>
@@ -4993,6 +5217,10 @@
 	<array>
 		<string>woman_with_probing_cane</string>
 	</array>
+	<key>👩🏿‍🦯‍➡️</key>
+	<array>
+		<string>woman_with_white_cane_facing_right</string>
+	</array>
 	<key>👩🏿‍🦰</key>
 	<array>
 		<string>red_haired_woman</string>
@@ -5013,9 +5241,17 @@
 	<array>
 		<string>woman_in_motorized_wheelchair</string>
 	</array>
+	<key>👩🏿‍🦼‍➡️</key>
+	<array>
+		<string>woman_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>👩🏿‍🦽</key>
 	<array>
 		<string>woman_in_manual_wheelchair</string>
+	</array>
+	<key>👩🏿‍🦽‍➡️</key>
+	<array>
+		<string>woman_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>👪</key>
 	<array>
@@ -5095,8 +5331,8 @@
 	</array>
 	<key>👯‍♀️</key>
 	<array>
-		<string>woman-with-bunny-ears-partying</string>
 		<string>women-with-bunny-ears-partying</string>
+		<string>woman-with-bunny-ears-partying</string>
 	</array>
 	<key>👯‍♂️</key>
 	<array>
@@ -5701,8 +5937,8 @@
 	</array>
 	<key>💥</key>
 	<array>
-		<string>collision</string>
 		<string>boom</string>
+		<string>collision</string>
 	</array>
 	<key>💦</key>
 	<array>
@@ -5718,9 +5954,9 @@
 	</array>
 	<key>💩</key>
 	<array>
+		<string>hankey</string>
 		<string>poop</string>
 		<string>shit</string>
-		<string>hankey</string>
 	</array>
 	<key>💪</key>
 	<array>
@@ -6644,8 +6880,8 @@
 	</array>
 	<key>😆</key>
 	<array>
-		<string>satisfied</string>
 		<string>laughing</string>
+		<string>satisfied</string>
 	</array>
 	<key>😇</key>
 	<array>
@@ -6898,6 +7134,14 @@
 	<key>🙂</key>
 	<array>
 		<string>slightly_smiling_face</string>
+	</array>
+	<key>🙂‍↔️</key>
+	<array>
+		<string>head_shaking_horizontally</string>
+	</array>
+	<key>🙂‍↕️</key>
+	<array>
+		<string>head_shaking_vertically</string>
 	</array>
 	<key>🙃</key>
 	<array>
@@ -7333,8 +7577,8 @@
 	</array>
 	<key>🚗</key>
 	<array>
-		<string>red_car</string>
 		<string>car</string>
+		<string>red_car</string>
 	</array>
 	<key>🚘</key>
 	<array>
@@ -7608,49 +7852,121 @@
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚶🏻‍♀️</key>
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶🏻‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶🏻‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶🏻‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶🏻‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚶🏼‍♀️</key>
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶🏼‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶🏼‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶🏼‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶🏼‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚶🏽‍♀️</key>
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶🏽‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶🏽‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶🏽‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶🏽‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚶🏾‍♀️</key>
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶🏾‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶🏾‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶🏾‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶🏾‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚶🏿‍♀️</key>
 	<array>
 		<string>woman-walking</string>
 	</array>
+	<key>🚶🏿‍♀️‍➡️</key>
+	<array>
+		<string>woman_walking_facing_right</string>
+	</array>
 	<key>🚶🏿‍♂️</key>
 	<array>
 		<string>man-walking</string>
+	</array>
+	<key>🚶🏿‍♂️‍➡️</key>
+	<array>
+		<string>man_walking_facing_right</string>
+	</array>
+	<key>🚶🏿‍➡️</key>
+	<array>
+		<string>person_walking_facing_right</string>
 	</array>
 	<key>🚷</key>
 	<array>
@@ -7755,6 +8071,22 @@
 	<key>🛗</key>
 	<array>
 		<string>elevator</string>
+	</array>
+	<key>🛜</key>
+	<array>
+		<string>wireless</string>
+	</array>
+	<key>🛝</key>
+	<array>
+		<string>playground_slide</string>
+	</array>
+	<key>🛞</key>
+	<array>
+		<string>wheel</string>
+	</array>
+	<key>🛟</key>
+	<array>
+		<string>ring_buoy</string>
 	</array>
 	<key>🛠</key>
 	<array>
@@ -7884,6 +8216,10 @@
 	<array>
 		<string>large_brown_square</string>
 	</array>
+	<key>🟰</key>
+	<array>
+		<string>heavy_equals_sign</string>
+	</array>
 	<key>🤌</key>
 	<array>
 		<string>pinched_fingers</string>
@@ -7952,10 +8288,6 @@
 	<key>🤜</key>
 	<array>
 		<string>right-facing_fist</string>
-	</array>
-	<key>🤝</key>
-	<array>
-		<string>handshake</string>
 	</array>
 	<key>🤞</key>
 	<array>
@@ -8063,8 +8395,8 @@
 	</array>
 	<key>🤫</key>
 	<array>
-		<string>face_with_finger_covering_closed_lips</string>
 		<string>shushing_face</string>
+		<string>face_with_finger_covering_closed_lips</string>
 	</array>
 	<key>🤬</key>
 	<array>
@@ -8667,6 +8999,10 @@
 	<array>
 		<string>disguised_face</string>
 	</array>
+	<key>🥹</key>
+	<array>
+		<string>face_holding_back_tears</string>
+	</array>
 	<key>🥺</key>
 	<array>
 		<string>pleading_face</string>
@@ -9155,6 +9491,10 @@
 	<array>
 		<string>bubble_tea</string>
 	</array>
+	<key>🧌</key>
+	<array>
+		<string>troll</string>
+	</array>
 	<key>🧍</key>
 	<array>
 		<string>standing_person</string>
@@ -9215,49 +9555,121 @@
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧎🏻‍♀️</key>
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎🏻‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎🏻‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎🏻‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎🏻‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧎🏼‍♀️</key>
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎🏼‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎🏼‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎🏼‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎🏼‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧎🏽‍♀️</key>
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎🏽‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎🏽‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎🏽‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎🏽‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧎🏾‍♀️</key>
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎🏾‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎🏾‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎🏾‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎🏾‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧎🏿‍♀️</key>
 	<array>
 		<string>woman_kneeling</string>
 	</array>
+	<key>🧎🏿‍♀️‍➡️</key>
+	<array>
+		<string>woman_kneeling_facing_right</string>
+	</array>
 	<key>🧎🏿‍♂️</key>
 	<array>
 		<string>man_kneeling</string>
+	</array>
+	<key>🧎🏿‍♂️‍➡️</key>
+	<array>
+		<string>man_kneeling_facing_right</string>
+	</array>
+	<key>🧎🏿‍➡️</key>
+	<array>
+		<string>person_kneeling_facing_right</string>
 	</array>
 	<key>🧏</key>
 	<array>
@@ -9399,6 +9811,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9419,9 +9835,33 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
+	</array>
+	<key>🧑‍🧑‍🧒</key>
+	<array>
+		<string>family_adult_adult_child</string>
+	</array>
+	<key>🧑‍🧑‍🧒‍🧒</key>
+	<array>
+		<string>family_adult_adult_child_child</string>
+	</array>
+	<key>🧑‍🧒</key>
+	<array>
+		<string>family_adult_child</string>
+	</array>
+	<key>🧑‍🧒‍🧒</key>
+	<array>
+		<string>family_adult_child_child</string>
 	</array>
 	<key>🧑🏻‍⚕️</key>
 	<array>
@@ -9499,6 +9939,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑🏻‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑🏻‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9519,9 +9963,17 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑🏻‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑🏻‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑🏻‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>🧑🏼‍⚕️</key>
 	<array>
@@ -9599,6 +10051,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑🏼‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑🏼‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9619,9 +10075,17 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑🏼‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑🏼‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑🏼‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>🧑🏽‍⚕️</key>
 	<array>
@@ -9699,6 +10163,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑🏽‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑🏽‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9719,9 +10187,17 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑🏽‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑🏽‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑🏽‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>🧑🏾‍⚕️</key>
 	<array>
@@ -9799,6 +10275,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑🏾‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑🏾‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9819,9 +10299,17 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑🏾‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑🏾‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑🏾‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>🧑🏿‍⚕️</key>
 	<array>
@@ -9899,6 +10387,10 @@
 	<array>
 		<string>person_with_probing_cane</string>
 	</array>
+	<key>🧑🏿‍🦯‍➡️</key>
+	<array>
+		<string>person_with_white_cane_facing_right</string>
+	</array>
 	<key>🧑🏿‍🦰</key>
 	<array>
 		<string>red_haired_person</string>
@@ -9919,9 +10411,17 @@
 	<array>
 		<string>person_in_motorized_wheelchair</string>
 	</array>
+	<key>🧑🏿‍🦼‍➡️</key>
+	<array>
+		<string>person_in_motorized_wheelchair_facing_right</string>
+	</array>
 	<key>🧑🏿‍🦽</key>
 	<array>
 		<string>person_in_manual_wheelchair</string>
+	</array>
+	<key>🧑🏿‍🦽‍➡️</key>
+	<array>
+		<string>person_in_manual_wheelchair_facing_right</string>
 	</array>
 	<key>🧒</key>
 	<array>
@@ -10575,6 +11075,18 @@
 	<array>
 		<string>thong_sandal</string>
 	</array>
+	<key>🩵</key>
+	<array>
+		<string>light_blue_heart</string>
+	</array>
+	<key>🩶</key>
+	<array>
+		<string>grey_heart</string>
+	</array>
+	<key>🩷</key>
+	<array>
+		<string>pink_heart</string>
+	</array>
 	<key>🩸</key>
 	<array>
 		<string>drop_of_blood</string>
@@ -10586,6 +11098,14 @@
 	<key>🩺</key>
 	<array>
 		<string>stethoscope</string>
+	</array>
+	<key>🩻</key>
+	<array>
+		<string>x-ray</string>
+	</array>
+	<key>🩼</key>
+	<array>
+		<string>crutch</string>
 	</array>
 	<key>🪀</key>
 	<array>
@@ -10614,6 +11134,14 @@
 	<key>🪆</key>
 	<array>
 		<string>nesting_dolls</string>
+	</array>
+	<key>🪇</key>
+	<array>
+		<string>maracas</string>
+	</array>
+	<key>🪈</key>
+	<array>
+		<string>flute</string>
 	</array>
 	<key>🪐</key>
 	<array>
@@ -10715,6 +11243,34 @@
 	<array>
 		<string>rock</string>
 	</array>
+	<key>🪩</key>
+	<array>
+		<string>mirror_ball</string>
+	</array>
+	<key>🪪</key>
+	<array>
+		<string>identification_card</string>
+	</array>
+	<key>🪫</key>
+	<array>
+		<string>low_battery</string>
+	</array>
+	<key>🪬</key>
+	<array>
+		<string>hamsa</string>
+	</array>
+	<key>🪭</key>
+	<array>
+		<string>folding_hand_fan</string>
+	</array>
+	<key>🪮</key>
+	<array>
+		<string>hair_pick</string>
+	</array>
+	<key>🪯</key>
+	<array>
+		<string>khanda</string>
+	</array>
 	<key>🪰</key>
 	<array>
 		<string>fly</string>
@@ -10743,6 +11299,38 @@
 	<array>
 		<string>feather</string>
 	</array>
+	<key>🪷</key>
+	<array>
+		<string>lotus</string>
+	</array>
+	<key>🪸</key>
+	<array>
+		<string>coral</string>
+	</array>
+	<key>🪹</key>
+	<array>
+		<string>empty_nest</string>
+	</array>
+	<key>🪺</key>
+	<array>
+		<string>nest_with_eggs</string>
+	</array>
+	<key>🪻</key>
+	<array>
+		<string>hyacinth</string>
+	</array>
+	<key>🪼</key>
+	<array>
+		<string>jellyfish</string>
+	</array>
+	<key>🪽</key>
+	<array>
+		<string>wing</string>
+	</array>
+	<key>🪿</key>
+	<array>
+		<string>goose</string>
+	</array>
 	<key>🫀</key>
 	<array>
 		<string>anatomical_heart</string>
@@ -10754,6 +11342,26 @@
 	<key>🫂</key>
 	<array>
 		<string>people_hugging</string>
+	</array>
+	<key>🫃</key>
+	<array>
+		<string>pregnant_man</string>
+	</array>
+	<key>🫄</key>
+	<array>
+		<string>pregnant_person</string>
+	</array>
+	<key>🫅</key>
+	<array>
+		<string>person_with_crown</string>
+	</array>
+	<key>🫎</key>
+	<array>
+		<string>moose</string>
+	</array>
+	<key>🫏</key>
+	<array>
+		<string>donkey</string>
 	</array>
 	<key>🫐</key>
 	<array>
@@ -10782,6 +11390,258 @@
 	<key>🫖</key>
 	<array>
 		<string>teapot</string>
+	</array>
+	<key>🫗</key>
+	<array>
+		<string>pouring_liquid</string>
+	</array>
+	<key>🫘</key>
+	<array>
+		<string>beans</string>
+	</array>
+	<key>🫙</key>
+	<array>
+		<string>jar</string>
+	</array>
+	<key>🫚</key>
+	<array>
+		<string>ginger_root</string>
+	</array>
+	<key>🫛</key>
+	<array>
+		<string>pea_pod</string>
+	</array>
+	<key>🫠</key>
+	<array>
+		<string>melting_face</string>
+	</array>
+	<key>🫡</key>
+	<array>
+		<string>saluting_face</string>
+	</array>
+	<key>🫢</key>
+	<array>
+		<string>face_with_open_eyes_and_hand_over_mouth</string>
+	</array>
+	<key>🫣</key>
+	<array>
+		<string>face_with_peeking_eye</string>
+	</array>
+	<key>🫤</key>
+	<array>
+		<string>face_with_diagonal_mouth</string>
+	</array>
+	<key>🫥</key>
+	<array>
+		<string>dotted_line_face</string>
+	</array>
+	<key>🫦</key>
+	<array>
+		<string>biting_lip</string>
+	</array>
+	<key>🫧</key>
+	<array>
+		<string>bubbles</string>
+	</array>
+	<key>🫨</key>
+	<array>
+		<string>shaking_face</string>
+	</array>
+	<key>🫰</key>
+	<array>
+		<string>hand_with_index_finger_and_thumb_crossed</string>
+	</array>
+	<key>🫱</key>
+	<array>
+		<string>rightwards_hand</string>
+	</array>
+	<key>🫱‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏻‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏻‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏻‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏻‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏻‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏼‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏼‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏼‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏼‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏼‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏽‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏽‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏽‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏽‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏽‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏾‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏾‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏾‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏾‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏾‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏿‍🫲🏻</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏿‍🫲🏼</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏿‍🫲🏽</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏿‍🫲🏾</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫱🏿‍🫲🏿</key>
+	<array>
+		<string>handshake</string>
+	</array>
+	<key>🫲</key>
+	<array>
+		<string>leftwards_hand</string>
+	</array>
+	<key>🫳</key>
+	<array>
+		<string>palm_down_hand</string>
+	</array>
+	<key>🫴</key>
+	<array>
+		<string>palm_up_hand</string>
+	</array>
+	<key>🫵</key>
+	<array>
+		<string>index_pointing_at_the_viewer</string>
+	</array>
+	<key>🫶</key>
+	<array>
+		<string>heart_hands</string>
+	</array>
+	<key>🫷</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫷🏻</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫷🏼</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫷🏽</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫷🏾</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫷🏿</key>
+	<array>
+		<string>leftwards_pushing_hand</string>
+	</array>
+	<key>🫸</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
+	</array>
+	<key>🫸🏻</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
+	</array>
+	<key>🫸🏼</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
+	</array>
+	<key>🫸🏽</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
+	</array>
+	<key>🫸🏾</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
+	</array>
+	<key>🫸🏿</key>
+	<array>
+		<string>rightwards_pushing_hand</string>
 	</array>
 </dict>
 </plist>
