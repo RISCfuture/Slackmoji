@@ -1,5 +1,18 @@
 # Change Log
 
+## [3.0.0] - 2024-11-21
+
+Emoji 15.0, version updates.
+
+### Changed
+
+- Updated to Emoji 15.0 standard
+- Bumped OS versions and added other OSes
+
+### Fixed
+
+- Removed deprecations
+
 ## [2.0.0] - 2024-04-04
 
 Locked down version requirements.

@@ -8,7 +8,6 @@ let encoder: PropertyListEncoder = {
 
 func writeSlackmojiToEmoji(aliases: Dictionary<String, Set<String>>) {
     let plistData = try! encoder.encode(aliases)
-    print(FileManager.default.currentDirectoryPath)
     try! plistData.write(to: URL(filePath: "Sources/Slackmoji/Resources/SlackmojiToEmoji.plist", directoryHint: .notDirectory))
 }
 
