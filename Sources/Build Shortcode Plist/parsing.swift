@@ -53,63 +53,61 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
         guard !scanner.isAtEnd else { break }
         
         switch scanner.scanCharacter() {
-        case Character("{"):
-            guard let token = scanner.scanUpToString("}") else {
-                fatalError("Empty token: \(codepoints.debugDescription)")
-            }
-            
-            switch token {
-            case "MAN/WOMAN":
-                fallthrough
-            case "M/W":
-                guard parsed.genderInsertion == nil else {
-                    fatalError("Can't have multiple gender insertions in a single codepoint")
+            case Character("{"):
+                guard let token = scanner.scanUpToString("}") else {
+                    fatalError("Empty token: \(codepoints.debugDescription)")
                 }
-                parsed.genderInsertion = .init(type: .manWoman, index: parsed.prunedCodepoints.endIndex)
-                parsed.prunedCodepoints.append(.genderInsertion)
-            case "MALE/FEMALE":
-                fallthrough
-            case "GENDER":
-                guard parsed.genderInsertion == nil else {
-                    fatalError("Can't have multiple gender insertions in a single codepoint")
+                
+                switch token {
+                    case "MAN/WOMAN":
+                        fallthrough
+                    case "M/W":
+                        guard parsed.genderInsertion == nil else {
+                            fatalError("Can't have multiple gender insertions in a single codepoint")
+                        }
+                        parsed.genderInsertion = .init(type: .manWoman, index: parsed.prunedCodepoints.endIndex)
+                        parsed.prunedCodepoints.append(.genderInsertion)
+                    case "MALE/FEMALE":
+                        fallthrough
+                    case "GENDER":
+                        guard parsed.genderInsertion == nil else {
+                            fatalError("Can't have multiple gender insertions in a single codepoint")
+                        }
+                        parsed.genderInsertion = .init(type: .maleFemale, index: parsed.prunedCodepoints.endIndex)
+                        parsed.prunedCodepoints.append(.genderInsertion)
+                    case "SKIN":
+                        fallthrough
+                    case "SKIN2":
+                        parsed.skinInsertions.append(.init(optional: true, exclusive: false))
+                        parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
+                        lastSkinInsertionIndex += 1
+                    case "SKIN!":
+                        parsed.skinInsertions.append(.init(optional: false, exclusive: false))
+                        parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
+                        lastSkinInsertionIndex += 1
+                    case "SKIN2x":
+                        parsed.skinInsertions.append(.init(optional: true, exclusive: true))
+                        parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
+                        lastSkinInsertionIndex += 1
+                    default:
+                        fatalError("Unrecognized shortcode token \(token)")
                 }
-                parsed.genderInsertion = .init(type: .maleFemale, index: parsed.prunedCodepoints.endIndex)
-                parsed.prunedCodepoints.append(.genderInsertion)
-            case "SKIN":
-                fallthrough
-            case "SKIN2":
-                parsed.skinInsertions.append(.init(optional: true, exclusive: false))
-                parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
-                lastSkinInsertionIndex += 1
-            case "SKIN!":
-                parsed.skinInsertions.append(.init(optional: false, exclusive: false))
-                parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
-                lastSkinInsertionIndex += 1
-            case "SKIN2x":
-                parsed.skinInsertions.append(.init(optional: true, exclusive: true))
-                parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
-                lastSkinInsertionIndex += 1
+                
+                precondition(scanner.scanCharacter() == "}", "Expected to scan '}'")
+            case Character("-"):
+                continue
             default:
-                fatalError("Unrecognized shortcode token \(token)")
-            }
-            
-            guard scanner.scanCharacter() == "}" else {
-                preconditionFailure("Expected to scan '}'")
-            }
-        case Character("-"):
-            continue
-        default:
-            preconditionFailure("Unexpected scan result")
+                preconditionFailure("Unexpected scan result")
         }
     }
     
     if parsed.prunedCodepoints.count == 1 {
         switch parsed.prunedCodepoints[0] {
-        case .codepoint(let scalar):
-            if scalar.value >= 0x2000 && scalar.value < 0x3000 {
-                parsed.prunedCodepoints.append(.codepoint(emojiDecorator))
-            }
-        default: break
+            case .codepoint(let scalar):
+                if scalar.value >= 0x2000 && scalar.value < 0x3000 {
+                    parsed.prunedCodepoints.append(.codepoint(emojiDecorator))
+                }
+            default: break
         }
     }
     
@@ -129,40 +127,38 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
         guard !scanner.isAtEnd else { break }
         
         switch scanner.scanCharacter() {
-        case Character("{"):
-            guard let token = scanner.scanUpToString("}") else {
-                fatalError("Empty token: \(shortcodes.debugDescription)")
-            }
-            
-            switch token {
-            case "MAN/WOMAN":
-                fallthrough
-            case "M/W":
-                guard currentParsed.genderInsertion == nil else {
-                    fatalError("Can't have multiple gender insertions in a single codepoint")
+            case Character("{"):
+                guard let token = scanner.scanUpToString("}") else {
+                    fatalError("Empty token: \(shortcodes.debugDescription)")
                 }
-                currentParsed.genderInsertion = .init(phrase: .manWoman, index: currentParsed.shortcodeParts.endIndex)
-                currentParsed.shortcodeParts.append(.genderInsertion)
-            case "MALE/FEMALE":
-                fallthrough
-            case "GENDER":
-                guard currentParsed.genderInsertion == nil else {
-                    fatalError("Can't have multiple gender insertions in a single codepoint")
+                
+                switch token {
+                    case "MAN/WOMAN":
+                        fallthrough
+                    case "M/W":
+                        guard currentParsed.genderInsertion == nil else {
+                            fatalError("Can't have multiple gender insertions in a single codepoint")
+                        }
+                        currentParsed.genderInsertion = .init(phrase: .manWoman, index: currentParsed.shortcodeParts.endIndex)
+                        currentParsed.shortcodeParts.append(.genderInsertion)
+                    case "MALE/FEMALE":
+                        fallthrough
+                    case "GENDER":
+                        guard currentParsed.genderInsertion == nil else {
+                            fatalError("Can't have multiple gender insertions in a single codepoint")
+                        }
+                        currentParsed.genderInsertion = .init(phrase: .maleFemale, index: currentParsed.shortcodeParts.endIndex)
+                        currentParsed.shortcodeParts.append(.genderInsertion)
+                    default:
+                        fatalError("Unrecognized shortcode token \(token)")
                 }
-                currentParsed.genderInsertion = .init(phrase: .maleFemale, index: currentParsed.shortcodeParts.endIndex)
-                currentParsed.shortcodeParts.append(.genderInsertion)
+                
+                precondition(scanner.scanCharacter() == "}", "Expected to scan '}'")
+            case Character("/"):
+                parsedShortcodes.append(currentParsed)
+                currentParsed = ParsedShortcode()
             default:
-                fatalError("Unrecognized shortcode token \(token)")
-            }
-            
-            guard scanner.scanCharacter() == "}" else {
-                preconditionFailure("Expected to scan '}'")
-            }
-        case Character("/"):
-            parsedShortcodes.append(currentParsed)
-            currentParsed = ParsedShortcode()
-        default:
-            preconditionFailure("Unexpected scan result")
+                preconditionFailure("Unexpected scan result")
         }
     }
     
@@ -192,7 +188,7 @@ func makeSlackmoji(codepoints: Substring, shortcodes: Substring) -> Array<Slackm
         }
         
         slackmoji.skinInsertions = parsedCodepoints.skinInsertions
-     
+        
         return slackmoji
     }
 }
