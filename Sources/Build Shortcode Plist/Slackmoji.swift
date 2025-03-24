@@ -116,7 +116,7 @@ struct Slackmoji {
             var codepointsWithSkin = Array(codepoints)
             let insertionOffset = findCodepointOffsetForSkinInsertion(index: codepointIndex)!
             
-            if let skinCodepoint = skinCodepoint {
+            if let skinCodepoint {
                 codepointsWithSkin[insertionOffset] = .codepoint(skinCodepoint)
             } else {
                 codepointsWithSkin.remove(at: insertionOffset)
@@ -164,7 +164,7 @@ struct Slackmoji {
     }
     
     var allExpansions: Dictionary<String, Array<String>> {
-        if let genderInsertion = genderInsertion {
+        if let genderInsertion {
             return Gender.allCases.reduce(Dictionary()) { dict, gender in
                 var dict = dict
                 

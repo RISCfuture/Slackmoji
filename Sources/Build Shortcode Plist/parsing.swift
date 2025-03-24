@@ -5,12 +5,12 @@ fileprivate struct ParsedCodepoints {
     var prunedCodepoints: Array<Slackmoji.Codepoint>
     var genderInsertion: GenderInsertion?
     var skinInsertions: Array<Slackmoji.SkinInsertion>
-    
+
     fileprivate struct GenderInsertion {
         let type: Slackmoji.GenderInsertion.CodepointType
         let index: Int
     }
-    
+
     init() {
         prunedCodepoints = []
         genderInsertion = nil
@@ -21,12 +21,12 @@ fileprivate struct ParsedCodepoints {
 fileprivate struct ParsedShortcode {
     var shortcodeParts: Array<Slackmoji.ShortcodePart>
     var genderInsertion: GenderInsertion?
-    
+
     fileprivate struct GenderInsertion {
         let phrase: Slackmoji.GenderInsertion.ShortcodePhrase
         let index: Int
     }
-    
+
     init() {
         shortcodeParts = []
         genderInsertion = nil
@@ -41,23 +41,23 @@ fileprivate let zwj = 0x200D
 fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
     var parsed = ParsedCodepoints()
     var lastSkinInsertionIndex = 0
-    
+
     let scanner = Scanner(string: String(codepoints))
     while !scanner.isAtEnd {
         let str = scanner.scanUpToCharacters(from: codepointSpecialChars)
-        if let str = str {
+        if let str {
             let int = Int(str, radix: 16)!
             let scalar = Unicode.Scalar(int)!
             parsed.prunedCodepoints.append(.codepoint(scalar))
         }
         guard !scanner.isAtEnd else { break }
-        
+
         switch scanner.scanCharacter() {
             case Character("{"):
                 guard let token = scanner.scanUpToString("}") else {
                     fatalError("Empty token: \(codepoints.debugDescription)")
                 }
-                
+
                 switch token {
                     case "MAN/WOMAN":
                         fallthrough
@@ -92,7 +92,7 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
                     default:
                         fatalError("Unrecognized shortcode token \(token)")
                 }
-                
+
                 precondition(scanner.scanCharacter() == "}", "Expected to scan '}'")
             case Character("-"):
                 continue
@@ -100,7 +100,7 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
                 preconditionFailure("Unexpected scan result")
         }
     }
-    
+
     if parsed.prunedCodepoints.count == 1 {
         switch parsed.prunedCodepoints[0] {
             case .codepoint(let scalar):
@@ -110,28 +110,28 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
             default: break
         }
     }
-    
+
     return parsed
 }
 
 fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode> {
     var parsedShortcodes = Array<ParsedShortcode>()
     var currentParsed = ParsedShortcode()
-    
+
     let scanner = Scanner(string: String(shortcodes))
     while !scanner.isAtEnd {
         let str = scanner.scanUpToCharacters(from: shortcodeSpecialChars)
-        if let str = str {
+        if let str {
             currentParsed.shortcodeParts.append(.string(str))
         }
         guard !scanner.isAtEnd else { break }
-        
+
         switch scanner.scanCharacter() {
             case Character("{"):
                 guard let token = scanner.scanUpToString("}") else {
                     fatalError("Empty token: \(shortcodes.debugDescription)")
                 }
-                
+
                 switch token {
                     case "MAN/WOMAN":
                         fallthrough
@@ -152,7 +152,7 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
                     default:
                         fatalError("Unrecognized shortcode token \(token)")
                 }
-                
+
                 precondition(scanner.scanCharacter() == "}", "Expected to scan '}'")
             case Character("/"):
                 parsedShortcodes.append(currentParsed)
@@ -161,7 +161,7 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
                 preconditionFailure("Unexpected scan result")
         }
     }
-    
+
     if !currentParsed.shortcodeParts.isEmpty { parsedShortcodes.append(currentParsed) }
     return parsedShortcodes
 }
@@ -169,26 +169,25 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
 func makeSlackmoji(codepoints: Substring, shortcodes: Substring) -> Array<Slackmoji> {
     let parsedCodepoints = parseCodepoints(codepoints: codepoints)
     let parsedShortcodes = parseShortcode(shortcodes: shortcodes)
-    
+
     return parsedShortcodes.map { parsedShortcode in
         var slackmoji = Slackmoji()
         slackmoji.shortcodeParts = parsedShortcode.shortcodeParts
         slackmoji.codepoints = parsedCodepoints.prunedCodepoints
-        
+
         if let shortcodeGenderInsertion = parsedShortcode.genderInsertion {
-            if let codepointGenderInsertion = parsedCodepoints.genderInsertion {
-                slackmoji.genderInsertion = .init(codepointType: codepointGenderInsertion.type, shortcodePhrase: shortcodeGenderInsertion.phrase)
-            } else {
+            guard let codepointGenderInsertion = parsedCodepoints.genderInsertion else {
                 fatalError("Gender insertion in shortcode must have corresponding gender insertion in codepoint")
             }
+            slackmoji.genderInsertion = .init(codepointType: codepointGenderInsertion.type, shortcodePhrase: shortcodeGenderInsertion.phrase)
         } else {
             guard parsedCodepoints.genderInsertion == nil else {
                 fatalError("Gender insertion in shortcode must have corresponding gender insertion in codepoint")
             }
         }
-        
+
         slackmoji.skinInsertions = parsedCodepoints.skinInsertions
-        
+
         return slackmoji
     }
 }

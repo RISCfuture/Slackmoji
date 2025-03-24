@@ -43,11 +43,7 @@ public final class Slackmoji {
      */
     
     public func shortcodeToEmoji(_ shortcode: String) -> Set<String> {
-        if let set = slackmojiToEmoji[shortcode] {
-            return set
-        } else {
-            return Set()
-        }
+        slackmojiToEmoji[shortcode] ?? Set()
     }
     
     /**
@@ -65,11 +61,7 @@ public final class Slackmoji {
      */
     
     public func emojiToShortcodes(_ character: String) -> Set<String> {
-        if let set = emojiToSlackmoji[character] {
-            return set
-        } else {
-            return Set()
-        }
+        emojiToSlackmoji[character] ?? Set()
     }
     
     private let shortcodeRx = try! Regex(pattern: #":([A-Za-z0-9\-_]+):"#)
