@@ -112,7 +112,7 @@ struct Slackmoji {
         }
         let codepointIndex = insertions.count - 1
         
-        return skinsToUse(insertion: insertion, availableSkins: availableSkins).reduce([]) { expansions, skinCodepoint in
+        return skinsToUse(insertion: insertion, availableSkins: availableSkins).reduce(into: []) { expansions, skinCodepoint in
             var codepointsWithSkin = Array(codepoints)
             let insertionOffset = findCodepointOffsetForSkinInsertion(index: codepointIndex)!
             
@@ -121,8 +121,9 @@ struct Slackmoji {
             } else {
                 codepointsWithSkin.remove(at: insertionOffset)
             }
-            
-            return expansions + skinExpansions(codepoints: codepointsWithSkin, insertions: insertions.dropLast(), availableSkins: availableSkins.filter { $0 != skinCodepoint })
+
+            let skins = skinExpansions(codepoints: codepointsWithSkin, insertions: insertions.dropLast(), availableSkins: availableSkins.filter { $0 != skinCodepoint })
+            expansions.append(contentsOf: skins)
         }
     }
     
@@ -165,9 +166,7 @@ struct Slackmoji {
     
     var allExpansions: Dictionary<String, Array<String>> {
         if let genderInsertion {
-            return Gender.allCases.reduce(Dictionary()) { dict, gender in
-                var dict = dict
-                
+            return Gender.allCases.reduce(into: Dictionary()) { dict, gender in
                 var shortcodeParts = Array(self.shortcodeParts)
                 let shortcodeValue = genderInsertion.shortcodePhrase.values[gender]!
                 shortcodeParts[shortcodeOffsetForGenderInsertion!] = .string(shortcodeValue)
@@ -188,8 +187,6 @@ struct Slackmoji {
                 }
                 
                 dict[shortcode] = unicodeValues
-                
-                return dict
             }
         } else {
             let unicodeValues = skinExpansions(codepoints: codepoints).map { codepoints -> String in
