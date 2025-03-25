@@ -1,44 +1,44 @@
 import Foundation
 import RegularExpressions
 
-fileprivate struct ParsedCodepoints {
-    var prunedCodepoints: Array<Slackmoji.Codepoint>
+struct ParsedCodepoints {
+    var prunedCodepoints: [Slackmoji.Codepoint]
     var genderInsertion: GenderInsertion?
-    var skinInsertions: Array<Slackmoji.SkinInsertion>
-
-    fileprivate struct GenderInsertion {
-        let type: Slackmoji.GenderInsertion.CodepointType
-        let index: Int
-    }
+    var skinInsertions: [Slackmoji.SkinInsertion]
 
     init() {
         prunedCodepoints = []
         genderInsertion = nil
         skinInsertions = []
     }
-}
 
-fileprivate struct ParsedShortcode {
-    var shortcodeParts: Array<Slackmoji.ShortcodePart>
-    var genderInsertion: GenderInsertion?
-
-    fileprivate struct GenderInsertion {
-        let phrase: Slackmoji.GenderInsertion.ShortcodePhrase
+    struct GenderInsertion {
+        let type: Slackmoji.GenderInsertion.CodepointType
         let index: Int
     }
+}
+
+struct ParsedShortcode {
+    var shortcodeParts: [Slackmoji.ShortcodePart]
+    var genderInsertion: GenderInsertion?
 
     init() {
         shortcodeParts = []
         genderInsertion = nil
     }
+
+    struct GenderInsertion {
+        let phrase: Slackmoji.GenderInsertion.ShortcodePhrase
+        let index: Int
+    }
 }
 
-fileprivate let codepointSpecialChars = CharacterSet(charactersIn: "-{")
-fileprivate let shortcodeSpecialChars = CharacterSet(charactersIn: "{/")
-fileprivate let emojiDecorator = Unicode.Scalar(UInt32(0xFE0F))!
-fileprivate let zwj = 0x200D
+private let codepointSpecialChars = CharacterSet(charactersIn: "-{")
+private let shortcodeSpecialChars = CharacterSet(charactersIn: "{/")
+private let emojiDecorator = Unicode.Scalar(UInt32(0xFE0F))!
+private let zwj = 0x200D
 
-fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
+private func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
     var parsed = ParsedCodepoints()
     var lastSkinInsertionIndex = 0
 
@@ -59,25 +59,19 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
                 }
 
                 switch token {
-                    case "MAN/WOMAN":
-                        fallthrough
-                    case "M/W":
+                    case "MAN/WOMAN", "M/W":
                         guard parsed.genderInsertion == nil else {
                             fatalError("Can't have multiple gender insertions in a single codepoint")
                         }
                         parsed.genderInsertion = .init(type: .manWoman, index: parsed.prunedCodepoints.endIndex)
                         parsed.prunedCodepoints.append(.genderInsertion)
-                    case "MALE/FEMALE":
-                        fallthrough
-                    case "GENDER":
+                    case "MALE/FEMALE", "GENDER":
                         guard parsed.genderInsertion == nil else {
                             fatalError("Can't have multiple gender insertions in a single codepoint")
                         }
                         parsed.genderInsertion = .init(type: .maleFemale, index: parsed.prunedCodepoints.endIndex)
                         parsed.prunedCodepoints.append(.genderInsertion)
-                    case "SKIN":
-                        fallthrough
-                    case "SKIN2":
+                    case "SKIN", "SKIN2":
                         parsed.skinInsertions.append(.init(optional: true, exclusive: false))
                         parsed.prunedCodepoints.append(.skinInsertion(index: lastSkinInsertionIndex))
                         lastSkinInsertionIndex += 1
@@ -114,8 +108,8 @@ fileprivate func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
     return parsed
 }
 
-fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode> {
-    var parsedShortcodes = Array<ParsedShortcode>()
+private func parseShortcode(shortcodes: Substring) -> [ParsedShortcode] {
+    var parsedShortcodes = [ParsedShortcode]()
     var currentParsed = ParsedShortcode()
 
     let scanner = Scanner(string: String(shortcodes))
@@ -133,17 +127,13 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
                 }
 
                 switch token {
-                    case "MAN/WOMAN":
-                        fallthrough
-                    case "M/W":
+                    case "MAN/WOMAN", "M/W":
                         guard currentParsed.genderInsertion == nil else {
                             fatalError("Can't have multiple gender insertions in a single codepoint")
                         }
                         currentParsed.genderInsertion = .init(phrase: .manWoman, index: currentParsed.shortcodeParts.endIndex)
                         currentParsed.shortcodeParts.append(.genderInsertion)
-                    case "MALE/FEMALE":
-                        fallthrough
-                    case "GENDER":
+                    case "MALE/FEMALE", "GENDER":
                         guard currentParsed.genderInsertion == nil else {
                             fatalError("Can't have multiple gender insertions in a single codepoint")
                         }
@@ -166,7 +156,7 @@ fileprivate func parseShortcode(shortcodes: Substring) -> Array<ParsedShortcode>
     return parsedShortcodes
 }
 
-func makeSlackmoji(codepoints: Substring, shortcodes: Substring) -> Array<Slackmoji> {
+func makeSlackmoji(codepoints: Substring, shortcodes: Substring) -> [Slackmoji] {
     let parsedCodepoints = parseCodepoints(codepoints: codepoints)
     let parsedShortcodes = parseShortcode(shortcodes: shortcodes)
 

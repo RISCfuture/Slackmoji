@@ -6,14 +6,14 @@ let encoder: PropertyListEncoder = {
     return encoder
 }()
 
-func writeSlackmojiToEmoji(aliases: Dictionary<String, Set<String>>) {
-    let plistData = try! encoder.encode(aliases)
-    try! plistData.write(to: URL(filePath: "Sources/Slackmoji/Resources/SlackmojiToEmoji.plist", directoryHint: .notDirectory))
+func writeSlackmojiToEmoji(aliases: [String: Set<String>]) throws {
+    let plistData = try encoder.encode(aliases)
+    try plistData.write(to: URL(filePath: "Sources/Slackmoji/Resources/SlackmojiToEmoji.plist", directoryHint: .notDirectory))
 }
 
-func writeEmojiToSlackmoji(aliases: Dictionary<String, Set<String>>) {
-    var reversed = Dictionary<String, Set<String>>()
-    
+func writeEmojiToSlackmoji(aliases: [String: Set<String>]) throws {
+    var reversed = [String: Set<String>]()
+
     for (slackmoji, emojis) in aliases {
         for emoji in emojis {
             if reversed[emoji] == nil {
@@ -22,7 +22,7 @@ func writeEmojiToSlackmoji(aliases: Dictionary<String, Set<String>>) {
             reversed[emoji]!.insert(slackmoji)
         }
     }
-    
-    let plistData = try! encoder.encode(reversed)
-    try! plistData.write(to: URL(filePath: "Sources/Slackmoji/Resources/EmojiToSlackmoji.plist", directoryHint: .notDirectory))
+
+    let plistData = try encoder.encode(reversed)
+    try plistData.write(to: URL(filePath: "Sources/Slackmoji/Resources/EmojiToSlackmoji.plist", directoryHint: .notDirectory))
 }

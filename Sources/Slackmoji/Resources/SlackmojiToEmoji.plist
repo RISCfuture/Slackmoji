@@ -228,12 +228,12 @@
 	</array>
 	<key>artist</key>
 	<array>
-		<string>🧑🏽‍🎨</string>
-		<string>🧑🏻‍🎨</string>
-		<string>🧑🏿‍🎨</string>
 		<string>🧑🏼‍🎨</string>
-		<string>🧑‍🎨</string>
+		<string>🧑🏿‍🎨</string>
+		<string>🧑🏻‍🎨</string>
 		<string>🧑🏾‍🎨</string>
+		<string>🧑‍🎨</string>
+		<string>🧑🏽‍🎨</string>
 	</array>
 	<key>astonished</key>
 	<array>
@@ -241,12 +241,12 @@
 	</array>
 	<key>astronaut</key>
 	<array>
-		<string>🧑🏼‍🚀</string>
 		<string>🧑🏻‍🚀</string>
-		<string>🧑🏽‍🚀</string>
-		<string>🧑‍🚀</string>
 		<string>🧑🏾‍🚀</string>
 		<string>🧑🏿‍🚀</string>
+		<string>🧑‍🚀</string>
+		<string>🧑🏼‍🚀</string>
+		<string>🧑🏽‍🚀</string>
 	</array>
 	<key>athletic_shoe</key>
 	<array>
@@ -323,29 +323,29 @@
 	<key>bald_man</key>
 	<array>
 		<string>👨‍🦲</string>
-		<string>👨🏾‍🦲</string>
 		<string>👨🏽‍🦲</string>
+		<string>👨🏾‍🦲</string>
 		<string>👨🏻‍🦲</string>
 		<string>👨🏼‍🦲</string>
 		<string>👨🏿‍🦲</string>
 	</array>
 	<key>bald_person</key>
 	<array>
-		<string>🧑🏻‍🦲</string>
-		<string>🧑🏼‍🦲</string>
+		<string>🧑🏽‍🦲</string>
 		<string>🧑🏾‍🦲</string>
 		<string>🧑‍🦲</string>
-		<string>🧑🏽‍🦲</string>
+		<string>🧑🏼‍🦲</string>
+		<string>🧑🏻‍🦲</string>
 		<string>🧑🏿‍🦲</string>
 	</array>
 	<key>bald_woman</key>
 	<array>
-		<string>👩🏻‍🦲</string>
 		<string>👩🏽‍🦲</string>
-		<string>👩🏼‍🦲</string>
-		<string>👩‍🦲</string>
 		<string>👩🏿‍🦲</string>
 		<string>👩🏾‍🦲</string>
+		<string>👩🏻‍🦲</string>
+		<string>👩🏼‍🦲</string>
+		<string>👩‍🦲</string>
 	</array>
 	<key>ballet_shoes</key>
 	<array>
@@ -589,20 +589,20 @@
 	</array>
 	<key>blond-haired-man</key>
 	<array>
-		<string>👱🏼‍♂️</string>
-		<string>👱🏾‍♂️</string>
-		<string>👱🏽‍♂️</string>
-		<string>👱‍♂️</string>
 		<string>👱🏿‍♂️</string>
+		<string>👱🏾‍♂️</string>
+		<string>👱‍♂️</string>
+		<string>👱🏼‍♂️</string>
+		<string>👱🏽‍♂️</string>
 		<string>👱🏻‍♂️</string>
 	</array>
 	<key>blond-haired-woman</key>
 	<array>
-		<string>👱🏻‍♀️</string>
-		<string>👱‍♀️</string>
-		<string>👱🏽‍♀️</string>
 		<string>👱🏿‍♀️</string>
 		<string>👱🏼‍♀️</string>
+		<string>👱‍♀️</string>
+		<string>👱🏽‍♀️</string>
+		<string>👱🏻‍♀️</string>
 		<string>👱🏾‍♀️</string>
 	</array>
 	<key>blossom</key>
@@ -1263,12 +1263,12 @@
 	</array>
 	<key>cook</key>
 	<array>
-		<string>🧑🏼‍🍳</string>
-		<string>🧑🏿‍🍳</string>
 		<string>🧑🏽‍🍳</string>
-		<string>🧑🏻‍🍳</string>
-		<string>🧑‍🍳</string>
 		<string>🧑🏾‍🍳</string>
+		<string>🧑‍🍳</string>
+		<string>🧑🏻‍🍳</string>
+		<string>🧑🏿‍🍳</string>
+		<string>🧑🏼‍🍳</string>
 	</array>
 	<key>cookie</key>
 	<array>
@@ -1404,30 +1404,30 @@
 	</array>
 	<key>curly_haired_man</key>
 	<array>
-		<string>👨🏾‍🦱</string>
-		<string>👨🏿‍🦱</string>
-		<string>👨🏽‍🦱</string>
-		<string>👨‍🦱</string>
-		<string>👨🏼‍🦱</string>
 		<string>👨🏻‍🦱</string>
+		<string>👨🏾‍🦱</string>
+		<string>👨🏽‍🦱</string>
+		<string>👨🏼‍🦱</string>
+		<string>👨🏿‍🦱</string>
+		<string>👨‍🦱</string>
 	</array>
 	<key>curly_haired_person</key>
 	<array>
-		<string>🧑🏾‍🦱</string>
-		<string>🧑🏻‍🦱</string>
 		<string>🧑‍🦱</string>
 		<string>🧑🏽‍🦱</string>
 		<string>🧑🏿‍🦱</string>
 		<string>🧑🏼‍🦱</string>
+		<string>🧑🏾‍🦱</string>
+		<string>🧑🏻‍🦱</string>
 	</array>
 	<key>curly_haired_woman</key>
 	<array>
-		<string>👩🏽‍🦱</string>
 		<string>👩🏻‍🦱</string>
+		<string>👩‍🦱</string>
+		<string>👩🏽‍🦱</string>
+		<string>👩🏿‍🦱</string>
 		<string>👩🏾‍🦱</string>
 		<string>👩🏼‍🦱</string>
-		<string>👩🏿‍🦱</string>
-		<string>👩‍🦱</string>
 	</array>
 	<key>curly_loop</key>
 	<array>
@@ -1495,12 +1495,12 @@
 	</array>
 	<key>deaf_man</key>
 	<array>
-		<string>🧏🏿‍♂️</string>
-		<string>🧏🏼‍♂️</string>
-		<string>🧏🏻‍♂️</string>
-		<string>🧏🏽‍♂️</string>
 		<string>🧏‍♂️</string>
+		<string>🧏🏻‍♂️</string>
 		<string>🧏🏾‍♂️</string>
+		<string>🧏🏿‍♂️</string>
+		<string>🧏🏽‍♂️</string>
+		<string>🧏🏼‍♂️</string>
 	</array>
 	<key>deaf_person</key>
 	<array>
@@ -1508,12 +1508,12 @@
 	</array>
 	<key>deaf_woman</key>
 	<array>
-		<string>🧏‍♀️</string>
-		<string>🧏🏼‍♀️</string>
-		<string>🧏🏻‍♀️</string>
 		<string>🧏🏾‍♀️</string>
+		<string>🧏🏼‍♀️</string>
 		<string>🧏🏽‍♀️</string>
+		<string>🧏🏻‍♀️</string>
 		<string>🧏🏿‍♀️</string>
+		<string>🧏‍♀️</string>
 	</array>
 	<key>deciduous_tree</key>
 	<array>
@@ -1909,12 +1909,12 @@
 	</array>
 	<key>factory_worker</key>
 	<array>
-		<string>🧑🏼‍🏭</string>
-		<string>🧑🏻‍🏭</string>
-		<string>🧑🏿‍🏭</string>
 		<string>🧑‍🏭</string>
-		<string>🧑🏾‍🏭</string>
+		<string>🧑🏿‍🏭</string>
+		<string>🧑🏼‍🏭</string>
 		<string>🧑🏽‍🏭</string>
+		<string>🧑🏻‍🏭</string>
+		<string>🧑🏾‍🏭</string>
 	</array>
 	<key>fairy</key>
 	<array>
@@ -1950,12 +1950,12 @@
 	</array>
 	<key>farmer</key>
 	<array>
-		<string>🧑🏽‍🌾</string>
-		<string>🧑🏿‍🌾</string>
-		<string>🧑‍🌾</string>
-		<string>🧑🏾‍🌾</string>
 		<string>🧑🏼‍🌾</string>
 		<string>🧑🏻‍🌾</string>
+		<string>🧑🏾‍🌾</string>
+		<string>🧑‍🌾</string>
+		<string>🧑🏽‍🌾</string>
+		<string>🧑🏿‍🌾</string>
 	</array>
 	<key>fast_forward</key>
 	<array>
@@ -1979,38 +1979,38 @@
 	</array>
 	<key>female-artist</key>
 	<array>
-		<string>👩🏻‍🎨</string>
 		<string>👩🏾‍🎨</string>
+		<string>👩🏻‍🎨</string>
 		<string>👩🏼‍🎨</string>
+		<string>👩🏿‍🎨</string>
 		<string>👩‍🎨</string>
 		<string>👩🏽‍🎨</string>
-		<string>👩🏿‍🎨</string>
 	</array>
 	<key>female-astronaut</key>
 	<array>
 		<string>👩🏽‍🚀</string>
 		<string>👩‍🚀</string>
-		<string>👩🏻‍🚀</string>
-		<string>👩🏿‍🚀</string>
 		<string>👩🏾‍🚀</string>
 		<string>👩🏼‍🚀</string>
+		<string>👩🏻‍🚀</string>
+		<string>👩🏿‍🚀</string>
 	</array>
 	<key>female-construction-worker</key>
 	<array>
-		<string>👷🏽‍♀️</string>
-		<string>👷🏼‍♀️</string>
 		<string>👷🏿‍♀️</string>
-		<string>👷🏻‍♀️</string>
-		<string>👷🏾‍♀️</string>
 		<string>👷‍♀️</string>
+		<string>👷🏾‍♀️</string>
+		<string>👷🏽‍♀️</string>
+		<string>👷🏻‍♀️</string>
+		<string>👷🏼‍♀️</string>
 	</array>
 	<key>female-cook</key>
 	<array>
-		<string>👩🏼‍🍳</string>
-		<string>👩🏾‍🍳</string>
-		<string>👩🏻‍🍳</string>
-		<string>👩‍🍳</string>
 		<string>👩🏿‍🍳</string>
+		<string>👩🏻‍🍳</string>
+		<string>👩🏾‍🍳</string>
+		<string>👩🏼‍🍳</string>
+		<string>👩‍🍳</string>
 		<string>👩🏽‍🍳</string>
 	</array>
 	<key>female-detective</key>
@@ -2019,156 +2019,156 @@
 	</array>
 	<key>female-doctor</key>
 	<array>
-		<string>👩‍⚕️</string>
 		<string>👩🏽‍⚕️</string>
-		<string>👩🏿‍⚕️</string>
 		<string>👩🏼‍⚕️</string>
+		<string>👩🏿‍⚕️</string>
+		<string>👩‍⚕️</string>
 		<string>👩🏾‍⚕️</string>
 		<string>👩🏻‍⚕️</string>
 	</array>
 	<key>female-factory-worker</key>
 	<array>
-		<string>👩🏽‍🏭</string>
-		<string>👩🏿‍🏭</string>
-		<string>👩🏾‍🏭</string>
 		<string>👩🏼‍🏭</string>
-		<string>👩‍🏭</string>
+		<string>👩🏽‍🏭</string>
 		<string>👩🏻‍🏭</string>
+		<string>👩‍🏭</string>
+		<string>👩🏾‍🏭</string>
+		<string>👩🏿‍🏭</string>
 	</array>
 	<key>female-farmer</key>
 	<array>
-		<string>👩🏾‍🌾</string>
-		<string>👩🏿‍🌾</string>
-		<string>👩🏼‍🌾</string>
-		<string>👩‍🌾</string>
 		<string>👩🏽‍🌾</string>
+		<string>👩‍🌾</string>
 		<string>👩🏻‍🌾</string>
+		<string>👩🏼‍🌾</string>
+		<string>👩🏿‍🌾</string>
+		<string>👩🏾‍🌾</string>
 	</array>
 	<key>female-firefighter</key>
 	<array>
-		<string>👩🏿‍🚒</string>
-		<string>👩🏻‍🚒</string>
-		<string>👩🏽‍🚒</string>
-		<string>👩‍🚒</string>
 		<string>👩🏼‍🚒</string>
+		<string>👩‍🚒</string>
+		<string>👩🏻‍🚒</string>
 		<string>👩🏾‍🚒</string>
+		<string>👩🏿‍🚒</string>
+		<string>👩🏽‍🚒</string>
 	</array>
 	<key>female-guard</key>
 	<array>
-		<string>💂🏾‍♀️</string>
-		<string>💂🏻‍♀️</string>
 		<string>💂🏼‍♀️</string>
+		<string>💂🏾‍♀️</string>
 		<string>💂🏽‍♀️</string>
 		<string>💂‍♀️</string>
 		<string>💂🏿‍♀️</string>
+		<string>💂🏻‍♀️</string>
 	</array>
 	<key>female-judge</key>
 	<array>
 		<string>👩🏻‍⚖️</string>
-		<string>👩‍⚖️</string>
-		<string>👩🏼‍⚖️</string>
-		<string>👩🏿‍⚖️</string>
-		<string>👩🏽‍⚖️</string>
 		<string>👩🏾‍⚖️</string>
+		<string>👩🏽‍⚖️</string>
+		<string>👩🏿‍⚖️</string>
+		<string>👩🏼‍⚖️</string>
+		<string>👩‍⚖️</string>
 	</array>
 	<key>female-mechanic</key>
 	<array>
-		<string>👩🏻‍🔧</string>
-		<string>👩🏼‍🔧</string>
-		<string>👩‍🔧</string>
-		<string>👩🏾‍🔧</string>
-		<string>👩🏿‍🔧</string>
 		<string>👩🏽‍🔧</string>
+		<string>👩🏿‍🔧</string>
+		<string>👩🏻‍🔧</string>
+		<string>👩‍🔧</string>
+		<string>👩🏼‍🔧</string>
+		<string>👩🏾‍🔧</string>
 	</array>
 	<key>female-office-worker</key>
 	<array>
+		<string>👩🏽‍💼</string>
+		<string>👩‍💼</string>
+		<string>👩🏿‍💼</string>
 		<string>👩🏼‍💼</string>
 		<string>👩🏻‍💼</string>
-		<string>👩‍💼</string>
-		<string>👩🏽‍💼</string>
-		<string>👩🏿‍💼</string>
 		<string>👩🏾‍💼</string>
 	</array>
 	<key>female-pilot</key>
 	<array>
-		<string>👩‍✈️</string>
-		<string>👩🏽‍✈️</string>
-		<string>👩🏼‍✈️</string>
 		<string>👩🏿‍✈️</string>
 		<string>👩🏾‍✈️</string>
+		<string>👩‍✈️</string>
 		<string>👩🏻‍✈️</string>
+		<string>👩🏼‍✈️</string>
+		<string>👩🏽‍✈️</string>
 	</array>
 	<key>female-police-officer</key>
 	<array>
-		<string>👮‍♀️</string>
+		<string>👮🏿‍♀️</string>
 		<string>👮🏻‍♀️</string>
 		<string>👮🏼‍♀️</string>
-		<string>👮🏾‍♀️</string>
 		<string>👮🏽‍♀️</string>
-		<string>👮🏿‍♀️</string>
+		<string>👮🏾‍♀️</string>
+		<string>👮‍♀️</string>
 	</array>
 	<key>female-scientist</key>
 	<array>
 		<string>👩🏾‍🔬</string>
 		<string>👩🏿‍🔬</string>
-		<string>👩‍🔬</string>
 		<string>👩🏻‍🔬</string>
 		<string>👩🏼‍🔬</string>
+		<string>👩‍🔬</string>
 		<string>👩🏽‍🔬</string>
 	</array>
 	<key>female-singer</key>
 	<array>
-		<string>👩🏻‍🎤</string>
 		<string>👩🏽‍🎤</string>
-		<string>👩🏼‍🎤</string>
 		<string>👩🏾‍🎤</string>
+		<string>👩🏻‍🎤</string>
 		<string>👩‍🎤</string>
 		<string>👩🏿‍🎤</string>
+		<string>👩🏼‍🎤</string>
 	</array>
 	<key>female-student</key>
 	<array>
-		<string>👩🏻‍🎓</string>
+		<string>👩‍🎓</string>
 		<string>👩🏿‍🎓</string>
+		<string>👩🏽‍🎓</string>
 		<string>👩🏾‍🎓</string>
 		<string>👩🏼‍🎓</string>
-		<string>👩‍🎓</string>
-		<string>👩🏽‍🎓</string>
+		<string>👩🏻‍🎓</string>
 	</array>
 	<key>female-teacher</key>
 	<array>
-		<string>👩🏽‍🏫</string>
 		<string>👩🏿‍🏫</string>
-		<string>👩🏾‍🏫</string>
-		<string>👩🏻‍🏫</string>
+		<string>👩🏽‍🏫</string>
 		<string>👩🏼‍🏫</string>
+		<string>👩🏻‍🏫</string>
+		<string>👩🏾‍🏫</string>
 		<string>👩‍🏫</string>
 	</array>
 	<key>female-technologist</key>
 	<array>
-		<string>👩🏼‍💻</string>
-		<string>👩🏿‍💻</string>
-		<string>👩🏾‍💻</string>
 		<string>👩‍💻</string>
+		<string>👩🏿‍💻</string>
+		<string>👩🏼‍💻</string>
 		<string>👩🏽‍💻</string>
 		<string>👩🏻‍💻</string>
+		<string>👩🏾‍💻</string>
 	</array>
 	<key>female_elf</key>
 	<array>
-		<string>🧝‍♀️</string>
-		<string>🧝🏿‍♀️</string>
+		<string>🧝🏼‍♀️</string>
 		<string>🧝🏽‍♀️</string>
 		<string>🧝🏻‍♀️</string>
 		<string>🧝🏾‍♀️</string>
-		<string>🧝🏼‍♀️</string>
+		<string>🧝🏿‍♀️</string>
+		<string>🧝‍♀️</string>
 	</array>
 	<key>female_fairy</key>
 	<array>
-		<string>🧚🏾‍♀️</string>
-		<string>🧚‍♀️</string>
 		<string>🧚🏿‍♀️</string>
 		<string>🧚🏽‍♀️</string>
-		<string>🧚🏻‍♀️</string>
 		<string>🧚🏼‍♀️</string>
+		<string>🧚‍♀️</string>
+		<string>🧚🏻‍♀️</string>
+		<string>🧚🏾‍♀️</string>
 	</array>
 	<key>female_genie</key>
 	<array>
@@ -2176,12 +2176,12 @@
 	</array>
 	<key>female_mage</key>
 	<array>
-		<string>🧙🏼‍♀️</string>
 		<string>🧙🏿‍♀️</string>
-		<string>🧙🏽‍♀️</string>
 		<string>🧙‍♀️</string>
 		<string>🧙🏻‍♀️</string>
+		<string>🧙🏼‍♀️</string>
 		<string>🧙🏾‍♀️</string>
+		<string>🧙🏽‍♀️</string>
 	</array>
 	<key>female_sign</key>
 	<array>
@@ -2189,30 +2189,30 @@
 	</array>
 	<key>female_superhero</key>
 	<array>
-		<string>🦸‍♀️</string>
-		<string>🦸🏼‍♀️</string>
-		<string>🦸🏽‍♀️</string>
-		<string>🦸🏾‍♀️</string>
-		<string>🦸🏻‍♀️</string>
 		<string>🦸🏿‍♀️</string>
+		<string>🦸🏽‍♀️</string>
+		<string>🦸🏼‍♀️</string>
+		<string>🦸‍♀️</string>
+		<string>🦸🏻‍♀️</string>
+		<string>🦸🏾‍♀️</string>
 	</array>
 	<key>female_supervillain</key>
 	<array>
+		<string>🦹🏿‍♀️</string>
+		<string>🦹‍♀️</string>
+		<string>🦹🏼‍♀️</string>
 		<string>🦹🏽‍♀️</string>
 		<string>🦹🏻‍♀️</string>
-		<string>🦹🏿‍♀️</string>
-		<string>🦹🏼‍♀️</string>
 		<string>🦹🏾‍♀️</string>
-		<string>🦹‍♀️</string>
 	</array>
 	<key>female_vampire</key>
 	<array>
+		<string>🧛‍♀️</string>
+		<string>🧛🏿‍♀️</string>
+		<string>🧛🏼‍♀️</string>
+		<string>🧛🏽‍♀️</string>
 		<string>🧛🏻‍♀️</string>
 		<string>🧛🏾‍♀️</string>
-		<string>🧛‍♀️</string>
-		<string>🧛🏽‍♀️</string>
-		<string>🧛🏼‍♀️</string>
-		<string>🧛🏿‍♀️</string>
 	</array>
 	<key>female_zombie</key>
 	<array>
@@ -2268,12 +2268,12 @@
 	</array>
 	<key>firefighter</key>
 	<array>
+		<string>🧑🏽‍🚒</string>
+		<string>🧑🏼‍🚒</string>
+		<string>🧑🏾‍🚒</string>
+		<string>🧑🏿‍🚒</string>
 		<string>🧑‍🚒</string>
 		<string>🧑🏻‍🚒</string>
-		<string>🧑🏿‍🚒</string>
-		<string>🧑🏾‍🚒</string>
-		<string>🧑🏼‍🚒</string>
-		<string>🧑🏽‍🚒</string>
 	</array>
 	<key>fireworks</key>
 	<array>
@@ -3425,12 +3425,12 @@
 	</array>
 	<key>foot</key>
 	<array>
+		<string>🦶</string>
+		<string>🦶🏼</string>
 		<string>🦶🏾</string>
 		<string>🦶🏽</string>
-		<string>🦶🏼</string>
-		<string>🦶🏻</string>
 		<string>🦶🏿</string>
-		<string>🦶</string>
+		<string>🦶🏻</string>
 	</array>
 	<key>football</key>
 	<array>
@@ -3726,36 +3726,36 @@
 	</array>
 	<key>handshake</key>
 	<array>
-		<string>🫱🏿‍🫲🏼</string>
-		<string>🫱🏼‍🫲🏽</string>
-		<string>🫱‍🫲🏾</string>
-		<string>🫱🏾‍🫲🏽</string>
-		<string>🫱🏻‍🫲🏻</string>
-		<string>🫱🏿‍🫲🏽</string>
-		<string>🫱🏾‍🫲🏻</string>
-		<string>🫱🏽‍🫲🏿</string>
-		<string>🫱🏼‍🫲🏾</string>
-		<string>🫱🏼‍🫲🏼</string>
-		<string>🫱🏾‍🫲🏿</string>
-		<string>🫱🏾‍🫲🏾</string>
-		<string>🫱🏻‍🫲🏼</string>
-		<string>🫱🏿‍🫲🏿</string>
-		<string>🫱‍🫲🏽</string>
-		<string>🫱🏿‍🫲🏾</string>
-		<string>🫱🏻‍🫲🏿</string>
-		<string>🫱🏽‍🫲🏼</string>
-		<string>🫱🏽‍🫲🏽</string>
-		<string>🫱🏿‍🫲🏻</string>
-		<string>🫱🏻‍🫲🏽</string>
-		<string>🫱🏼‍🫲🏻</string>
-		<string>🫱‍🫲🏿</string>
-		<string>🫱🏼‍🫲🏿</string>
-		<string>🫱🏻‍🫲🏾</string>
-		<string>🫱🏽‍🫲🏻</string>
-		<string>🫱‍🫲🏻</string>
-		<string>🫱‍🫲🏼</string>
 		<string>🫱🏽‍🫲🏾</string>
+		<string>🫱🏾‍🫲🏻</string>
+		<string>🫱🏾‍🫲🏿</string>
+		<string>🫱🏽‍🫲🏿</string>
+		<string>🫱🏿‍🫲🏼</string>
+		<string>🫱🏾‍🫲🏽</string>
+		<string>🫱🏿‍🫲🏿</string>
+		<string>🫱🏽‍🫲🏻</string>
+		<string>🫱🏿‍🫲🏽</string>
+		<string>🫱🏼‍🫲🏾</string>
+		<string>🫱🏻‍🫲🏼</string>
+		<string>🫱‍🫲🏿</string>
+		<string>🫱🏽‍🫲🏼</string>
+		<string>🫱🏻‍🫲🏿</string>
+		<string>🫱🏿‍🫲🏾</string>
+		<string>🫱‍🫲🏻</string>
+		<string>🫱🏼‍🫲🏽</string>
+		<string>🫱🏼‍🫲🏻</string>
 		<string>🫱🏾‍🫲🏼</string>
+		<string>🫱🏻‍🫲🏽</string>
+		<string>🫱‍🫲🏽</string>
+		<string>🫱🏻‍🫲🏾</string>
+		<string>🫱🏿‍🫲🏻</string>
+		<string>🫱🏼‍🫲🏿</string>
+		<string>🫱🏻‍🫲🏻</string>
+		<string>🫱‍🫲🏾</string>
+		<string>🫱🏾‍🫲🏾</string>
+		<string>🫱🏼‍🫲🏼</string>
+		<string>🫱🏽‍🫲🏽</string>
+		<string>🫱‍🫲🏼</string>
 	</array>
 	<key>hankey</key>
 	<array>
@@ -3791,12 +3791,12 @@
 	</array>
 	<key>health_worker</key>
 	<array>
-		<string>🧑🏾‍⚕️</string>
-		<string>🧑🏽‍⚕️</string>
-		<string>🧑🏻‍⚕️</string>
 		<string>🧑🏿‍⚕️</string>
-		<string>🧑🏼‍⚕️</string>
+		<string>🧑🏻‍⚕️</string>
+		<string>🧑🏽‍⚕️</string>
 		<string>🧑‍⚕️</string>
+		<string>🧑🏾‍⚕️</string>
+		<string>🧑🏼‍⚕️</string>
 	</array>
 	<key>hear_no_evil</key>
 	<array>
@@ -4140,12 +4140,12 @@
 	</array>
 	<key>judge</key>
 	<array>
-		<string>🧑🏼‍⚖️</string>
-		<string>🧑🏻‍⚖️</string>
-		<string>🧑‍⚖️</string>
-		<string>🧑🏽‍⚖️</string>
-		<string>🧑🏿‍⚖️</string>
 		<string>🧑🏾‍⚖️</string>
+		<string>🧑🏻‍⚖️</string>
+		<string>🧑🏽‍⚖️</string>
+		<string>🧑‍⚖️</string>
+		<string>🧑🏿‍⚖️</string>
+		<string>🧑🏼‍⚖️</string>
 	</array>
 	<key>juggling</key>
 	<array>
@@ -4385,21 +4385,21 @@
 	</array>
 	<key>leftwards_pushing_hand</key>
 	<array>
-		<string>🫷🏻</string>
-		<string>🫷🏿</string>
 		<string>🫷🏾</string>
+		<string>🫷🏿</string>
+		<string>🫷🏻</string>
 		<string>🫷🏽</string>
 		<string>🫷</string>
 		<string>🫷🏼</string>
 	</array>
 	<key>leg</key>
 	<array>
-		<string>🦵</string>
-		<string>🦵🏽</string>
 		<string>🦵🏼</string>
 		<string>🦵🏾</string>
-		<string>🦵🏿</string>
 		<string>🦵🏻</string>
+		<string>🦵🏿</string>
+		<string>🦵🏽</string>
+		<string>🦵</string>
 	</array>
 	<key>lemon</key>
 	<array>
@@ -4599,39 +4599,39 @@
 	</array>
 	<key>male-artist</key>
 	<array>
+		<string>👨🏿‍🎨</string>
 		<string>👨‍🎨</string>
+		<string>👨🏼‍🎨</string>
 		<string>👨🏾‍🎨</string>
 		<string>👨🏽‍🎨</string>
 		<string>👨🏻‍🎨</string>
-		<string>👨🏼‍🎨</string>
-		<string>👨🏿‍🎨</string>
 	</array>
 	<key>male-astronaut</key>
 	<array>
-		<string>👨‍🚀</string>
-		<string>👨🏾‍🚀</string>
-		<string>👨🏽‍🚀</string>
-		<string>👨🏿‍🚀</string>
-		<string>👨🏼‍🚀</string>
 		<string>👨🏻‍🚀</string>
+		<string>👨🏿‍🚀</string>
+		<string>👨🏾‍🚀</string>
+		<string>👨‍🚀</string>
+		<string>👨🏽‍🚀</string>
+		<string>👨🏼‍🚀</string>
 	</array>
 	<key>male-construction-worker</key>
 	<array>
-		<string>👷🏿‍♂️</string>
-		<string>👷🏼‍♂️</string>
-		<string>👷🏻‍♂️</string>
 		<string>👷‍♂️</string>
 		<string>👷🏾‍♂️</string>
+		<string>👷🏻‍♂️</string>
 		<string>👷🏽‍♂️</string>
+		<string>👷🏿‍♂️</string>
+		<string>👷🏼‍♂️</string>
 	</array>
 	<key>male-cook</key>
 	<array>
-		<string>👨🏼‍🍳</string>
+		<string>👨‍🍳</string>
 		<string>👨🏻‍🍳</string>
 		<string>👨🏾‍🍳</string>
-		<string>👨‍🍳</string>
-		<string>👨🏽‍🍳</string>
+		<string>👨🏼‍🍳</string>
 		<string>👨🏿‍🍳</string>
+		<string>👨🏽‍🍳</string>
 	</array>
 	<key>male-detective</key>
 	<array>
@@ -4639,155 +4639,155 @@
 	</array>
 	<key>male-doctor</key>
 	<array>
-		<string>👨🏼‍⚕️</string>
-		<string>👨🏾‍⚕️</string>
-		<string>👨🏽‍⚕️</string>
 		<string>👨🏿‍⚕️</string>
+		<string>👨🏽‍⚕️</string>
+		<string>👨🏾‍⚕️</string>
 		<string>👨‍⚕️</string>
 		<string>👨🏻‍⚕️</string>
+		<string>👨🏼‍⚕️</string>
 	</array>
 	<key>male-factory-worker</key>
 	<array>
-		<string>👨🏿‍🏭</string>
 		<string>👨🏼‍🏭</string>
+		<string>👨🏾‍🏭</string>
+		<string>👨🏿‍🏭</string>
+		<string>👨🏽‍🏭</string>
 		<string>👨🏻‍🏭</string>
 		<string>👨‍🏭</string>
-		<string>👨🏾‍🏭</string>
-		<string>👨🏽‍🏭</string>
 	</array>
 	<key>male-farmer</key>
 	<array>
-		<string>👨🏿‍🌾</string>
 		<string>👨🏽‍🌾</string>
-		<string>👨‍🌾</string>
 		<string>👨🏼‍🌾</string>
-		<string>👨🏾‍🌾</string>
 		<string>👨🏻‍🌾</string>
+		<string>👨‍🌾</string>
+		<string>👨🏾‍🌾</string>
+		<string>👨🏿‍🌾</string>
 	</array>
 	<key>male-firefighter</key>
 	<array>
-		<string>👨🏼‍🚒</string>
 		<string>👨🏿‍🚒</string>
 		<string>👨🏻‍🚒</string>
-		<string>👨‍🚒</string>
-		<string>👨🏾‍🚒</string>
 		<string>👨🏽‍🚒</string>
+		<string>👨🏾‍🚒</string>
+		<string>👨‍🚒</string>
+		<string>👨🏼‍🚒</string>
 	</array>
 	<key>male-guard</key>
 	<array>
+		<string>💂🏼‍♂️</string>
 		<string>💂🏻‍♂️</string>
-		<string>💂🏿‍♂️</string>
-		<string>💂‍♂️</string>
 		<string>💂🏾‍♂️</string>
 		<string>💂🏽‍♂️</string>
-		<string>💂🏼‍♂️</string>
+		<string>💂🏿‍♂️</string>
+		<string>💂‍♂️</string>
 	</array>
 	<key>male-judge</key>
 	<array>
 		<string>👨‍⚖️</string>
-		<string>👨🏾‍⚖️</string>
 		<string>👨🏽‍⚖️</string>
-		<string>👨🏼‍⚖️</string>
+		<string>👨🏾‍⚖️</string>
 		<string>👨🏿‍⚖️</string>
+		<string>👨🏼‍⚖️</string>
 		<string>👨🏻‍⚖️</string>
 	</array>
 	<key>male-mechanic</key>
 	<array>
-		<string>👨🏾‍🔧</string>
-		<string>👨🏽‍🔧</string>
 		<string>👨🏻‍🔧</string>
+		<string>👨🏽‍🔧</string>
 		<string>👨🏿‍🔧</string>
+		<string>👨🏾‍🔧</string>
 		<string>👨🏼‍🔧</string>
 		<string>👨‍🔧</string>
 	</array>
 	<key>male-office-worker</key>
 	<array>
+		<string>👨🏼‍💼</string>
 		<string>👨🏽‍💼</string>
+		<string>👨‍💼</string>
 		<string>👨🏻‍💼</string>
 		<string>👨🏾‍💼</string>
-		<string>👨🏼‍💼</string>
 		<string>👨🏿‍💼</string>
-		<string>👨‍💼</string>
 	</array>
 	<key>male-pilot</key>
 	<array>
-		<string>👨‍✈️</string>
-		<string>👨🏼‍✈️</string>
-		<string>👨🏻‍✈️</string>
 		<string>👨🏽‍✈️</string>
 		<string>👨🏾‍✈️</string>
+		<string>👨🏼‍✈️</string>
+		<string>👨‍✈️</string>
 		<string>👨🏿‍✈️</string>
+		<string>👨🏻‍✈️</string>
 	</array>
 	<key>male-police-officer</key>
 	<array>
-		<string>👮🏿‍♂️</string>
 		<string>👮🏻‍♂️</string>
-		<string>👮‍♂️</string>
 		<string>👮🏽‍♂️</string>
-		<string>👮🏾‍♂️</string>
 		<string>👮🏼‍♂️</string>
+		<string>👮🏿‍♂️</string>
+		<string>👮‍♂️</string>
+		<string>👮🏾‍♂️</string>
 	</array>
 	<key>male-scientist</key>
 	<array>
-		<string>👨🏾‍🔬</string>
-		<string>👨🏻‍🔬</string>
-		<string>👨🏿‍🔬</string>
-		<string>👨🏽‍🔬</string>
-		<string>👨🏼‍🔬</string>
 		<string>👨‍🔬</string>
+		<string>👨🏽‍🔬</string>
+		<string>👨🏿‍🔬</string>
+		<string>👨🏻‍🔬</string>
+		<string>👨🏼‍🔬</string>
+		<string>👨🏾‍🔬</string>
 	</array>
 	<key>male-singer</key>
 	<array>
-		<string>👨🏻‍🎤</string>
-		<string>👨🏾‍🎤</string>
-		<string>👨🏽‍🎤</string>
-		<string>👨‍🎤</string>
 		<string>👨🏿‍🎤</string>
 		<string>👨🏼‍🎤</string>
+		<string>👨‍🎤</string>
+		<string>👨🏾‍🎤</string>
+		<string>👨🏽‍🎤</string>
+		<string>👨🏻‍🎤</string>
 	</array>
 	<key>male-student</key>
 	<array>
+		<string>👨‍🎓</string>
+		<string>👨🏻‍🎓</string>
+		<string>👨🏿‍🎓</string>
 		<string>👨🏼‍🎓</string>
 		<string>👨🏾‍🎓</string>
 		<string>👨🏽‍🎓</string>
-		<string>👨🏿‍🎓</string>
-		<string>👨‍🎓</string>
-		<string>👨🏻‍🎓</string>
 	</array>
 	<key>male-teacher</key>
 	<array>
-		<string>👨🏿‍🏫</string>
-		<string>👨🏻‍🏫</string>
-		<string>👨‍🏫</string>
-		<string>👨🏽‍🏫</string>
 		<string>👨🏼‍🏫</string>
 		<string>👨🏾‍🏫</string>
+		<string>👨🏻‍🏫</string>
+		<string>👨🏽‍🏫</string>
+		<string>👨🏿‍🏫</string>
+		<string>👨‍🏫</string>
 	</array>
 	<key>male-technologist</key>
 	<array>
-		<string>👨🏿‍💻</string>
+		<string>👨🏼‍💻</string>
 		<string>👨‍💻</string>
+		<string>👨🏿‍💻</string>
+		<string>👨🏽‍💻</string>
 		<string>👨🏾‍💻</string>
 		<string>👨🏻‍💻</string>
-		<string>👨🏼‍💻</string>
-		<string>👨🏽‍💻</string>
 	</array>
 	<key>male_elf</key>
 	<array>
-		<string>🧝🏼‍♂️</string>
-		<string>🧝🏽‍♂️</string>
+		<string>🧝‍♂️</string>
 		<string>🧝🏻‍♂️</string>
 		<string>🧝🏾‍♂️</string>
 		<string>🧝🏿‍♂️</string>
-		<string>🧝‍♂️</string>
+		<string>🧝🏽‍♂️</string>
+		<string>🧝🏼‍♂️</string>
 	</array>
 	<key>male_fairy</key>
 	<array>
-		<string>🧚🏻‍♂️</string>
-		<string>🧚‍♂️</string>
 		<string>🧚🏿‍♂️</string>
-		<string>🧚🏽‍♂️</string>
+		<string>🧚🏻‍♂️</string>
 		<string>🧚🏾‍♂️</string>
+		<string>🧚🏽‍♂️</string>
+		<string>🧚‍♂️</string>
 		<string>🧚🏼‍♂️</string>
 	</array>
 	<key>male_genie</key>
@@ -4796,12 +4796,12 @@
 	</array>
 	<key>male_mage</key>
 	<array>
-		<string>🧙🏻‍♂️</string>
-		<string>🧙🏾‍♂️</string>
 		<string>🧙‍♂️</string>
+		<string>🧙🏾‍♂️</string>
 		<string>🧙🏼‍♂️</string>
-		<string>🧙🏽‍♂️</string>
+		<string>🧙🏻‍♂️</string>
 		<string>🧙🏿‍♂️</string>
+		<string>🧙🏽‍♂️</string>
 	</array>
 	<key>male_sign</key>
 	<array>
@@ -4809,27 +4809,27 @@
 	</array>
 	<key>male_superhero</key>
 	<array>
-		<string>🦸🏽‍♂️</string>
+		<string>🦸🏾‍♂️</string>
 		<string>🦸🏼‍♂️</string>
 		<string>🦸🏿‍♂️</string>
-		<string>🦸‍♂️</string>
+		<string>🦸🏽‍♂️</string>
 		<string>🦸🏻‍♂️</string>
-		<string>🦸🏾‍♂️</string>
+		<string>🦸‍♂️</string>
 	</array>
 	<key>male_supervillain</key>
 	<array>
-		<string>🦹‍♂️</string>
 		<string>🦹🏾‍♂️</string>
-		<string>🦹🏻‍♂️</string>
-		<string>🦹🏽‍♂️</string>
+		<string>🦹‍♂️</string>
 		<string>🦹🏼‍♂️</string>
+		<string>🦹🏽‍♂️</string>
 		<string>🦹🏿‍♂️</string>
+		<string>🦹🏻‍♂️</string>
 	</array>
 	<key>male_vampire</key>
 	<array>
-		<string>🧛‍♂️</string>
-		<string>🧛🏻‍♂️</string>
 		<string>🧛🏼‍♂️</string>
+		<string>🧛🏻‍♂️</string>
+		<string>🧛‍♂️</string>
 		<string>🧛🏿‍♂️</string>
 		<string>🧛🏽‍♂️</string>
 		<string>🧛🏾‍♂️</string>
@@ -4848,12 +4848,12 @@
 	</array>
 	<key>man-biking</key>
 	<array>
-		<string>🚴🏿‍♂️</string>
-		<string>🚴🏼‍♂️</string>
-		<string>🚴🏻‍♂️</string>
-		<string>🚴🏽‍♂️</string>
-		<string>🚴🏾‍♂️</string>
 		<string>🚴‍♂️</string>
+		<string>🚴🏼‍♂️</string>
+		<string>🚴🏾‍♂️</string>
+		<string>🚴🏿‍♂️</string>
+		<string>🚴🏽‍♂️</string>
+		<string>🚴🏻‍♂️</string>
 	</array>
 	<key>man-bouncing-ball</key>
 	<array>
@@ -4864,9 +4864,9 @@
 		<string>🙇🏾‍♂️</string>
 		<string>🙇🏽‍♂️</string>
 		<string>🙇🏿‍♂️</string>
-		<string>🙇🏼‍♂️</string>
 		<string>🙇🏻‍♂️</string>
 		<string>🙇‍♂️</string>
+		<string>🙇🏼‍♂️</string>
 	</array>
 	<key>man-boy</key>
 	<array>
@@ -4878,66 +4878,66 @@
 	</array>
 	<key>man-cartwheeling</key>
 	<array>
-		<string>🤸🏽‍♂️</string>
-		<string>🤸🏿‍♂️</string>
-		<string>🤸🏻‍♂️</string>
-		<string>🤸🏾‍♂️</string>
-		<string>🤸‍♂️</string>
 		<string>🤸🏼‍♂️</string>
+		<string>🤸🏻‍♂️</string>
+		<string>🤸‍♂️</string>
+		<string>🤸🏽‍♂️</string>
+		<string>🤸🏾‍♂️</string>
+		<string>🤸🏿‍♂️</string>
 	</array>
 	<key>man-facepalming</key>
 	<array>
 		<string>🤦🏽‍♂️</string>
+		<string>🤦🏼‍♂️</string>
 		<string>🤦🏻‍♂️</string>
+		<string>🤦‍♂️</string>
 		<string>🤦🏾‍♂️</string>
 		<string>🤦🏿‍♂️</string>
-		<string>🤦🏼‍♂️</string>
-		<string>🤦‍♂️</string>
 	</array>
 	<key>man-frowning</key>
 	<array>
-		<string>🙍🏻‍♂️</string>
-		<string>🙍🏾‍♂️</string>
 		<string>🙍‍♂️</string>
 		<string>🙍🏼‍♂️</string>
 		<string>🙍🏿‍♂️</string>
+		<string>🙍🏻‍♂️</string>
+		<string>🙍🏾‍♂️</string>
 		<string>🙍🏽‍♂️</string>
 	</array>
 	<key>man-gesturing-no</key>
 	<array>
-		<string>🙅🏼‍♂️</string>
-		<string>🙅🏻‍♂️</string>
 		<string>🙅🏽‍♂️</string>
 		<string>🙅‍♂️</string>
 		<string>🙅🏿‍♂️</string>
 		<string>🙅🏾‍♂️</string>
+		<string>🙅🏼‍♂️</string>
+		<string>🙅🏻‍♂️</string>
 	</array>
 	<key>man-gesturing-ok</key>
 	<array>
 		<string>🙆🏼‍♂️</string>
-		<string>🙆‍♂️</string>
 		<string>🙆🏿‍♂️</string>
+		<string>🙆‍♂️</string>
+		<string>🙆🏽‍♂️</string>
 		<string>🙆🏻‍♂️</string>
 		<string>🙆🏾‍♂️</string>
-		<string>🙆🏽‍♂️</string>
 	</array>
 	<key>man-getting-haircut</key>
 	<array>
-		<string>💇🏻‍♂️</string>
 		<string>💇🏿‍♂️</string>
 		<string>💇🏼‍♂️</string>
-		<string>💇‍♂️</string>
-		<string>💇🏾‍♂️</string>
 		<string>💇🏽‍♂️</string>
+		<string>💇‍♂️</string>
+		<string>💇🏻‍♂️</string>
+		<string>💇🏾‍♂️</string>
 	</array>
 	<key>man-getting-massage</key>
 	<array>
+		<string>💆‍♂️</string>
 		<string>💆🏼‍♂️</string>
 		<string>💆🏻‍♂️</string>
-		<string>💆‍♂️</string>
-		<string>💆🏾‍♂️</string>
-		<string>💆🏽‍♂️</string>
 		<string>💆🏿‍♂️</string>
+		<string>💆🏽‍♂️</string>
+		<string>💆🏾‍♂️</string>
 	</array>
 	<key>man-girl</key>
 	<array>
@@ -4961,12 +4961,12 @@
 	</array>
 	<key>man-juggling</key>
 	<array>
-		<string>🤹🏼‍♂️</string>
-		<string>🤹🏿‍♂️</string>
 		<string>🤹🏽‍♂️</string>
-		<string>🤹🏾‍♂️</string>
-		<string>🤹‍♂️</string>
 		<string>🤹🏻‍♂️</string>
+		<string>🤹🏿‍♂️</string>
+		<string>🤹‍♂️</string>
+		<string>🤹🏼‍♂️</string>
+		<string>🤹🏾‍♂️</string>
 	</array>
 	<key>man-kiss-man</key>
 	<array>
@@ -4998,120 +4998,120 @@
 	</array>
 	<key>man-mountain-biking</key>
 	<array>
-		<string>🚵🏿‍♂️</string>
-		<string>🚵🏽‍♂️</string>
-		<string>🚵🏼‍♂️</string>
 		<string>🚵🏻‍♂️</string>
-		<string>🚵‍♂️</string>
 		<string>🚵🏾‍♂️</string>
+		<string>🚵🏼‍♂️</string>
+		<string>🚵‍♂️</string>
+		<string>🚵🏽‍♂️</string>
+		<string>🚵🏿‍♂️</string>
 	</array>
 	<key>man-playing-handball</key>
 	<array>
-		<string>🤾🏻‍♂️</string>
-		<string>🤾🏾‍♂️</string>
-		<string>🤾🏿‍♂️</string>
-		<string>🤾‍♂️</string>
 		<string>🤾🏽‍♂️</string>
 		<string>🤾🏼‍♂️</string>
+		<string>🤾🏾‍♂️</string>
+		<string>🤾‍♂️</string>
+		<string>🤾🏻‍♂️</string>
+		<string>🤾🏿‍♂️</string>
 	</array>
 	<key>man-playing-water-polo</key>
 	<array>
-		<string>🤽🏽‍♂️</string>
-		<string>🤽🏿‍♂️</string>
-		<string>🤽🏼‍♂️</string>
-		<string>🤽🏻‍♂️</string>
 		<string>🤽‍♂️</string>
 		<string>🤽🏾‍♂️</string>
+		<string>🤽🏼‍♂️</string>
+		<string>🤽🏿‍♂️</string>
+		<string>🤽🏽‍♂️</string>
+		<string>🤽🏻‍♂️</string>
 	</array>
 	<key>man-pouting</key>
 	<array>
-		<string>🙎🏾‍♂️</string>
+		<string>🙎🏻‍♂️</string>
 		<string>🙎‍♂️</string>
-		<string>🙎🏼‍♂️</string>
 		<string>🙎🏽‍♂️</string>
 		<string>🙎🏿‍♂️</string>
-		<string>🙎🏻‍♂️</string>
+		<string>🙎🏼‍♂️</string>
+		<string>🙎🏾‍♂️</string>
 	</array>
 	<key>man-raising-hand</key>
 	<array>
-		<string>🙋🏽‍♂️</string>
-		<string>🙋🏿‍♂️</string>
-		<string>🙋🏼‍♂️</string>
-		<string>🙋‍♂️</string>
 		<string>🙋🏾‍♂️</string>
 		<string>🙋🏻‍♂️</string>
+		<string>🙋🏽‍♂️</string>
+		<string>🙋‍♂️</string>
+		<string>🙋🏼‍♂️</string>
+		<string>🙋🏿‍♂️</string>
 	</array>
 	<key>man-rowing-boat</key>
 	<array>
 		<string>🚣‍♂️</string>
 		<string>🚣🏼‍♂️</string>
-		<string>🚣🏻‍♂️</string>
 		<string>🚣🏿‍♂️</string>
+		<string>🚣🏻‍♂️</string>
 		<string>🚣🏽‍♂️</string>
 		<string>🚣🏾‍♂️</string>
 	</array>
 	<key>man-running</key>
 	<array>
-		<string>🏃‍♂️</string>
 		<string>🏃🏼‍♂️</string>
-		<string>🏃🏽‍♂️</string>
-		<string>🏃🏻‍♂️</string>
 		<string>🏃🏿‍♂️</string>
+		<string>🏃🏽‍♂️</string>
 		<string>🏃🏾‍♂️</string>
+		<string>🏃🏻‍♂️</string>
+		<string>🏃‍♂️</string>
 	</array>
 	<key>man-shrugging</key>
 	<array>
-		<string>🤷🏾‍♂️</string>
-		<string>🤷🏻‍♂️</string>
-		<string>🤷🏿‍♂️</string>
+		<string>🤷🏽‍♂️</string>
 		<string>🤷‍♂️</string>
 		<string>🤷🏼‍♂️</string>
-		<string>🤷🏽‍♂️</string>
+		<string>🤷🏻‍♂️</string>
+		<string>🤷🏾‍♂️</string>
+		<string>🤷🏿‍♂️</string>
 	</array>
 	<key>man-surfing</key>
 	<array>
-		<string>🏄🏾‍♂️</string>
-		<string>🏄‍♂️</string>
-		<string>🏄🏻‍♂️</string>
 		<string>🏄🏿‍♂️</string>
 		<string>🏄🏼‍♂️</string>
 		<string>🏄🏽‍♂️</string>
+		<string>🏄🏾‍♂️</string>
+		<string>🏄🏻‍♂️</string>
+		<string>🏄‍♂️</string>
 	</array>
 	<key>man-swimming</key>
 	<array>
 		<string>🏊🏿‍♂️</string>
-		<string>🏊🏻‍♂️</string>
-		<string>🏊🏾‍♂️</string>
-		<string>🏊🏼‍♂️</string>
 		<string>🏊🏽‍♂️</string>
+		<string>🏊🏻‍♂️</string>
+		<string>🏊🏼‍♂️</string>
 		<string>🏊‍♂️</string>
+		<string>🏊🏾‍♂️</string>
 	</array>
 	<key>man-tipping-hand</key>
 	<array>
+		<string>💁🏼‍♂️</string>
 		<string>💁🏻‍♂️</string>
+		<string>💁‍♂️</string>
 		<string>💁🏽‍♂️</string>
 		<string>💁🏾‍♂️</string>
 		<string>💁🏿‍♂️</string>
-		<string>💁‍♂️</string>
-		<string>💁🏼‍♂️</string>
 	</array>
 	<key>man-walking</key>
 	<array>
-		<string>🚶🏽‍♂️</string>
-		<string>🚶🏻‍♂️</string>
 		<string>🚶🏿‍♂️</string>
-		<string>🚶‍♂️</string>
-		<string>🚶🏾‍♂️</string>
 		<string>🚶🏼‍♂️</string>
+		<string>🚶🏻‍♂️</string>
+		<string>🚶‍♂️</string>
+		<string>🚶🏽‍♂️</string>
+		<string>🚶🏾‍♂️</string>
 	</array>
 	<key>man-wearing-turban</key>
 	<array>
+		<string>👳🏼‍♂️</string>
+		<string>👳🏿‍♂️</string>
 		<string>👳🏾‍♂️</string>
 		<string>👳🏽‍♂️</string>
 		<string>👳🏻‍♂️</string>
-		<string>👳🏼‍♂️</string>
 		<string>👳‍♂️</string>
-		<string>👳🏿‍♂️</string>
 	</array>
 	<key>man-with-bunny-ears-partying</key>
 	<array>
@@ -5147,11 +5147,11 @@
 	</array>
 	<key>man_climbing</key>
 	<array>
-		<string>🧗‍♂️</string>
-		<string>🧗🏻‍♂️</string>
-		<string>🧗🏿‍♂️</string>
 		<string>🧗🏾‍♂️</string>
+		<string>🧗🏿‍♂️</string>
 		<string>🧗🏽‍♂️</string>
+		<string>🧗🏻‍♂️</string>
+		<string>🧗‍♂️</string>
 		<string>🧗🏼‍♂️</string>
 	</array>
 	<key>man_dancing</key>
@@ -5161,11 +5161,11 @@
 	<key>man_feeding_baby</key>
 	<array>
 		<string>👨🏼‍🍼</string>
-		<string>👨🏿‍🍼</string>
 		<string>👨‍🍼</string>
+		<string>👨🏻‍🍼</string>
+		<string>👨🏿‍🍼</string>
 		<string>👨🏾‍🍼</string>
 		<string>👨🏽‍🍼</string>
-		<string>👨🏻‍🍼</string>
 	</array>
 	<key>man_in_business_suit_levitating</key>
 	<array>
@@ -5173,120 +5173,120 @@
 	</array>
 	<key>man_in_lotus_position</key>
 	<array>
-		<string>🧘🏽‍♂️</string>
 		<string>🧘‍♂️</string>
 		<string>🧘🏻‍♂️</string>
 		<string>🧘🏼‍♂️</string>
 		<string>🧘🏿‍♂️</string>
 		<string>🧘🏾‍♂️</string>
+		<string>🧘🏽‍♂️</string>
 	</array>
 	<key>man_in_manual_wheelchair</key>
 	<array>
-		<string>👨‍🦽</string>
-		<string>👨🏼‍🦽</string>
 		<string>👨🏾‍🦽</string>
-		<string>👨🏽‍🦽</string>
-		<string>👨🏿‍🦽</string>
 		<string>👨🏻‍🦽</string>
+		<string>👨🏿‍🦽</string>
+		<string>👨🏼‍🦽</string>
+		<string>👨‍🦽</string>
+		<string>👨🏽‍🦽</string>
 	</array>
 	<key>man_in_manual_wheelchair_facing_right</key>
 	<array>
-		<string>👨🏿‍🦽‍➡️</string>
-		<string>👨🏻‍🦽‍➡️</string>
 		<string>👨🏼‍🦽‍➡️</string>
 		<string>👨‍🦽‍➡️</string>
-		<string>👨🏽‍🦽‍➡️</string>
+		<string>👨🏻‍🦽‍➡️</string>
 		<string>👨🏾‍🦽‍➡️</string>
+		<string>👨🏽‍🦽‍➡️</string>
+		<string>👨🏿‍🦽‍➡️</string>
 	</array>
 	<key>man_in_motorized_wheelchair</key>
 	<array>
 		<string>👨🏿‍🦼</string>
-		<string>👨🏼‍🦼</string>
-		<string>👨🏾‍🦼</string>
-		<string>👨🏽‍🦼</string>
-		<string>👨🏻‍🦼</string>
 		<string>👨‍🦼</string>
+		<string>👨🏽‍🦼</string>
+		<string>👨🏼‍🦼</string>
+		<string>👨🏻‍🦼</string>
+		<string>👨🏾‍🦼</string>
 	</array>
 	<key>man_in_motorized_wheelchair_facing_right</key>
 	<array>
+		<string>👨‍🦼‍➡️</string>
+		<string>👨🏽‍🦼‍➡️</string>
 		<string>👨🏿‍🦼‍➡️</string>
 		<string>👨🏼‍🦼‍➡️</string>
-		<string>👨🏽‍🦼‍➡️</string>
-		<string>👨🏻‍🦼‍➡️</string>
-		<string>👨‍🦼‍➡️</string>
 		<string>👨🏾‍🦼‍➡️</string>
+		<string>👨🏻‍🦼‍➡️</string>
 	</array>
 	<key>man_in_steamy_room</key>
 	<array>
+		<string>🧖🏻‍♂️</string>
+		<string>🧖🏼‍♂️</string>
 		<string>🧖🏽‍♂️</string>
 		<string>🧖🏾‍♂️</string>
-		<string>🧖🏼‍♂️</string>
 		<string>🧖🏿‍♂️</string>
 		<string>🧖‍♂️</string>
-		<string>🧖🏻‍♂️</string>
 	</array>
 	<key>man_in_tuxedo</key>
 	<array>
-		<string>🤵🏽‍♂️</string>
-		<string>🤵🏻‍♂️</string>
-		<string>🤵🏼‍♂️</string>
-		<string>🤵🏾‍♂️</string>
 		<string>🤵🏿‍♂️</string>
 		<string>🤵‍♂️</string>
+		<string>🤵🏼‍♂️</string>
+		<string>🤵🏽‍♂️</string>
+		<string>🤵🏻‍♂️</string>
+		<string>🤵🏾‍♂️</string>
 	</array>
 	<key>man_kneeling</key>
 	<array>
-		<string>🧎🏾‍♂️</string>
+		<string>🧎🏻‍♂️</string>
 		<string>🧎🏿‍♂️</string>
+		<string>🧎🏾‍♂️</string>
+		<string>🧎‍♂️</string>
 		<string>🧎🏽‍♂️</string>
 		<string>🧎🏼‍♂️</string>
-		<string>🧎🏻‍♂️</string>
-		<string>🧎‍♂️</string>
 	</array>
 	<key>man_kneeling_facing_right</key>
 	<array>
 		<string>🧎🏿‍♂️‍➡️</string>
 		<string>🧎🏼‍♂️‍➡️</string>
-		<string>🧎🏽‍♂️‍➡️</string>
-		<string>🧎🏻‍♂️‍➡️</string>
-		<string>🧎‍♂️‍➡️</string>
 		<string>🧎🏾‍♂️‍➡️</string>
+		<string>🧎🏻‍♂️‍➡️</string>
+		<string>🧎🏽‍♂️‍➡️</string>
+		<string>🧎‍♂️‍➡️</string>
 	</array>
 	<key>man_running_facing_right</key>
 	<array>
 		<string>🏃‍♂️‍➡️</string>
-		<string>🏃🏿‍♂️‍➡️</string>
-		<string>🏃🏻‍♂️‍➡️</string>
-		<string>🏃🏾‍♂️‍➡️</string>
 		<string>🏃🏽‍♂️‍➡️</string>
+		<string>🏃🏻‍♂️‍➡️</string>
+		<string>🏃🏿‍♂️‍➡️</string>
+		<string>🏃🏾‍♂️‍➡️</string>
 		<string>🏃🏼‍♂️‍➡️</string>
 	</array>
 	<key>man_standing</key>
 	<array>
-		<string>🧍🏾‍♂️</string>
-		<string>🧍🏽‍♂️</string>
 		<string>🧍🏼‍♂️</string>
-		<string>🧍🏻‍♂️</string>
-		<string>🧍‍♂️</string>
 		<string>🧍🏿‍♂️</string>
+		<string>🧍🏽‍♂️</string>
+		<string>🧍‍♂️</string>
+		<string>🧍🏻‍♂️</string>
+		<string>🧍🏾‍♂️</string>
 	</array>
 	<key>man_walking_facing_right</key>
 	<array>
-		<string>🚶🏼‍♂️‍➡️</string>
+		<string>🚶🏾‍♂️‍➡️</string>
 		<string>🚶🏽‍♂️‍➡️</string>
+		<string>🚶🏿‍♂️‍➡️</string>
 		<string>🚶🏻‍♂️‍➡️</string>
 		<string>🚶‍♂️‍➡️</string>
-		<string>🚶🏾‍♂️‍➡️</string>
-		<string>🚶🏿‍♂️‍➡️</string>
+		<string>🚶🏼‍♂️‍➡️</string>
 	</array>
 	<key>man_with_beard</key>
 	<array>
 		<string>🧔🏼‍♂️</string>
+		<string>🧔🏾‍♂️</string>
+		<string>🧔🏽‍♂️</string>
+		<string>🧔‍♂️</string>
 		<string>🧔🏿‍♂️</string>
 		<string>🧔🏻‍♂️</string>
-		<string>🧔‍♂️</string>
-		<string>🧔🏽‍♂️</string>
-		<string>🧔🏾‍♂️</string>
 	</array>
 	<key>man_with_gua_pi_mao</key>
 	<array>
@@ -5294,12 +5294,12 @@
 	</array>
 	<key>man_with_probing_cane</key>
 	<array>
-		<string>👨🏿‍🦯</string>
-		<string>👨🏾‍🦯</string>
-		<string>👨🏽‍🦯</string>
-		<string>👨‍🦯</string>
-		<string>👨🏼‍🦯</string>
 		<string>👨🏻‍🦯</string>
+		<string>👨‍🦯</string>
+		<string>👨🏿‍🦯</string>
+		<string>👨🏼‍🦯</string>
+		<string>👨🏽‍🦯</string>
+		<string>👨🏾‍🦯</string>
 	</array>
 	<key>man_with_turban</key>
 	<array>
@@ -5307,21 +5307,21 @@
 	</array>
 	<key>man_with_veil</key>
 	<array>
-		<string>👰🏿‍♂️</string>
-		<string>👰🏻‍♂️</string>
-		<string>👰‍♂️</string>
-		<string>👰🏾‍♂️</string>
-		<string>👰🏽‍♂️</string>
 		<string>👰🏼‍♂️</string>
+		<string>👰🏾‍♂️</string>
+		<string>👰🏿‍♂️</string>
+		<string>👰🏽‍♂️</string>
+		<string>👰‍♂️</string>
+		<string>👰🏻‍♂️</string>
 	</array>
 	<key>man_with_white_cane_facing_right</key>
 	<array>
-		<string>👨🏾‍🦯‍➡️</string>
-		<string>👨🏿‍🦯‍➡️</string>
 		<string>👨🏽‍🦯‍➡️</string>
-		<string>👨🏻‍🦯‍➡️</string>
+		<string>👨🏾‍🦯‍➡️</string>
 		<string>👨🏼‍🦯‍➡️</string>
 		<string>👨‍🦯‍➡️</string>
+		<string>👨🏿‍🦯‍➡️</string>
+		<string>👨🏻‍🦯‍➡️</string>
 	</array>
 	<key>mango</key>
 	<array>
@@ -5370,11 +5370,11 @@
 	<key>mechanic</key>
 	<array>
 		<string>🧑🏽‍🔧</string>
-		<string>🧑🏿‍🔧</string>
 		<string>🧑‍🔧</string>
+		<string>🧑🏿‍🔧</string>
+		<string>🧑🏼‍🔧</string>
 		<string>🧑🏾‍🔧</string>
 		<string>🧑🏻‍🔧</string>
-		<string>🧑🏼‍🔧</string>
 	</array>
 	<key>mechanical_arm</key>
 	<array>
@@ -5430,21 +5430,21 @@
 	</array>
 	<key>mermaid</key>
 	<array>
+		<string>🧜🏾‍♀️</string>
+		<string>🧜🏿‍♀️</string>
+		<string>🧜🏼‍♀️</string>
 		<string>🧜🏽‍♀️</string>
 		<string>🧜🏻‍♀️</string>
-		<string>🧜🏼‍♀️</string>
-		<string>🧜🏾‍♀️</string>
 		<string>🧜‍♀️</string>
-		<string>🧜🏿‍♀️</string>
 	</array>
 	<key>merman</key>
 	<array>
-		<string>🧜🏻‍♂️</string>
-		<string>🧜🏾‍♂️</string>
-		<string>🧜‍♂️</string>
 		<string>🧜🏼‍♂️</string>
+		<string>🧜🏻‍♂️</string>
 		<string>🧜🏿‍♂️</string>
+		<string>🧜‍♂️</string>
 		<string>🧜🏽‍♂️</string>
+		<string>🧜🏾‍♂️</string>
 	</array>
 	<key>merperson</key>
 	<array>
@@ -5640,12 +5640,12 @@
 	</array>
 	<key>mx_claus</key>
 	<array>
-		<string>🧑🏽‍🎄</string>
 		<string>🧑🏼‍🎄</string>
+		<string>🧑🏽‍🎄</string>
+		<string>🧑🏻‍🎄</string>
 		<string>🧑🏾‍🎄</string>
 		<string>🧑🏿‍🎄</string>
 		<string>🧑‍🎄</string>
-		<string>🧑🏻‍🎄</string>
 	</array>
 	<key>nail_care</key>
 	<array>
@@ -5813,12 +5813,12 @@
 	</array>
 	<key>office_worker</key>
 	<array>
-		<string>🧑🏾‍💼</string>
+		<string>🧑🏼‍💼</string>
 		<string>🧑🏻‍💼</string>
-		<string>🧑‍💼</string>
+		<string>🧑🏾‍💼</string>
 		<string>🧑🏽‍💼</string>
 		<string>🧑🏿‍💼</string>
-		<string>🧑🏼‍💼</string>
+		<string>🧑‍💼</string>
 	</array>
 	<key>oil_drum</key>
 	<array>
@@ -6099,11 +6099,11 @@
 	<key>person_feeding_baby</key>
 	<array>
 		<string>🧑🏿‍🍼</string>
-		<string>🧑‍🍼</string>
+		<string>🧑🏽‍🍼</string>
 		<string>🧑🏻‍🍼</string>
 		<string>🧑🏼‍🍼</string>
 		<string>🧑🏾‍🍼</string>
-		<string>🧑🏽‍🍼</string>
+		<string>🧑‍🍼</string>
 	</array>
 	<key>person_frowning</key>
 	<array>
@@ -6116,37 +6116,37 @@
 	<key>person_in_manual_wheelchair</key>
 	<array>
 		<string>🧑🏾‍🦽</string>
-		<string>🧑🏽‍🦽</string>
 		<string>🧑🏼‍🦽</string>
-		<string>🧑🏿‍🦽</string>
 		<string>🧑🏻‍🦽</string>
 		<string>🧑‍🦽</string>
+		<string>🧑🏿‍🦽</string>
+		<string>🧑🏽‍🦽</string>
 	</array>
 	<key>person_in_manual_wheelchair_facing_right</key>
 	<array>
-		<string>🧑🏻‍🦽‍➡️</string>
-		<string>🧑🏿‍🦽‍➡️</string>
-		<string>🧑‍🦽‍➡️</string>
 		<string>🧑🏽‍🦽‍➡️</string>
 		<string>🧑🏾‍🦽‍➡️</string>
+		<string>🧑🏿‍🦽‍➡️</string>
+		<string>🧑🏻‍🦽‍➡️</string>
+		<string>🧑‍🦽‍➡️</string>
 		<string>🧑🏼‍🦽‍➡️</string>
 	</array>
 	<key>person_in_motorized_wheelchair</key>
 	<array>
-		<string>🧑🏿‍🦼</string>
-		<string>🧑🏽‍🦼</string>
-		<string>🧑🏾‍🦼</string>
 		<string>🧑🏼‍🦼</string>
+		<string>🧑🏾‍🦼</string>
+		<string>🧑🏿‍🦼</string>
 		<string>🧑🏻‍🦼</string>
 		<string>🧑‍🦼</string>
+		<string>🧑🏽‍🦼</string>
 	</array>
 	<key>person_in_motorized_wheelchair_facing_right</key>
 	<array>
+		<string>🧑🏾‍🦼‍➡️</string>
 		<string>🧑🏼‍🦼‍➡️</string>
 		<string>🧑🏻‍🦼‍➡️</string>
-		<string>🧑🏿‍🦼‍➡️</string>
-		<string>🧑🏾‍🦼‍➡️</string>
 		<string>🧑‍🦼‍➡️</string>
+		<string>🧑🏿‍🦼‍➡️</string>
 		<string>🧑🏽‍🦼‍➡️</string>
 	</array>
 	<key>person_in_steamy_room</key>
@@ -6159,30 +6159,30 @@
 	</array>
 	<key>person_kneeling_facing_right</key>
 	<array>
-		<string>🧎🏻‍➡️</string>
 		<string>🧎🏼‍➡️</string>
-		<string>🧎‍➡️</string>
-		<string>🧎🏽‍➡️</string>
 		<string>🧎🏿‍➡️</string>
+		<string>🧎🏻‍➡️</string>
+		<string>🧎🏽‍➡️</string>
 		<string>🧎🏾‍➡️</string>
+		<string>🧎‍➡️</string>
 	</array>
 	<key>person_running_facing_right</key>
 	<array>
 		<string>🏃🏿‍➡️</string>
-		<string>🏃🏻‍➡️</string>
 		<string>🏃🏾‍➡️</string>
-		<string>🏃🏽‍➡️</string>
 		<string>🏃🏼‍➡️</string>
+		<string>🏃🏽‍➡️</string>
+		<string>🏃🏻‍➡️</string>
 		<string>🏃‍➡️</string>
 	</array>
 	<key>person_walking_facing_right</key>
 	<array>
-		<string>🚶🏽‍➡️</string>
-		<string>🚶🏿‍➡️</string>
-		<string>🚶🏼‍➡️</string>
 		<string>🚶🏾‍➡️</string>
-		<string>🚶🏻‍➡️</string>
 		<string>🚶‍➡️</string>
+		<string>🚶🏽‍➡️</string>
+		<string>🚶🏼‍➡️</string>
+		<string>🚶🏻‍➡️</string>
+		<string>🚶🏿‍➡️</string>
 	</array>
 	<key>person_with_ball</key>
 	<array>
@@ -6206,21 +6206,21 @@
 	</array>
 	<key>person_with_probing_cane</key>
 	<array>
-		<string>🧑🏻‍🦯</string>
 		<string>🧑‍🦯</string>
-		<string>🧑🏿‍🦯</string>
+		<string>🧑🏾‍🦯</string>
 		<string>🧑🏽‍🦯</string>
 		<string>🧑🏼‍🦯</string>
-		<string>🧑🏾‍🦯</string>
+		<string>🧑🏿‍🦯</string>
+		<string>🧑🏻‍🦯</string>
 	</array>
 	<key>person_with_white_cane_facing_right</key>
 	<array>
-		<string>🧑🏻‍🦯‍➡️</string>
-		<string>🧑🏽‍🦯‍➡️</string>
 		<string>🧑🏾‍🦯‍➡️</string>
 		<string>🧑🏿‍🦯‍➡️</string>
-		<string>🧑‍🦯‍➡️</string>
 		<string>🧑🏼‍🦯‍➡️</string>
+		<string>🧑🏽‍🦯‍➡️</string>
+		<string>🧑🏻‍🦯‍➡️</string>
+		<string>🧑‍🦯‍➡️</string>
 	</array>
 	<key>petri_dish</key>
 	<array>
@@ -6264,12 +6264,12 @@
 	</array>
 	<key>pilot</key>
 	<array>
-		<string>🧑🏾‍✈️</string>
-		<string>🧑🏻‍✈️</string>
-		<string>🧑‍✈️</string>
-		<string>🧑🏽‍✈️</string>
-		<string>🧑🏿‍✈️</string>
 		<string>🧑🏼‍✈️</string>
+		<string>🧑🏽‍✈️</string>
+		<string>🧑‍✈️</string>
+		<string>🧑🏾‍✈️</string>
+		<string>🧑🏿‍✈️</string>
+		<string>🧑🏻‍✈️</string>
 	</array>
 	<key>pinata</key>
 	<array>
@@ -6589,30 +6589,30 @@
 	</array>
 	<key>red_haired_man</key>
 	<array>
-		<string>👨🏻‍🦰</string>
-		<string>👨🏼‍🦰</string>
-		<string>👨🏿‍🦰</string>
-		<string>👨‍🦰</string>
 		<string>👨🏽‍🦰</string>
+		<string>👨🏻‍🦰</string>
+		<string>👨🏿‍🦰</string>
+		<string>👨🏼‍🦰</string>
+		<string>👨‍🦰</string>
 		<string>👨🏾‍🦰</string>
 	</array>
 	<key>red_haired_person</key>
 	<array>
-		<string>🧑‍🦰</string>
 		<string>🧑🏼‍🦰</string>
-		<string>🧑🏽‍🦰</string>
+		<string>🧑‍🦰</string>
 		<string>🧑🏻‍🦰</string>
 		<string>🧑🏾‍🦰</string>
 		<string>🧑🏿‍🦰</string>
+		<string>🧑🏽‍🦰</string>
 	</array>
 	<key>red_haired_woman</key>
 	<array>
-		<string>👩🏼‍🦰</string>
-		<string>👩🏿‍🦰</string>
 		<string>👩🏾‍🦰</string>
-		<string>👩‍🦰</string>
-		<string>👩🏽‍🦰</string>
+		<string>👩🏿‍🦰</string>
 		<string>👩🏻‍🦰</string>
+		<string>👩‍🦰</string>
+		<string>👩🏼‍🦰</string>
+		<string>👩🏽‍🦰</string>
 	</array>
 	<key>registered</key>
 	<array>
@@ -6692,12 +6692,12 @@
 	</array>
 	<key>rightwards_pushing_hand</key>
 	<array>
-		<string>🫸🏽</string>
+		<string>🫸🏾</string>
 		<string>🫸🏻</string>
 		<string>🫸🏿</string>
 		<string>🫸</string>
+		<string>🫸🏽</string>
 		<string>🫸🏼</string>
-		<string>🫸🏾</string>
 	</array>
 	<key>ring</key>
 	<array>
@@ -6873,12 +6873,12 @@
 	</array>
 	<key>scientist</key>
 	<array>
-		<string>🧑🏾‍🔬</string>
-		<string>🧑🏽‍🔬</string>
 		<string>🧑🏿‍🔬</string>
-		<string>🧑🏼‍🔬</string>
-		<string>🧑🏻‍🔬</string>
 		<string>🧑‍🔬</string>
+		<string>🧑🏻‍🔬</string>
+		<string>🧑🏽‍🔬</string>
+		<string>🧑🏼‍🔬</string>
+		<string>🧑🏾‍🔬</string>
 	</array>
 	<key>scissors</key>
 	<array>
@@ -7050,12 +7050,12 @@
 	</array>
 	<key>singer</key>
 	<array>
-		<string>🧑🏽‍🎤</string>
-		<string>🧑🏿‍🎤</string>
-		<string>🧑🏼‍🎤</string>
-		<string>🧑‍🎤</string>
 		<string>🧑🏻‍🎤</string>
+		<string>🧑🏿‍🎤</string>
+		<string>🧑‍🎤</string>
+		<string>🧑🏼‍🎤</string>
 		<string>🧑🏾‍🎤</string>
+		<string>🧑🏽‍🎤</string>
 	</array>
 	<key>six</key>
 	<array>
@@ -7443,10 +7443,10 @@
 	</array>
 	<key>student</key>
 	<array>
-		<string>🧑🏻‍🎓</string>
-		<string>🧑🏿‍🎓</string>
 		<string>🧑🏽‍🎓</string>
+		<string>🧑🏿‍🎓</string>
 		<string>🧑🏼‍🎓</string>
+		<string>🧑🏻‍🎓</string>
 		<string>🧑‍🎓</string>
 		<string>🧑🏾‍🎓</string>
 	</array>
@@ -7496,19 +7496,19 @@
 	</array>
 	<key>superhero</key>
 	<array>
-		<string>🦸🏿</string>
-		<string>🦸</string>
-		<string>🦸🏽</string>
-		<string>🦸🏾</string>
 		<string>🦸🏻</string>
+		<string>🦸</string>
+		<string>🦸🏾</string>
+		<string>🦸🏽</string>
 		<string>🦸🏼</string>
+		<string>🦸🏿</string>
 	</array>
 	<key>supervillain</key>
 	<array>
+		<string>🦹🏽</string>
+		<string>🦹</string>
 		<string>🦹🏿</string>
 		<string>🦹🏾</string>
-		<string>🦹</string>
-		<string>🦹🏽</string>
 		<string>🦹🏻</string>
 		<string>🦹🏼</string>
 	</array>
@@ -7606,12 +7606,12 @@
 	</array>
 	<key>teacher</key>
 	<array>
-		<string>🧑🏽‍🏫</string>
-		<string>🧑‍🏫</string>
 		<string>🧑🏻‍🏫</string>
-		<string>🧑🏼‍🏫</string>
 		<string>🧑🏾‍🏫</string>
+		<string>🧑‍🏫</string>
+		<string>🧑🏽‍🏫</string>
 		<string>🧑🏿‍🏫</string>
+		<string>🧑🏼‍🏫</string>
 	</array>
 	<key>teapot</key>
 	<array>
@@ -7619,12 +7619,12 @@
 	</array>
 	<key>technologist</key>
 	<array>
-		<string>🧑🏻‍💻</string>
-		<string>🧑‍💻</string>
-		<string>🧑🏿‍💻</string>
 		<string>🧑🏾‍💻</string>
-		<string>🧑🏽‍💻</string>
 		<string>🧑🏼‍💻</string>
+		<string>🧑🏿‍💻</string>
+		<string>🧑‍💻</string>
+		<string>🧑🏻‍💻</string>
+		<string>🧑🏽‍💻</string>
 	</array>
 	<key>teddy_bear</key>
 	<array>
@@ -8144,30 +8144,30 @@
 	</array>
 	<key>white_haired_man</key>
 	<array>
+		<string>👨🏿‍🦳</string>
 		<string>👨🏾‍🦳</string>
 		<string>👨🏽‍🦳</string>
-		<string>👨‍🦳</string>
 		<string>👨🏻‍🦳</string>
-		<string>👨🏿‍🦳</string>
+		<string>👨‍🦳</string>
 		<string>👨🏼‍🦳</string>
 	</array>
 	<key>white_haired_person</key>
 	<array>
-		<string>🧑🏻‍🦳</string>
-		<string>🧑🏽‍🦳</string>
-		<string>🧑🏿‍🦳</string>
-		<string>🧑🏾‍🦳</string>
-		<string>🧑‍🦳</string>
 		<string>🧑🏼‍🦳</string>
+		<string>🧑‍🦳</string>
+		<string>🧑🏿‍🦳</string>
+		<string>🧑🏽‍🦳</string>
+		<string>🧑🏻‍🦳</string>
+		<string>🧑🏾‍🦳</string>
 	</array>
 	<key>white_haired_woman</key>
 	<array>
-		<string>👩🏽‍🦳</string>
 		<string>👩🏾‍🦳</string>
+		<string>👩🏽‍🦳</string>
 		<string>👩🏿‍🦳</string>
-		<string>👩🏻‍🦳</string>
-		<string>👩‍🦳</string>
 		<string>👩🏼‍🦳</string>
+		<string>👩‍🦳</string>
+		<string>👩🏻‍🦳</string>
 	</array>
 	<key>white_heart</key>
 	<array>
@@ -8235,12 +8235,12 @@
 	</array>
 	<key>woman-biking</key>
 	<array>
-		<string>🚴🏻‍♀️</string>
+		<string>🚴🏿‍♀️</string>
 		<string>🚴🏼‍♀️</string>
 		<string>🚴🏾‍♀️</string>
-		<string>🚴‍♀️</string>
+		<string>🚴🏻‍♀️</string>
 		<string>🚴🏽‍♀️</string>
-		<string>🚴🏿‍♀️</string>
+		<string>🚴‍♀️</string>
 	</array>
 	<key>woman-bouncing-ball</key>
 	<array>
@@ -8248,12 +8248,12 @@
 	</array>
 	<key>woman-bowing</key>
 	<array>
-		<string>🙇🏾‍♀️</string>
 		<string>🙇‍♀️</string>
 		<string>🙇🏽‍♀️</string>
-		<string>🙇🏿‍♀️</string>
-		<string>🙇🏻‍♀️</string>
 		<string>🙇🏼‍♀️</string>
+		<string>🙇🏾‍♀️</string>
+		<string>🙇🏻‍♀️</string>
+		<string>🙇🏿‍♀️</string>
 	</array>
 	<key>woman-boy</key>
 	<array>
@@ -8265,66 +8265,66 @@
 	</array>
 	<key>woman-cartwheeling</key>
 	<array>
-		<string>🤸🏼‍♀️</string>
 		<string>🤸‍♀️</string>
-		<string>🤸🏽‍♀️</string>
-		<string>🤸🏿‍♀️</string>
-		<string>🤸🏻‍♀️</string>
+		<string>🤸🏼‍♀️</string>
 		<string>🤸🏾‍♀️</string>
+		<string>🤸🏻‍♀️</string>
+		<string>🤸🏿‍♀️</string>
+		<string>🤸🏽‍♀️</string>
 	</array>
 	<key>woman-facepalming</key>
 	<array>
+		<string>🤦🏻‍♀️</string>
 		<string>🤦🏽‍♀️</string>
 		<string>🤦🏼‍♀️</string>
-		<string>🤦🏻‍♀️</string>
+		<string>🤦🏾‍♀️</string>
 		<string>🤦🏿‍♀️</string>
 		<string>🤦‍♀️</string>
-		<string>🤦🏾‍♀️</string>
 	</array>
 	<key>woman-frowning</key>
 	<array>
 		<string>🙍‍♀️</string>
+		<string>🙍🏽‍♀️</string>
 		<string>🙍🏻‍♀️</string>
 		<string>🙍🏾‍♀️</string>
-		<string>🙍🏼‍♀️</string>
-		<string>🙍🏽‍♀️</string>
 		<string>🙍🏿‍♀️</string>
+		<string>🙍🏼‍♀️</string>
 	</array>
 	<key>woman-gesturing-no</key>
 	<array>
-		<string>🙅🏿‍♀️</string>
-		<string>🙅🏽‍♀️</string>
-		<string>🙅‍♀️</string>
-		<string>🙅🏼‍♀️</string>
-		<string>🙅🏻‍♀️</string>
 		<string>🙅🏾‍♀️</string>
+		<string>🙅🏻‍♀️</string>
+		<string>🙅‍♀️</string>
+		<string>🙅🏿‍♀️</string>
+		<string>🙅🏼‍♀️</string>
+		<string>🙅🏽‍♀️</string>
 	</array>
 	<key>woman-gesturing-ok</key>
 	<array>
-		<string>🙆🏼‍♀️</string>
 		<string>🙆‍♀️</string>
-		<string>🙆🏽‍♀️</string>
-		<string>🙆🏿‍♀️</string>
 		<string>🙆🏻‍♀️</string>
 		<string>🙆🏾‍♀️</string>
+		<string>🙆🏽‍♀️</string>
+		<string>🙆🏼‍♀️</string>
+		<string>🙆🏿‍♀️</string>
 	</array>
 	<key>woman-getting-haircut</key>
 	<array>
-		<string>💇🏻‍♀️</string>
-		<string>💇🏾‍♀️</string>
 		<string>💇🏿‍♀️</string>
 		<string>💇🏼‍♀️</string>
-		<string>💇‍♀️</string>
+		<string>💇🏻‍♀️</string>
+		<string>💇🏾‍♀️</string>
 		<string>💇🏽‍♀️</string>
+		<string>💇‍♀️</string>
 	</array>
 	<key>woman-getting-massage</key>
 	<array>
 		<string>💆🏻‍♀️</string>
-		<string>💆‍♀️</string>
 		<string>💆🏼‍♀️</string>
-		<string>💆🏿‍♀️</string>
-		<string>💆🏾‍♀️</string>
 		<string>💆🏽‍♀️</string>
+		<string>💆🏿‍♀️</string>
+		<string>💆‍♀️</string>
+		<string>💆🏾‍♀️</string>
 	</array>
 	<key>woman-girl</key>
 	<array>
@@ -8344,31 +8344,31 @@
 	</array>
 	<key>woman-heart-man</key>
 	<array>
-		<string>👩‍❤️‍👨🏾</string>
-		<string>👩🏼‍❤️‍👨🏾</string>
-		<string>👩🏽‍❤️‍👨🏾</string>
-		<string>👩🏾‍❤️‍👨🏼</string>
-		<string>👩🏿‍❤️‍👨🏾</string>
-		<string>👩🏾‍❤️‍👨🏿</string>
-		<string>👩🏼‍❤️‍👨🏽</string>
 		<string>👩🏿‍❤️‍👨🏻</string>
-		<string>👩🏻‍❤️‍👨🏾</string>
-		<string>👩🏻‍❤️‍👨🏿</string>
-		<string>👩‍❤️‍👨🏿</string>
-		<string>👩🏽‍❤️‍👨🏻</string>
-		<string>👩‍❤️‍👨🏼</string>
-		<string>👩🏿‍❤️‍👨🏽</string>
-		<string>👩🏻‍❤️‍👨🏽</string>
-		<string>👩🏼‍❤️‍👨🏿</string>
-		<string>👩🏽‍❤️‍👨🏼</string>
-		<string>👩🏿‍❤️‍👨🏼</string>
-		<string>👩🏽‍❤️‍👨🏿</string>
-		<string>👩🏼‍❤️‍👨🏻</string>
-		<string>👩🏻‍❤️‍👨🏼</string>
-		<string>👩‍❤️‍👨🏻</string>
-		<string>👩🏾‍❤️‍👨🏽</string>
-		<string>👩🏾‍❤️‍👨🏻</string>
 		<string>👩‍❤️‍👨🏽</string>
+		<string>👩🏼‍❤️‍👨🏽</string>
+		<string>👩🏽‍❤️‍👨🏿</string>
+		<string>👩🏼‍❤️‍👨🏾</string>
+		<string>👩🏼‍❤️‍👨🏻</string>
+		<string>👩🏽‍❤️‍👨🏼</string>
+		<string>👩🏻‍❤️‍👨🏿</string>
+		<string>👩🏾‍❤️‍👨🏼</string>
+		<string>👩🏻‍❤️‍👨🏽</string>
+		<string>👩‍❤️‍👨🏾</string>
+		<string>👩🏾‍❤️‍👨🏻</string>
+		<string>👩🏻‍❤️‍👨🏾</string>
+		<string>👩‍❤️‍👨🏿</string>
+		<string>👩🏿‍❤️‍👨🏼</string>
+		<string>👩🏿‍❤️‍👨🏾</string>
+		<string>👩‍❤️‍👨🏻</string>
+		<string>👩🏿‍❤️‍👨🏽</string>
+		<string>👩🏽‍❤️‍👨🏻</string>
+		<string>👩🏾‍❤️‍👨🏿</string>
+		<string>👩🏻‍❤️‍👨🏼</string>
+		<string>👩🏼‍❤️‍👨🏿</string>
+		<string>👩‍❤️‍👨🏼</string>
+		<string>👩🏾‍❤️‍👨🏽</string>
+		<string>👩🏽‍❤️‍👨🏾</string>
 	</array>
 	<key>woman-heart-woman</key>
 	<array>
@@ -8376,40 +8376,40 @@
 	</array>
 	<key>woman-juggling</key>
 	<array>
-		<string>🤹🏿‍♀️</string>
-		<string>🤹🏾‍♀️</string>
-		<string>🤹🏽‍♀️</string>
-		<string>🤹🏻‍♀️</string>
 		<string>🤹🏼‍♀️</string>
+		<string>🤹🏾‍♀️</string>
+		<string>🤹🏻‍♀️</string>
 		<string>🤹‍♀️</string>
+		<string>🤹🏿‍♀️</string>
+		<string>🤹🏽‍♀️</string>
 	</array>
 	<key>woman-kiss-man</key>
 	<array>
+		<string>👩🏾‍❤️‍💋‍👨🏼</string>
+		<string>👩🏻‍❤️‍💋‍👨🏾</string>
+		<string>👩🏾‍❤️‍💋‍👨🏻</string>
+		<string>👩🏽‍❤️‍💋‍👨🏻</string>
+		<string>👩‍❤️‍💋‍👨🏽</string>
+		<string>👩🏾‍❤️‍💋‍👨🏽</string>
 		<string>👩🏽‍❤️‍💋‍👨🏼</string>
 		<string>👩🏼‍❤️‍💋‍👨🏽</string>
 		<string>👩‍❤️‍💋‍👨🏾</string>
+		<string>👩🏼‍❤️‍💋‍👨🏿</string>
+		<string>👩🏿‍❤️‍💋‍👨🏻</string>
+		<string>👩🏻‍❤️‍💋‍👨🏿</string>
 		<string>👩‍❤️‍💋‍👨🏿</string>
 		<string>👩🏻‍❤️‍💋‍👨🏼</string>
-		<string>👩🏾‍❤️‍💋‍👨🏽</string>
-		<string>👩🏼‍❤️‍💋‍👨🏿</string>
-		<string>👩🏻‍❤️‍💋‍👨🏾</string>
-		<string>👩🏿‍❤️‍💋‍👨🏻</string>
-		<string>👩🏽‍❤️‍💋‍👨🏻</string>
 		<string>👩🏽‍❤️‍💋‍👨🏾</string>
-		<string>👩‍❤️‍💋‍👨🏽</string>
-		<string>👩🏿‍❤️‍💋‍👨🏽</string>
-		<string>👩🏽‍❤️‍💋‍👨🏿</string>
-		<string>👩🏼‍❤️‍💋‍👨🏾</string>
-		<string>👩🏻‍❤️‍💋‍👨🏽</string>
-		<string>👩🏿‍❤️‍💋‍👨🏾</string>
-		<string>👩🏾‍❤️‍💋‍👨🏼</string>
-		<string>👩🏾‍❤️‍💋‍👨🏻</string>
-		<string>👩🏻‍❤️‍💋‍👨🏿</string>
 		<string>👩🏼‍❤️‍💋‍👨🏻</string>
-		<string>👩‍❤️‍💋‍👨🏼</string>
 		<string>👩🏿‍❤️‍💋‍👨🏼</string>
-		<string>👩🏾‍❤️‍💋‍👨🏿</string>
+		<string>👩🏻‍❤️‍💋‍👨🏽</string>
+		<string>👩🏿‍❤️‍💋‍👨🏽</string>
+		<string>👩🏼‍❤️‍💋‍👨🏾</string>
+		<string>👩🏽‍❤️‍💋‍👨🏿</string>
+		<string>👩🏿‍❤️‍💋‍👨🏾</string>
 		<string>👩‍❤️‍💋‍👨🏻</string>
+		<string>👩🏾‍❤️‍💋‍👨🏿</string>
+		<string>👩‍❤️‍💋‍👨🏼</string>
 	</array>
 	<key>woman-kiss-woman</key>
 	<array>
@@ -8421,120 +8421,120 @@
 	</array>
 	<key>woman-mountain-biking</key>
 	<array>
-		<string>🚵🏾‍♀️</string>
-		<string>🚵🏽‍♀️</string>
-		<string>🚵🏻‍♀️</string>
-		<string>🚵🏿‍♀️</string>
 		<string>🚵‍♀️</string>
 		<string>🚵🏼‍♀️</string>
+		<string>🚵🏾‍♀️</string>
+		<string>🚵🏻‍♀️</string>
+		<string>🚵🏽‍♀️</string>
+		<string>🚵🏿‍♀️</string>
 	</array>
 	<key>woman-playing-handball</key>
 	<array>
-		<string>🤾🏾‍♀️</string>
-		<string>🤾🏼‍♀️</string>
-		<string>🤾‍♀️</string>
-		<string>🤾🏻‍♀️</string>
 		<string>🤾🏽‍♀️</string>
+		<string>🤾🏼‍♀️</string>
+		<string>🤾🏾‍♀️</string>
 		<string>🤾🏿‍♀️</string>
+		<string>🤾🏻‍♀️</string>
+		<string>🤾‍♀️</string>
 	</array>
 	<key>woman-playing-water-polo</key>
 	<array>
 		<string>🤽🏾‍♀️</string>
+		<string>🤽🏿‍♀️</string>
+		<string>🤽🏽‍♀️</string>
 		<string>🤽🏼‍♀️</string>
 		<string>🤽🏻‍♀️</string>
-		<string>🤽🏽‍♀️</string>
-		<string>🤽🏿‍♀️</string>
 		<string>🤽‍♀️</string>
 	</array>
 	<key>woman-pouting</key>
 	<array>
-		<string>🙎🏼‍♀️</string>
+		<string>🙎‍♀️</string>
 		<string>🙎🏽‍♀️</string>
 		<string>🙎🏾‍♀️</string>
-		<string>🙎🏻‍♀️</string>
 		<string>🙎🏿‍♀️</string>
-		<string>🙎‍♀️</string>
+		<string>🙎🏼‍♀️</string>
+		<string>🙎🏻‍♀️</string>
 	</array>
 	<key>woman-raising-hand</key>
 	<array>
+		<string>🙋🏼‍♀️</string>
+		<string>🙋🏾‍♀️</string>
+		<string>🙋🏿‍♀️</string>
+		<string>🙋🏽‍♀️</string>
 		<string>🙋🏻‍♀️</string>
 		<string>🙋‍♀️</string>
-		<string>🙋🏼‍♀️</string>
-		<string>🙋🏽‍♀️</string>
-		<string>🙋🏿‍♀️</string>
-		<string>🙋🏾‍♀️</string>
 	</array>
 	<key>woman-rowing-boat</key>
 	<array>
-		<string>🚣🏽‍♀️</string>
-		<string>🚣🏻‍♀️</string>
 		<string>🚣🏾‍♀️</string>
-		<string>🚣🏿‍♀️</string>
-		<string>🚣🏼‍♀️</string>
 		<string>🚣‍♀️</string>
+		<string>🚣🏿‍♀️</string>
+		<string>🚣🏻‍♀️</string>
+		<string>🚣🏼‍♀️</string>
+		<string>🚣🏽‍♀️</string>
 	</array>
 	<key>woman-running</key>
 	<array>
-		<string>🏃🏾‍♀️</string>
-		<string>🏃🏻‍♀️</string>
+		<string>🏃🏿‍♀️</string>
 		<string>🏃🏼‍♀️</string>
 		<string>🏃🏽‍♀️</string>
+		<string>🏃🏻‍♀️</string>
 		<string>🏃‍♀️</string>
-		<string>🏃🏿‍♀️</string>
+		<string>🏃🏾‍♀️</string>
 	</array>
 	<key>woman-shrugging</key>
 	<array>
-		<string>🤷🏿‍♀️</string>
 		<string>🤷🏽‍♀️</string>
 		<string>🤷‍♀️</string>
-		<string>🤷🏾‍♀️</string>
-		<string>🤷🏻‍♀️</string>
 		<string>🤷🏼‍♀️</string>
+		<string>🤷🏻‍♀️</string>
+		<string>🤷🏾‍♀️</string>
+		<string>🤷🏿‍♀️</string>
 	</array>
 	<key>woman-surfing</key>
 	<array>
-		<string>🏄🏻‍♀️</string>
 		<string>🏄🏾‍♀️</string>
 		<string>🏄‍♀️</string>
-		<string>🏄🏽‍♀️</string>
 		<string>🏄🏿‍♀️</string>
+		<string>🏄🏽‍♀️</string>
 		<string>🏄🏼‍♀️</string>
+		<string>🏄🏻‍♀️</string>
 	</array>
 	<key>woman-swimming</key>
 	<array>
-		<string>🏊🏼‍♀️</string>
 		<string>🏊🏽‍♀️</string>
-		<string>🏊🏿‍♀️</string>
-		<string>🏊🏻‍♀️</string>
+		<string>🏊🏼‍♀️</string>
 		<string>🏊🏾‍♀️</string>
 		<string>🏊‍♀️</string>
+		<string>🏊🏿‍♀️</string>
+		<string>🏊🏻‍♀️</string>
 	</array>
 	<key>woman-tipping-hand</key>
 	<array>
-		<string>💁🏻‍♀️</string>
-		<string>💁🏼‍♀️</string>
 		<string>💁🏾‍♀️</string>
-		<string>💁‍♀️</string>
+		<string>💁🏼‍♀️</string>
 		<string>💁🏿‍♀️</string>
 		<string>💁🏽‍♀️</string>
+		<string>💁‍♀️</string>
+		<string>💁🏻‍♀️</string>
 	</array>
 	<key>woman-walking</key>
 	<array>
-		<string>🚶🏾‍♀️</string>
-		<string>🚶🏻‍♀️</string>
 		<string>🚶🏿‍♀️</string>
-		<string>🚶🏼‍♀️</string>
-		<string>🚶‍♀️</string>
 		<string>🚶🏽‍♀️</string>
+		<string>🚶🏻‍♀️</string>
+		<string>🚶‍♀️</string>
+		<string>🚶🏼‍♀️</string>
+		<string>🚶🏾‍♀️</string>
 	</array>
 	<key>woman-wearing-turban</key>
 	<array>
-		<string>👳🏼‍♀️</string>
-		<string>👳🏽‍♀️</string>
 		<string>👳🏿‍♀️</string>
 		<string>👳🏾‍♀️</string>
-		<string>👳🏻‍♀️</string>
+		<string>👳🏼‍♀️</string>
 		<string>👳‍♀️</string>
+		<string>👳🏻‍♀️</string>
+		<string>👳🏽‍♀️</string>
 	</array>
 	<key>woman-with-bunny-ears-partying</key>
 	<array>
@@ -8570,165 +8570,165 @@
 	</array>
 	<key>woman_climbing</key>
 	<array>
-		<string>🧗🏿‍♀️</string>
-		<string>🧗🏼‍♀️</string>
-		<string>🧗🏾‍♀️</string>
-		<string>🧗🏽‍♀️</string>
 		<string>🧗🏻‍♀️</string>
 		<string>🧗‍♀️</string>
+		<string>🧗🏽‍♀️</string>
+		<string>🧗🏿‍♀️</string>
+		<string>🧗🏾‍♀️</string>
+		<string>🧗🏼‍♀️</string>
 	</array>
 	<key>woman_feeding_baby</key>
 	<array>
 		<string>👩‍🍼</string>
-		<string>👩🏾‍🍼</string>
-		<string>👩🏽‍🍼</string>
-		<string>👩🏻‍🍼</string>
-		<string>👩🏿‍🍼</string>
 		<string>👩🏼‍🍼</string>
+		<string>👩🏽‍🍼</string>
+		<string>👩🏿‍🍼</string>
+		<string>👩🏻‍🍼</string>
+		<string>👩🏾‍🍼</string>
 	</array>
 	<key>woman_in_lotus_position</key>
 	<array>
-		<string>🧘🏿‍♀️</string>
 		<string>🧘🏼‍♀️</string>
 		<string>🧘🏽‍♀️</string>
-		<string>🧘🏾‍♀️</string>
-		<string>🧘🏻‍♀️</string>
 		<string>🧘‍♀️</string>
+		<string>🧘🏻‍♀️</string>
+		<string>🧘🏾‍♀️</string>
+		<string>🧘🏿‍♀️</string>
 	</array>
 	<key>woman_in_manual_wheelchair</key>
 	<array>
-		<string>👩🏾‍🦽</string>
 		<string>👩‍🦽</string>
-		<string>👩🏻‍🦽</string>
-		<string>👩🏽‍🦽</string>
 		<string>👩🏼‍🦽</string>
+		<string>👩🏾‍🦽</string>
+		<string>👩🏽‍🦽</string>
+		<string>👩🏻‍🦽</string>
 		<string>👩🏿‍🦽</string>
 	</array>
 	<key>woman_in_manual_wheelchair_facing_right</key>
 	<array>
+		<string>👩🏽‍🦽‍➡️</string>
+		<string>👩🏼‍🦽‍➡️</string>
+		<string>👩‍🦽‍➡️</string>
 		<string>👩🏻‍🦽‍➡️</string>
 		<string>👩🏿‍🦽‍➡️</string>
-		<string>👩🏼‍🦽‍➡️</string>
 		<string>👩🏾‍🦽‍➡️</string>
-		<string>👩🏽‍🦽‍➡️</string>
-		<string>👩‍🦽‍➡️</string>
 	</array>
 	<key>woman_in_motorized_wheelchair</key>
 	<array>
-		<string>👩🏻‍🦼</string>
-		<string>👩‍🦼</string>
 		<string>👩🏽‍🦼</string>
-		<string>👩🏼‍🦼</string>
-		<string>👩🏿‍🦼</string>
+		<string>👩🏻‍🦼</string>
 		<string>👩🏾‍🦼</string>
+		<string>👩🏿‍🦼</string>
+		<string>👩‍🦼</string>
+		<string>👩🏼‍🦼</string>
 	</array>
 	<key>woman_in_motorized_wheelchair_facing_right</key>
 	<array>
 		<string>👩‍🦼‍➡️</string>
-		<string>👩🏽‍🦼‍➡️</string>
-		<string>👩🏾‍🦼‍➡️</string>
-		<string>👩🏻‍🦼‍➡️</string>
 		<string>👩🏼‍🦼‍➡️</string>
+		<string>👩🏽‍🦼‍➡️</string>
+		<string>👩🏻‍🦼‍➡️</string>
 		<string>👩🏿‍🦼‍➡️</string>
+		<string>👩🏾‍🦼‍➡️</string>
 	</array>
 	<key>woman_in_steamy_room</key>
 	<array>
-		<string>🧖‍♀️</string>
-		<string>🧖🏻‍♀️</string>
-		<string>🧖🏾‍♀️</string>
-		<string>🧖🏿‍♀️</string>
 		<string>🧖🏼‍♀️</string>
 		<string>🧖🏽‍♀️</string>
+		<string>🧖‍♀️</string>
+		<string>🧖🏿‍♀️</string>
+		<string>🧖🏻‍♀️</string>
+		<string>🧖🏾‍♀️</string>
 	</array>
 	<key>woman_in_tuxedo</key>
 	<array>
-		<string>🤵🏼‍♀️</string>
-		<string>🤵🏾‍♀️</string>
 		<string>🤵🏿‍♀️</string>
+		<string>🤵🏼‍♀️</string>
 		<string>🤵🏽‍♀️</string>
-		<string>🤵‍♀️</string>
 		<string>🤵🏻‍♀️</string>
+		<string>🤵‍♀️</string>
+		<string>🤵🏾‍♀️</string>
 	</array>
 	<key>woman_kneeling</key>
 	<array>
-		<string>🧎🏾‍♀️</string>
-		<string>🧎🏻‍♀️</string>
-		<string>🧎‍♀️</string>
-		<string>🧎🏽‍♀️</string>
-		<string>🧎🏼‍♀️</string>
 		<string>🧎🏿‍♀️</string>
+		<string>🧎🏻‍♀️</string>
+		<string>🧎🏼‍♀️</string>
+		<string>🧎🏽‍♀️</string>
+		<string>🧎‍♀️</string>
+		<string>🧎🏾‍♀️</string>
 	</array>
 	<key>woman_kneeling_facing_right</key>
 	<array>
-		<string>🧎🏿‍♀️‍➡️</string>
-		<string>🧎🏾‍♀️‍➡️</string>
-		<string>🧎🏽‍♀️‍➡️</string>
 		<string>🧎🏻‍♀️‍➡️</string>
+		<string>🧎🏾‍♀️‍➡️</string>
+		<string>🧎🏿‍♀️‍➡️</string>
 		<string>🧎‍♀️‍➡️</string>
+		<string>🧎🏽‍♀️‍➡️</string>
 		<string>🧎🏼‍♀️‍➡️</string>
 	</array>
 	<key>woman_running_facing_right</key>
 	<array>
-		<string>🏃🏿‍♀️‍➡️</string>
-		<string>🏃🏻‍♀️‍➡️</string>
-		<string>🏃🏼‍♀️‍➡️</string>
 		<string>🏃‍♀️‍➡️</string>
-		<string>🏃🏾‍♀️‍➡️</string>
 		<string>🏃🏽‍♀️‍➡️</string>
+		<string>🏃🏾‍♀️‍➡️</string>
+		<string>🏃🏼‍♀️‍➡️</string>
+		<string>🏃🏻‍♀️‍➡️</string>
+		<string>🏃🏿‍♀️‍➡️</string>
 	</array>
 	<key>woman_standing</key>
 	<array>
-		<string>🧍🏾‍♀️</string>
 		<string>🧍🏿‍♀️</string>
-		<string>🧍🏻‍♀️</string>
-		<string>🧍🏼‍♀️</string>
 		<string>🧍🏽‍♀️</string>
 		<string>🧍‍♀️</string>
+		<string>🧍🏼‍♀️</string>
+		<string>🧍🏻‍♀️</string>
+		<string>🧍🏾‍♀️</string>
 	</array>
 	<key>woman_walking_facing_right</key>
 	<array>
-		<string>🚶🏻‍♀️‍➡️</string>
 		<string>🚶🏽‍♀️‍➡️</string>
-		<string>🚶🏿‍♀️‍➡️</string>
-		<string>🚶🏾‍♀️‍➡️</string>
 		<string>🚶🏼‍♀️‍➡️</string>
+		<string>🚶🏾‍♀️‍➡️</string>
 		<string>🚶‍♀️‍➡️</string>
+		<string>🚶🏿‍♀️‍➡️</string>
+		<string>🚶🏻‍♀️‍➡️</string>
 	</array>
 	<key>woman_with_beard</key>
 	<array>
+		<string>🧔🏻‍♀️</string>
 		<string>🧔🏽‍♀️</string>
 		<string>🧔🏿‍♀️</string>
-		<string>🧔🏾‍♀️</string>
-		<string>🧔🏻‍♀️</string>
-		<string>🧔🏼‍♀️</string>
 		<string>🧔‍♀️</string>
+		<string>🧔🏼‍♀️</string>
+		<string>🧔🏾‍♀️</string>
 	</array>
 	<key>woman_with_probing_cane</key>
 	<array>
-		<string>👩‍🦯</string>
+		<string>👩🏼‍🦯</string>
 		<string>👩🏻‍🦯</string>
 		<string>👩🏽‍🦯</string>
+		<string>👩‍🦯</string>
 		<string>👩🏾‍🦯</string>
 		<string>👩🏿‍🦯</string>
-		<string>👩🏼‍🦯</string>
 	</array>
 	<key>woman_with_veil</key>
 	<array>
-		<string>👰🏽‍♀️</string>
 		<string>👰🏻‍♀️</string>
-		<string>👰🏼‍♀️</string>
-		<string>👰🏿‍♀️</string>
-		<string>👰‍♀️</string>
+		<string>👰🏽‍♀️</string>
 		<string>👰🏾‍♀️</string>
+		<string>👰🏿‍♀️</string>
+		<string>👰🏼‍♀️</string>
+		<string>👰‍♀️</string>
 	</array>
 	<key>woman_with_white_cane_facing_right</key>
 	<array>
 		<string>👩‍🦯‍➡️</string>
-		<string>👩🏻‍🦯‍➡️</string>
 		<string>👩🏾‍🦯‍➡️</string>
 		<string>👩🏿‍🦯‍➡️</string>
-		<string>👩🏽‍🦯‍➡️</string>
 		<string>👩🏼‍🦯‍➡️</string>
+		<string>👩🏻‍🦯‍➡️</string>
+		<string>👩🏽‍🦯‍➡️</string>
 	</array>
 	<key>womans_clothes</key>
 	<array>

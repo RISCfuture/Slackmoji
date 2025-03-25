@@ -5,3 +5,7 @@
 xcuserdata/
 DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+
+# SwiftLint Remote Config Cache
+.swiftlint/RemoteConfigCache
