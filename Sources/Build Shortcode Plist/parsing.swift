@@ -1,9 +1,15 @@
 import Foundation
 import RegularExpressions
 
+/// Intermediate representation of parsed Unicode codepoints from an emoji data line.
+///
+/// Contains the parsed codepoint sequence with placeholders for skin tone and gender insertions.
 struct ParsedCodepoints {
+  /// The pruned codepoint sequence with insertion placeholders.
   var prunedCodepoints: [Slackmoji.Codepoint]
+  /// Gender insertion metadata, if the emoji has gendered variants.
   var genderInsertion: GenderInsertion?
+  /// Skin tone insertion points for generating skin tone variants.
   var skinInsertions: [Slackmoji.SkinInsertion]
 
   init() {
@@ -12,14 +18,20 @@ struct ParsedCodepoints {
     skinInsertions = []
   }
 
+  /// Describes where and how to insert gender-specific codepoints.
   struct GenderInsertion {
     let type: Slackmoji.GenderInsertion.CodepointType
     let index: Int
   }
 }
 
+/// Intermediate representation of a parsed shortcode from an emoji data line.
+///
+/// Contains the shortcode parts with placeholders for gender phrase insertions.
 struct ParsedShortcode {
+  /// The shortcode segments and insertion placeholders.
   var shortcodeParts: [Slackmoji.ShortcodePart]
+  /// Gender insertion metadata for generating gendered shortcode variants.
   var genderInsertion: GenderInsertion?
 
   init() {
@@ -27,6 +39,7 @@ struct ParsedShortcode {
     genderInsertion = nil
   }
 
+  /// Describes where and how to insert gender-specific shortcode phrases.
   struct GenderInsertion {
     let phrase: Slackmoji.GenderInsertion.ShortcodePhrase
     let index: Int
@@ -38,6 +51,13 @@ private let shortcodeSpecialChars = CharacterSet(charactersIn: "{/")
 private let emojiDecorator = Unicode.Scalar(UInt32(0xFE0F))!
 private let zwj = 0x200D
 
+/// Parses a codepoint string from emoji data format into structured representation.
+///
+/// Handles special tokens like `{SKIN}`, `{MAN/WOMAN}`, etc. and extracts the codepoint
+/// sequence with insertion placeholders.
+///
+/// - Parameter codepoints: The codepoint portion of an emoji data line (before the semicolon).
+/// - Returns: Parsed codepoint data with insertion metadata.
 private func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
   var parsed = ParsedCodepoints()
   var lastSkinInsertionIndex = 0
@@ -111,6 +131,12 @@ private func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
   return parsed
 }
 
+/// Parses shortcode strings from emoji data format into structured representations.
+///
+/// Handles multiple alternate shortcodes separated by `/` and gender phrase tokens.
+///
+/// - Parameter shortcodes: The shortcode portion of an emoji data line (after the semicolon).
+/// - Returns: Array of parsed shortcode data, one per alternate shortcode.
 private func parseShortcode(shortcodes: Substring) -> [ParsedShortcode] {
   var parsedShortcodes = [ParsedShortcode]()
   var currentParsed = ParsedShortcode()
@@ -165,6 +191,15 @@ private func parseShortcode(shortcodes: Substring) -> [ParsedShortcode] {
   return parsedShortcodes
 }
 
+/// Creates Slackmoji structures from raw emoji data line components.
+///
+/// Combines parsed codepoints and shortcodes into complete Slackmoji structures
+/// ready for expansion.
+///
+/// - Parameters:
+///   - codepoints: The codepoint portion of the emoji data line.
+///   - shortcodes: The shortcode portion of the emoji data line.
+/// - Returns: Array of Slackmoji structures, one per alternate shortcode.
 func makeSlackmoji(codepoints: Substring, shortcodes: Substring) -> [Slackmoji] {
   let parsedCodepoints = parseCodepoints(codepoints: codepoints)
   let parsedShortcodes = parseShortcode(shortcodes: shortcodes)

@@ -1,8 +1,16 @@
 import ArgumentParser
 import Foundation
 
+/// Command-line tool that generates emoji mapping plist files from emoji-data repository files.
+///
+/// This tool reads the `data_emoji_names*.txt` files from the emoji-data submodule, parses the
+/// shortcode definitions including skin tone and gender variations, expands all combinations,
+/// and writes bidirectional mapping dictionaries as property list files.
+///
+/// Run from the project root directory after initializing the emoji-data submodule.
 @main
 struct BuildShortcodePlist: AsyncParsableCommand {
+  /// Path to the output file for emoji-to-shortcode mappings.
   @Option(
     completion: .file(extensions: ["plist"]),
     transform: { .init(filePath: $0, directoryHint: .notDirectory) }
@@ -12,6 +20,7 @@ struct BuildShortcodePlist: AsyncParsableCommand {
     directoryHint: .notDirectory
   )
 
+  /// Path to the output file for shortcode-to-emoji mappings.
   @Option(
     completion: .file(extensions: ["plist"]),
     transform: { .init(filePath: $0, directoryHint: .notDirectory) }
@@ -21,6 +30,9 @@ struct BuildShortcodePlist: AsyncParsableCommand {
     directoryHint: .notDirectory
   )
 
+  /// Runs the plist generation process.
+  ///
+  /// Reads all emoji data files, parses and expands variations, then writes the output plists.
   mutating func run() async throws {
     var aliases = [String: Set<String>]()
 

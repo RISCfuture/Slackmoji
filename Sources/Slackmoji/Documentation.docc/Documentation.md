@@ -1,53 +1,55 @@
 # ``Slackmoji``
 
-A Swift package that converts between Slackmoji shortcodes and Unicode emoji
-characters.
+Convert between Slack emoji shortcodes and Unicode emoji characters.
+
+@Metadata {
+    @PageColor(blue)
+}
+
+@Options(scope: local) {
+    @AutomaticSeeAlso(enabled)
+}
 
 ## Overview
 
-This library is a shortcode-to-Unicode converter for Slack emoji. It is able to
-convert between (e.g.) `:heart:` and ❤️. Note that Slack shortcodes can be
-different from shortcodes used by other software such as GitHub.
+**Slackmoji** is a Swift library that converts between Slack-style emoji shortcodes (like `:heart:`) and Unicode emoji characters (like ❤️). The library handles the full complexity of modern emoji, including skin tone modifiers, gender variants, and zero-width joiner sequences.
 
-## Requirements
+> Note: Slack shortcodes differ from shortcodes used by other platforms like GitHub. This library specifically targets Slack's emoji naming conventions.
 
-This library requires Swift Package Manager v5.3 or newer, since it uses bundled
-resources.
+### Key Features
 
-## Usage
+- **Bidirectional conversion**: Convert shortcodes to emoji and emoji back to shortcodes
+- **Skin tone support**: Handle all five skin tone variations for supported emoji
+- **Gender variants**: Support gendered emoji with correct shortcode mappings
+- **Message processing**: Convert shortcodes inline within strings
+- **Zero runtime dependencies**: All emoji data is bundled at compile time
 
-Simply include this repository in your `Package.swift` file and mark it as a
-dependency for your project. That will give you access to two functions:
+### Quick Example
 
-* ``Slackmoji/Slackmoji/shortcodeToEmoji(_:)``
-* ``Slackmoji/Slackmoji/emojiToShortcodes(_:)``
-
-``` swift
+```swift
 import Slackmoji
 
-let slackmoji = Slackmoji()
-slackmoji.shortcodeToEmoji("heart") //-> ["❤️"]
-slackmoji.emojiToShortcodes("❤️") //-> ["heart"]
+let converter = Slackmoji()
+
+// Convert a shortcode to emoji
+try converter.shortcodeToEmoji("heart")  // Returns: ["❤️"]
+
+// Convert emoji to shortcodes
+try converter.emojiToShortcodes("❤️")    // Returns: ["heart"]
+
+// Process inline shortcodes in a message
+try converter.messageWithShortcodesToEmoji("I :heart: :bubble_tea:")
+// Returns: "I ❤️ 🧋"
 ```
 
-Note that adding/removing the leading and trailing colons is your
-responsibility.
+## Topics
 
-You can also convert emoji inline within strings:
+### Essentials
 
-* ``Slackmoji/Slackmoji/messageWithShortcodesToEmoji(_:)``
+- <doc:GettingStarted>
+- ``Slackmoji/Slackmoji``
 
-## The plist data files
+### Understanding Emoji
 
-Slackmoji shortcodes are generated from
-[this repository](https://github.com/iamcal/emoji-data), which is included as a
-submodule. The **Build Shortcode Plist** file is an executable target that
-parses the `emoji-data/build/data_emoji_names*.txt` files and generates the
-property list file that is included as a bundled resource for this library.
-
-To regenerate this plist file, simply run the **Build Shortcode Plist** target
-from the project root directory.
-
-## Tests
-
-Unit tests can be run with `swift test`.
+- <doc:UnderstandingEmojiVariations>
+- <doc:DataGeneration>

@@ -1,6 +1,12 @@
 import Foundation
 import Glob
 
+/// Creates an async stream that yields the contents of all emoji data files.
+///
+/// Reads all files matching `emoji-data/build/data_emoji_names*.txt` from the submodule
+/// and yields their contents as strings.
+///
+/// - Returns: An async throwing stream of file contents.
 func emojiData() -> AsyncThrowingStream<String, Error> {
   AsyncThrowingStream { continuation in
     do {

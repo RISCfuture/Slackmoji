@@ -1,18 +1,29 @@
+/// Set of Unicode scalar values representing the five Fitzpatrick skin tone modifiers.
 let skinTones: Set<Unicode.Scalar> = Set(
   [UInt32(0x1F3FB), UInt32(0x1F3FC), UInt32(0x1F3FD), UInt32(0x1F3FE), UInt32(0x1F3FF)].map {
     Unicode.Scalar($0)!
   }
 )
 
+/// Represents a binary gender for emoji variants.
 enum Gender: CaseIterable {
   case male, female
 }
 
+/// Represents a Slack emoji shortcode with its Unicode representation and variation metadata.
+///
+/// A `Slackmoji` instance holds the parsed data needed to generate all possible expansions
+/// of an emoji, including skin tone and gender variants. The `allExpansions` property
+/// computes the full set of shortcode-to-emoji mappings.
 struct Slackmoji {
+  /// The Unicode codepoint sequence with insertion placeholders.
   var codepoints: [Codepoint]
+  /// The shortcode segments with insertion placeholders.
   var shortcodeParts: [ShortcodePart]
 
+  /// Gender insertion metadata for generating gendered variants.
   var genderInsertion: GenderInsertion?
+  /// Skin tone insertion points for generating skin tone variants.
   var skinInsertions: [SkinInsertion]
 
   private var codepointOffsetForGenderInsertion: Int? {
@@ -37,6 +48,10 @@ struct Slackmoji {
     }
   }
 
+  /// Computes all shortcode-to-emoji mappings for this emoji, including all variations.
+  ///
+  /// Expands gender and skin tone variations to produce a dictionary mapping each
+  /// possible shortcode to its array of Unicode emoji strings.
   var allExpansions: [String: [String]] {
     if let genderInsertion {
       return Gender.allCases.reduce(into: Dictionary()) { dict, gender in
@@ -162,30 +177,41 @@ struct Slackmoji {
     return unicode
   }
 
+  /// Represents a single element in a codepoint sequence.
   enum Codepoint {
+    /// A literal Unicode scalar value.
     case codepoint(_ scalar: Unicode.Scalar)
+    /// Placeholder for gender-specific codepoint insertion.
     case genderInsertion
+    /// Placeholder for skin tone modifier insertion at the given index.
     case skinInsertion(index: Int)
   }
 
+  /// Represents a single element in a shortcode sequence.
   enum ShortcodePart {
+    /// A literal string segment.
     case string(_ string: String)
+    /// Placeholder for gender-specific phrase insertion.
     case genderInsertion
   }
 
+  /// Describes how to generate gendered variants of an emoji.
   struct GenderInsertion {
+    /// The type of Unicode codepoint to insert for each gender.
     let codepointType: CodepointType
+    /// The shortcode phrase pattern to insert for each gender.
     let shortcodePhrase: ShortcodePhrase
 
     func codepointValues(gender: Gender) -> [Unicode.Scalar] {
       codepointType.values[gender]!
     }
 
+    /// Types of gender-specific Unicode codepoints.
     enum CodepointType {
+      /// Man (👨) or Woman (👩) emoji characters.
       case manWoman
+      /// Male (♂️) or Female (♀️) symbol characters.
       case maleFemale
-
-      var values: [Gender: [Unicode.Scalar]] { Self.values[self]! }
 
       static let values: [Self: [Gender: [Unicode.Scalar]]] = [
         .manWoman: [
@@ -197,23 +223,31 @@ struct Slackmoji {
           .female: [Unicode.Scalar(UInt32(0x2640))!, Unicode.Scalar(UInt32(0xFE0F))!]
         ]
       ]
+
+      var values: [Gender: [Unicode.Scalar]] { Self.values[self]! }
     }
 
+    /// Types of gender-specific shortcode phrases.
     enum ShortcodePhrase {
+      /// "man" or "woman" phrases.
       case manWoman
+      /// "male" or "female" phrases.
       case maleFemale
-
-      var values: [Gender: String] { Self.values[self]! }
 
       static let values: [Self: [Gender: String]] = [
         .manWoman: [.male: "man", .female: "woman"],
         .maleFemale: [.male: "male", .female: "female"]
       ]
+
+      var values: [Gender: String] { Self.values[self]! }
     }
   }
 
+  /// Describes how to generate skin tone variants at an insertion point.
   struct SkinInsertion {
+    /// Whether the skin tone modifier can be omitted (base emoji without skin tone).
     let optional: Bool
+    /// Whether the skin tone must differ from other insertions (for multi-person emoji).
     let exclusive: Bool
   }
 

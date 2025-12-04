@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Workflow for building and deploying DocC documentation to GitHub Pages
 name: Deploy Documentation
 
 on:
@@ -26,14 +26,19 @@ jobs:
       - uses: SwiftyLab/setup-swift@latest
         with:
           swift-version: "6.0"
-      - name: Build
+      - name: Build Documentation
         run: |
           swift package \
            --allow-writing-to-directory ./docs \
-           generate-documentation --target Slackmoji --output-path ./docs \
+           generate-documentation \
+           --enable-experimental-combined-documentation \
+           --output-path ./docs \
            --disable-indexing \
            --transform-for-static-hosting \
            --hosting-base-path Slackmoji
+      - name: Create Redirect
+        run: |
+          echo '<meta http-equiv="refresh" content="0; url=documentation/slackmoji/">' > ./docs/index.html
       - name: Upload
         uses: actions/upload-pages-artifact@v3
         with:
