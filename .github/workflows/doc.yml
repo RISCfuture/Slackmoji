@@ -1,56 +1,74 @@
-# Workflow for building and deploying DocC documentation to GitHub Pages
 name: Deploy Documentation
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
-    name: Generate Documentation
+  build-docs:
+    name: Build Documentation
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: BoundfoxStudios/action-xcode-select@v1
+
       - uses: SwiftyLab/setup-swift@latest
         with:
-          swift-version: "6.0"
-      - name: Build Documentation
+          swift-version: "latest"
+
+      - name: Build documentation
         run: |
           swift package \
-           --allow-writing-to-directory ./docs \
-           generate-documentation \
-           --enable-experimental-combined-documentation \
-           --output-path ./docs \
-           --disable-indexing \
-           --transform-for-static-hosting \
-           --hosting-base-path Slackmoji
-      - name: Create Redirect
+            --allow-writing-to-directory ./docs \
+            generate-documentation \
+            --enable-experimental-combined-documentation \
+            --disable-indexing \
+            --transform-for-static-hosting \
+            --hosting-base-path Slackmoji \
+            --output-path ./docs
+
+      - name: Create root redirect
         run: |
-          echo '<meta http-equiv="refresh" content="0; url=documentation/slackmoji/">' > ./docs/index.html
-      - name: Upload
+          cat > ./docs/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="refresh" content="0; url=/Slackmoji/documentation/slackmoji/">
+              <title>Slackmoji Documentation</title>
+              <script>
+                  window.location.replace("/Slackmoji/documentation/slackmoji/");
+              </script>
+          </head>
+          <body>
+              <p>Redirecting to <a href="/Slackmoji/documentation/slackmoji/">Slackmoji Documentation</a>...</p>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "docs/"
+          path: ./docs
 
-  # Deployment job
   deploy:
+    name: Deploy to GitHub Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-docs
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
