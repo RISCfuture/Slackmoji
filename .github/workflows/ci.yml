@@ -12,7 +12,7 @@ jobs:
     name: Run SwiftLint
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: SwiftyLab/setup-swift@latest
         with:
           swift-version: "6.2"
@@ -37,7 +37,7 @@ jobs:
           - os: macos-15
             swift: "6.2"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: SwiftyLab/setup-swift@latest
         with:
@@ -62,7 +62,7 @@ jobs:
     container:
       image: swift:${{ matrix.swift }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Show Swift version
         run: swift --version
@@ -79,7 +79,7 @@ jobs:
     container:
       image: swift:latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Install dependencies
         run: apt-get update && apt-get install -y wget
       - name: Download .swift-format config
