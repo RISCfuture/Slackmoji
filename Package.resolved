@@ -1,5 +1,5 @@
 {
-  "originHash" : "41805ed2a3e321c60b83d272d6df5c88c668b51bab3a83e7fa4296b71648a84e",
+  "originHash" : "24ecf25c5feb0f167d12698faede16a847fb77bfa1c41719ca9e3f7e08163bf7",
   "pins" : [
     {
       "identity" : "cwlcatchexception",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Bouke/Glob.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "deda6e163d2ff2a8d7e138e2c3326dbd71157faf"
+        "revision" : "deda6e163d2ff2a8d7e138e2c3326dbd71157faf",
+        "version" : "1.0.5"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Nimble.git",
       "state" : {
-        "revision" : "cc945f7bdf3b485adedc315e18685c065059b4ca",
-        "version" : "13.8.0"
+        "revision" : "035b88ad6ae8035f5ce2b50b0a6d69c3b16d2120",
+        "version" : "14.0.0"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Peter-Schorn/RegularExpressions.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "b27140d0bd3a9a1e61f2324f644219be98eb3311"
+        "revision" : "b27140d0bd3a9a1e61f2324f644219be98eb3311",
+        "version" : "2.2.0"
       }
     },
     {
@@ -78,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-docc-plugin.git",
       "state" : {
-        "revision" : "e977f65879f82b375a044c8837597f690c067da6",
-        "version" : "1.4.6"
+        "revision" : "647c708be89f834fa6a6d4945442793a77ddf5b6",
+        "version" : "1.5.0"
       }
     },
     {
