@@ -13,10 +13,10 @@ let package = Package(
     .executable(name: "Build Shortcode Plist", targets: ["Build Shortcode Plist"])
   ],
   dependencies: [
-    .package(url: "https://github.com/Bouke/Glob.git", branch: "master"),
-    .package(url: "https://github.com/Peter-Schorn/RegularExpressions.git", branch: "master"),
+    .package(url: "https://github.com/Bouke/Glob.git", from: "1.0.5"),
+    .package(url: "https://github.com/Peter-Schorn/RegularExpressions.git", from: "2.2.0"),
     .package(url: "https://github.com/Quick/Quick.git", from: "7.6.2"),
-    .package(url: "https://github.com/Quick/Nimble.git", from: "13.7.1"),
+    .package(url: "https://github.com/Quick/Nimble.git", from: "14.0.0"),
     .package(url: "https://github.com/apple/swift-docc-plugin.git", from: "1.4.3"),
     .package(url: "https://github.com/apple/swift-argument-parser", from: "1.5.0")
   ],
