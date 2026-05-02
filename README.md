@@ -1,5 +1,11 @@
 # Slackmoji
 
+[![CI](https://github.com/RISCfuture/Slackmoji/actions/workflows/ci.yml/badge.svg)](https://github.com/RISCfuture/Slackmoji/actions/workflows/ci.yml)
+[![Documentation](https://github.com/RISCfuture/Slackmoji/actions/workflows/doc.yml/badge.svg)](https://riscfuture.github.io/Slackmoji/)
+[![Swift 6.0+](https://img.shields.io/badge/Swift-6.0+-orange.svg)](https://swift.org)
+[![Platforms](https://img.shields.io/badge/Platforms-macOS%20|%20iOS%20|%20tvOS%20|%20watchOS%20|%20visionOS-blue.svg)](https://swift.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 This library is a shortcode-to-Unicode converter for Slack emoji. It is able to
 convert between (e.g.) `:heart:` and ❤️. Note that Slack shortcodes can be
 different from shortcodes used by other software such as GitHub.
