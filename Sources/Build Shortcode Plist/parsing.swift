@@ -21,7 +21,6 @@ struct ParsedCodepoints {
   /// Describes where and how to insert gender-specific codepoints.
   struct GenderInsertion {
     let type: Slackmoji.GenderInsertion.CodepointType
-    let index: Int
   }
 }
 
@@ -42,14 +41,12 @@ struct ParsedShortcode {
   /// Describes where and how to insert gender-specific shortcode phrases.
   struct GenderInsertion {
     let phrase: Slackmoji.GenderInsertion.ShortcodePhrase
-    let index: Int
   }
 }
 
 private let codepointSpecialChars = CharacterSet(charactersIn: "-{")
 private let shortcodeSpecialChars = CharacterSet(charactersIn: "{/")
 private let emojiDecorator = Unicode.Scalar(UInt32(0xFE0F))!
-private let zwj = 0x200D
 
 /// Parses a codepoint string from emoji data format into structured representation.
 ///
@@ -83,16 +80,13 @@ private func parseCodepoints(codepoints: Substring) -> ParsedCodepoints {
             guard parsed.genderInsertion == nil else {
               fatalError("Can't have multiple gender insertions in a single codepoint")
             }
-            parsed.genderInsertion = .init(type: .manWoman, index: parsed.prunedCodepoints.endIndex)
+            parsed.genderInsertion = .init(type: .manWoman)
             parsed.prunedCodepoints.append(.genderInsertion)
           case "MALE/FEMALE", "GENDER":
             guard parsed.genderInsertion == nil else {
               fatalError("Can't have multiple gender insertions in a single codepoint")
             }
-            parsed.genderInsertion = .init(
-              type: .maleFemale,
-              index: parsed.prunedCodepoints.endIndex
-            )
+            parsed.genderInsertion = .init(type: .maleFemale)
             parsed.prunedCodepoints.append(.genderInsertion)
           case "SKIN", "SKIN2":
             parsed.skinInsertions.append(.init(optional: true, exclusive: false))
@@ -160,19 +154,13 @@ private func parseShortcode(shortcodes: Substring) -> [ParsedShortcode] {
             guard currentParsed.genderInsertion == nil else {
               fatalError("Can't have multiple gender insertions in a single codepoint")
             }
-            currentParsed.genderInsertion = .init(
-              phrase: .manWoman,
-              index: currentParsed.shortcodeParts.endIndex
-            )
+            currentParsed.genderInsertion = .init(phrase: .manWoman)
             currentParsed.shortcodeParts.append(.genderInsertion)
           case "MALE/FEMALE", "GENDER":
             guard currentParsed.genderInsertion == nil else {
               fatalError("Can't have multiple gender insertions in a single codepoint")
             }
-            currentParsed.genderInsertion = .init(
-              phrase: .maleFemale,
-              index: currentParsed.shortcodeParts.endIndex
-            )
+            currentParsed.genderInsertion = .init(phrase: .maleFemale)
             currentParsed.shortcodeParts.append(.genderInsertion)
           default:
             fatalError("Unrecognized shortcode token \(token)")
