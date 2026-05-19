@@ -202,10 +202,6 @@ struct Slackmoji {
     /// The shortcode phrase pattern to insert for each gender.
     let shortcodePhrase: ShortcodePhrase
 
-    func codepointValues(gender: Gender) -> [Unicode.Scalar] {
-      codepointType.values[gender]!
-    }
-
     /// Types of gender-specific Unicode codepoints.
     enum CodepointType {
       /// Man (👨) or Woman (👩) emoji characters.
@@ -249,10 +245,5 @@ struct Slackmoji {
     let optional: Bool
     /// Whether the skin tone must differ from other insertions (for multi-person emoji).
     let exclusive: Bool
-  }
-
-  private struct Expansion {
-    let shortcode: String
-    let codepoints: [Unicode.Scalar]
   }
 }
