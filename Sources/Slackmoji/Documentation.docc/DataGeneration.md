@@ -49,26 +49,31 @@ See the Build Shortcode Plist documentation for technical details on the pipelin
 When new emoji are added to Unicode and subsequently to the emoji-data repository:
 
 1. **Update the submodule**:
+
    ```bash
    git submodule update --remote emoji-data
    ```
 
 2. **Regenerate the plists**:
+
    ```bash
    swift run "Build Shortcode Plist"
    ```
 
 3. **Verify the changes**:
+
    ```bash
    git diff Sources/Slackmoji/Resources/
    ```
 
 4. **Test the new mappings**:
+
    ```bash
    swift test
    ```
 
 5. **Commit the updates**:
+
    ```bash
    git add Sources/Slackmoji/Resources/*.plist emoji-data
    git commit -m "Update emoji data"

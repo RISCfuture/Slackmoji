@@ -45,7 +45,7 @@ from the project root directory.
 ## Documentation
 
 Online API and tutorial documentation is available at
-https://riscfuture.github.io/Slackmoji/documentation/slackmoji/
+<https://riscfuture.github.io/Slackmoji/documentation/slackmoji/>
 
 DocC documentation is available, including tutorials and API documentation. For
 Xcode documentation, you can run

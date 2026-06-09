@@ -28,6 +28,7 @@ Then add it as a dependency to your target:
 ### Platform Requirements
 
 Slackmoji requires:
+
 - Swift 5.3+ (uses bundled resources)
 - macOS 13+, iOS 16+, tvOS 16+, watchOS 9+, or visionOS 1+
 

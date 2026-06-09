@@ -53,7 +53,7 @@ try converter.shortcodeToEmoji("person_shrugging")
 
 Complex emoji like families, couples, and professions are built by joining simpler emoji with the Zero-Width Joiner (ZWJ, U+200D) character:
 
-```
+```text
 👨 + ZWJ + ❤️ + ZWJ + 👨 = 👨‍❤️‍👨 (couple with heart: man, man)
 ```
 

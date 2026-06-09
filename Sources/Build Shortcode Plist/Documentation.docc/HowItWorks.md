@@ -16,12 +16,13 @@ The following diagram illustrates the complete data flow:
 
 The `emojiData()` function creates an async throwing stream that reads from all `data_emoji_names*.txt` files in the emoji-data submodule. Each file contains lines in the format:
 
-```
+```text
 CODEPOINTS;shortcode/alternate_shortcode
 ```
 
 For example:
-```
+
+```text
 2764-FE0F;heart/red_heart
 1F468-{SKIN}-200D-2764-FE0F-200D-1F468-{SKIN2x};couple_with_heart_{M/W}_{M/W}
 ```
