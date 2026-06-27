@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.1] - 2026-06-26
+
+### Changed
+
+- Adopted the Approachable Concurrency upcoming features (NonisolatedNonsendingByDefault and InferIsolatedConformances)
+
 ## [3.0.0] - 2024-11-21
 
 Emoji 15.0, version updates.
