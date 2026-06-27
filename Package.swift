@@ -2,6 +2,11 @@
 
 import PackageDescription
 
+let approachableConcurrency: [SwiftSetting] = [
+  .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
+  .enableUpcomingFeature("InferIsolatedConformances")
+]
+
 let package = Package(
   name: "Slackmoji",
   platforms: [.macOS(.v13), .iOS(.v16), .tvOS(.v16), .watchOS(.v9), .visionOS(.v1)],
@@ -27,7 +32,8 @@ let package = Package(
       resources: [
         .process("Resources/EmojiToSlackmoji.plist"),
         .process("Resources/SlackmojiToEmoji.plist")
-      ]
+      ],
+      swiftSettings: approachableConcurrency
     ),
     .executableTarget(
       name: "Build Shortcode Plist",
@@ -35,11 +41,13 @@ let package = Package(
         "Glob",
         "RegularExpressions",
         .product(name: "ArgumentParser", package: "swift-argument-parser")
-      ]
+      ],
+      swiftSettings: approachableConcurrency
     ),
     .testTarget(
       name: "SlackmojiTests",
-      dependencies: ["Slackmoji", "Quick", "Nimble"]
+      dependencies: ["Slackmoji", "Quick", "Nimble"],
+      swiftSettings: approachableConcurrency
     )
   ],
   swiftLanguageModes: [.v5, .v6]
