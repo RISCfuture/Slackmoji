@@ -1,82 +1,107 @@
-import Nimble
-import Quick
+import Testing
 
 @testable import Slackmoji
 
-final class SlackmojiSpec: QuickSpec {
-  override static func spec() {
-    var slackmoji: Slackmoji { .init() }
+@Suite
+enum SlackmojiTests {
+  @Suite
+  struct ShortcodeToEmoji {
+    let slackmoji = Slackmoji()
 
-    describe("#shortcodeToEmoji") {
-      it("returns a shortcode for a single match") {
-        try expect(slackmoji.shortcodeToEmoji("heart")).to(equal(Set(["❤️"])))
-      }
-
-      it("handles gender discriminators") {
-        try expect(slackmoji.shortcodeToEmoji("older_man")).to(equal(Set(["👴"])))
-        try expect(slackmoji.shortcodeToEmoji("older_woman")).to(equal(Set(["👵"])))
-        try expect(slackmoji.shortcodeToEmoji("older_adult")).to(equal(Set(["🧓"])))
-      }
-
-      it("handles skin tone discriminators") {
-        try expect(slackmoji.shortcodeToEmoji("office_worker"))
-          .to(equal(Set(["🧑‍💼", "🧑🏻‍💼", "🧑🏿‍💼", "🧑🏾‍💼", "🧑🏽‍💼", "🧑🏼‍💼"])))
-      }
-
-      it("handles gender and skin tone discriminators combined") {
-        try expect(slackmoji.shortcodeToEmoji("white_haired_man"))
-          .to(equal(Set(["👨🏽‍🦳", "👨‍🦳", "👨🏾‍🦳", "👨🏿‍🦳", "👨🏻‍🦳", "👨🏼‍🦳"])))
-        try expect(slackmoji.shortcodeToEmoji("white_haired_woman"))
-          .to(equal(Set(["👩🏻‍🦳", "👩🏽‍🦳", "👩‍🦳", "👩🏿‍🦳", "👩🏾‍🦳", "👩🏼‍🦳"])))
-        try expect(slackmoji.shortcodeToEmoji("white_haired_person"))
-          .to(equal(Set(["🧑🏼‍🦳", "🧑🏽‍🦳", "🧑🏻‍🦳", "🧑🏾‍🦳", "🧑‍🦳", "🧑🏿‍🦳"])))
-      }
-
-      it("handles permutable skin tone discriminators") {
-        try expect(slackmoji.shortcodeToEmoji("woman-heart-man"))
-          .to(
-            equal(
-              Set([
-                "👩‍❤️‍👨🏻", "👩🏽‍❤️‍👨🏾", "👩🏿‍❤️‍👨🏼", "👩🏼‍❤️‍👨🏾", "👩‍❤️‍👨🏿", "👩🏼‍❤️‍👨🏿", "👩🏽‍❤️‍👨🏼",
-                "👩🏿‍❤️‍👨🏻", "👩🏾‍❤️‍👨🏻", "👩🏼‍❤️‍👨🏻", "👩🏻‍❤️‍👨🏾", "👩🏿‍❤️‍👨🏾", "👩🏽‍❤️‍👨🏿", "👩🏾‍❤️‍👨🏿",
-                "👩‍❤️‍👨🏼", "👩🏾‍❤️‍👨🏼", "👩🏽‍❤️‍👨🏻", "👩🏿‍❤️‍👨🏽", "👩🏻‍❤️‍👨🏿", "👩🏾‍❤️‍👨🏽", "👩🏻‍❤️‍👨🏼",
-                "👩‍❤️‍👨🏽", "👩🏼‍❤️‍👨🏽", "👩‍❤️‍👨🏾", "👩🏻‍❤️‍👨🏽"
-              ])
-            )
-          )
-      }
+    @Test
+    func returnsAShortcodeForASingleMatch() throws {
+      #expect(try slackmoji.shortcodeToEmoji("heart") == Set(["❤️"]))
     }
 
-    describe("#emojiToShortcodes") {
-      it("returns a shortcode for a single match") {
-        try expect(slackmoji.emojiToShortcodes("❤️"))
-          .to(equal(Set(["heart"])))
-      }
-      it("returns shortcodes for multiple matches") {
-        try expect(slackmoji.emojiToShortcodes("🏃"))
-          .to(equal(Set(["runner", "running"])))
-      }
-
-      it("handles gender and skin tone discriminators") {
-        try expect(slackmoji.emojiToShortcodes("👩🏻‍🦳"))
-          .to(equal(Set(["white_haired_woman"])))
-        try expect(slackmoji.emojiToShortcodes("👨🏿‍🦳"))
-          .to(equal(Set(["white_haired_man"])))
-      }
+    @Test
+    func handlesGenderDiscriminators() throws {
+      #expect(try slackmoji.shortcodeToEmoji("older_man") == Set(["👴"]))
+      #expect(try slackmoji.shortcodeToEmoji("older_woman") == Set(["👵"]))
+      #expect(try slackmoji.shortcodeToEmoji("older_adult") == Set(["🧓"]))
     }
 
-    describe("#messageWithShortcodesToEmoji") {
-      it("converts shortcodes in a message to emoji") {
-        try expect(slackmoji.messageWithShortcodesToEmoji("I :heart: N7:heart: :tada:!"))
-          .to(equal("I ❤️ N7❤️ 🎉!"))
-      }
+    @Test
+    func handlesSkinToneDiscriminators() throws {
+      #expect(
+        try slackmoji.shortcodeToEmoji("office_worker")
+          == Set(["🧑‍💼", "🧑🏻‍💼", "🧑🏿‍💼", "🧑🏾‍💼", "🧑🏽‍💼", "🧑🏼‍💼"])
+      )
     }
 
-    //        describe("#messageWithEmojiToShortcodes") {
-    //            it("converts emoji in a message to shortcodes") {
-    //                expect(try! slackmoji.messageWithEmojiToShortcodes("I ❤️ N7❤️ 🎉!"))
-    //                    .to(equal("I :heart: N7:heart: :tada:!"))
-    //            }
-    //        }
+    @Test
+    func handlesGenderAndSkinToneDiscriminatorsCombined() throws {
+      #expect(
+        try slackmoji.shortcodeToEmoji("white_haired_man")
+          == Set(["👨🏽‍🦳", "👨‍🦳", "👨🏾‍🦳", "👨🏿‍🦳", "👨🏻‍🦳", "👨🏼‍🦳"])
+      )
+      #expect(
+        try slackmoji.shortcodeToEmoji("white_haired_woman")
+          == Set(["👩🏻‍🦳", "👩🏽‍🦳", "👩‍🦳", "👩🏿‍🦳", "👩🏾‍🦳", "👩🏼‍🦳"])
+      )
+      #expect(
+        try slackmoji.shortcodeToEmoji("white_haired_person")
+          == Set(["🧑🏼‍🦳", "🧑🏽‍🦳", "🧑🏻‍🦳", "🧑🏾‍🦳", "🧑‍🦳", "🧑🏿‍🦳"])
+      )
+    }
+
+    @Test
+    func handlesPermutableSkinToneDiscriminators() throws {
+      #expect(
+        try slackmoji.shortcodeToEmoji("woman-heart-man")
+          == Set([
+            "👩‍❤️‍👨🏻", "👩🏽‍❤️‍👨🏾", "👩🏿‍❤️‍👨🏼", "👩🏼‍❤️‍👨🏾", "👩‍❤️‍👨🏿", "👩🏼‍❤️‍👨🏿", "👩🏽‍❤️‍👨🏼",
+            "👩🏿‍❤️‍👨🏻", "👩🏾‍❤️‍👨🏻", "👩🏼‍❤️‍👨🏻", "👩🏻‍❤️‍👨🏾", "👩🏿‍❤️‍👨🏾", "👩🏽‍❤️‍👨🏿", "👩🏾‍❤️‍👨🏿",
+            "👩‍❤️‍👨🏼", "👩🏾‍❤️‍👨🏼", "👩🏽‍❤️‍👨🏻", "👩🏿‍❤️‍👨🏽", "👩🏻‍❤️‍👨🏿", "👩🏾‍❤️‍👨🏽", "👩🏻‍❤️‍👨🏼",
+            "👩‍❤️‍👨🏽", "👩🏼‍❤️‍👨🏽", "👩‍❤️‍👨🏾", "👩🏻‍❤️‍👨🏽"
+          ])
+      )
+    }
   }
+
+  @Suite
+  struct EmojiToShortcodes {
+    let slackmoji = Slackmoji()
+
+    @Test
+    func returnsAShortcodeForASingleMatch() throws {
+      #expect(try slackmoji.emojiToShortcodes("❤️") == Set(["heart"]))
+    }
+
+    @Test
+    func returnsShortcodesForMultipleMatches() throws {
+      #expect(try slackmoji.emojiToShortcodes("🏃") == Set(["runner", "running"]))
+    }
+
+    @Test
+    func handlesGenderAndSkinToneDiscriminators() throws {
+      #expect(try slackmoji.emojiToShortcodes("👩🏻‍🦳") == Set(["white_haired_woman"]))
+      #expect(try slackmoji.emojiToShortcodes("👨🏿‍🦳") == Set(["white_haired_man"]))
+    }
+  }
+
+  @Suite
+  struct MessageWithShortcodesToEmoji {
+    let slackmoji = Slackmoji()
+
+    @Test
+    func convertsShortcodesInAMessageToEmoji() throws {
+      #expect(
+        try slackmoji.messageWithShortcodesToEmoji("I :heart: N7:heart: :tada:!")
+          == "I ❤️ N7❤️ 🎉!"
+      )
+    }
+  }
+
+  //  @Suite
+  //  struct MessageWithEmojiToShortcodes {
+  //    let slackmoji = Slackmoji()
+  //
+  //    @Test
+  //    func convertsEmojiInAMessageToShortcodes() throws {
+  //      #expect(
+  //        try slackmoji.messageWithEmojiToShortcodes("I ❤️ N7❤️ 🎉!")
+  //          == "I :heart: N7:heart: :tada:!"
+  //      )
+  //    }
+  //  }
 }
