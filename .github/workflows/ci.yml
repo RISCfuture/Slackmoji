@@ -40,6 +40,14 @@ jobs:
       - uses: SwiftyLab/setup-swift@latest
         with:
           swift-version: ${{ matrix.swift }}
+      - name: Cache SwiftPM build products
+        uses: actions/cache@v6
+        with:
+          path: |
+            .build
+            ~/.cache/org.swift.swiftpm
+            ~/Library/Caches/org.swift.swiftpm
+          key: swiftpm-test-${{ matrix.os }}-swift${{ matrix.swift }}-${{ hashFiles('Package.resolved') }}
       - name: Build
         run: swift build -v
       - name: Test
@@ -55,6 +63,14 @@ jobs:
       image: swift:${{ matrix.swift }}
     steps:
       - uses: actions/checkout@v6
+      - name: Cache SwiftPM build products
+        uses: actions/cache@v6
+        with:
+          path: |
+            .build
+            ~/.cache/org.swift.swiftpm
+            ~/Library/Caches/org.swift.swiftpm
+          key: swiftpm-test-linux-swift${{ matrix.swift }}-${{ hashFiles('Package.resolved') }}
       - name: Build
         run: swift build -v
       - name: Test
@@ -90,6 +106,21 @@ jobs:
       - uses: SwiftyLab/setup-swift@latest
         with:
           swift-version: "latest"
+      - name: Record toolchain version
+        id: swift
+        run: |
+          toolchain=$(swift --version)
+          digest=$(printf '%s' "$toolchain" | shasum | cut -d' ' -f1)
+          [ -n "$digest" ] || { echo "could not determine Swift toolchain version"; exit 1; }
+          echo "version=$digest" >> "$GITHUB_OUTPUT"
+      - name: Cache SwiftPM build products
+        uses: actions/cache@v6
+        with:
+          path: |
+            .build
+            ~/.cache/org.swift.swiftpm
+            ~/Library/Caches/org.swift.swiftpm
+          key: swiftpm-docs-macos-latest-${{ steps.swift.outputs.version }}-${{ hashFiles('Package.resolved') }}
       # Targets are listed explicitly so that DocC warnings from dependencies
       # don't fail this package's build.
       - name: Build documentation
