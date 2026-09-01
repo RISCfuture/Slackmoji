@@ -27,6 +27,23 @@ jobs:
         with:
           swift-version: "latest"
 
+      - name: Record toolchain version
+        id: swift
+        run: |
+          toolchain=$(swift --version)
+          digest=$(printf '%s' "$toolchain" | shasum | cut -d' ' -f1)
+          [ -n "$digest" ] || { echo "could not determine Swift toolchain version"; exit 1; }
+          echo "version=$digest" >> "$GITHUB_OUTPUT"
+
+      - name: Cache SwiftPM build products
+        uses: actions/cache@v6
+        with:
+          path: |
+            .build
+            ~/.cache/org.swift.swiftpm
+            ~/Library/Caches/org.swift.swiftpm
+          key: swiftpm-deploy-docs-macos-latest-${{ steps.swift.outputs.version }}-${{ hashFiles('Package.resolved') }}
+
       - name: Build documentation
         run: |
           swift package \
