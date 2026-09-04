@@ -9,19 +9,19 @@ enum SlackmojiTests {
     let slackmoji = Slackmoji()
 
     @Test
-    func returnsAShortcodeForASingleMatch() throws {
+    func `returns a shortcode for a single match`() throws {
       #expect(try slackmoji.shortcodeToEmoji("heart") == Set(["❤️"]))
     }
 
     @Test
-    func handlesGenderDiscriminators() throws {
+    func `handles gender discriminators`() throws {
       #expect(try slackmoji.shortcodeToEmoji("older_man") == Set(["👴"]))
       #expect(try slackmoji.shortcodeToEmoji("older_woman") == Set(["👵"]))
       #expect(try slackmoji.shortcodeToEmoji("older_adult") == Set(["🧓"]))
     }
 
     @Test
-    func handlesSkinToneDiscriminators() throws {
+    func `handles skin tone discriminators`() throws {
       #expect(
         try slackmoji.shortcodeToEmoji("office_worker")
           == Set(["🧑‍💼", "🧑🏻‍💼", "🧑🏿‍💼", "🧑🏾‍💼", "🧑🏽‍💼", "🧑🏼‍💼"])
@@ -29,7 +29,7 @@ enum SlackmojiTests {
     }
 
     @Test
-    func handlesGenderAndSkinToneDiscriminatorsCombined() throws {
+    func `handles gender and skin tone discriminators combined`() throws {
       #expect(
         try slackmoji.shortcodeToEmoji("white_haired_man")
           == Set(["👨🏽‍🦳", "👨‍🦳", "👨🏾‍🦳", "👨🏿‍🦳", "👨🏻‍🦳", "👨🏼‍🦳"])
@@ -45,7 +45,7 @@ enum SlackmojiTests {
     }
 
     @Test
-    func handlesPermutableSkinToneDiscriminators() throws {
+    func `handles permutable skin tone discriminators`() throws {
       #expect(
         try slackmoji.shortcodeToEmoji("woman-heart-man")
           == Set([
@@ -63,17 +63,17 @@ enum SlackmojiTests {
     let slackmoji = Slackmoji()
 
     @Test
-    func returnsAShortcodeForASingleMatch() throws {
+    func `returns a shortcode for a single match`() throws {
       #expect(try slackmoji.emojiToShortcodes("❤️") == Set(["heart"]))
     }
 
     @Test
-    func returnsShortcodesForMultipleMatches() throws {
+    func `returns shortcodes for multiple matches`() throws {
       #expect(try slackmoji.emojiToShortcodes("🏃") == Set(["runner", "running"]))
     }
 
     @Test
-    func handlesGenderAndSkinToneDiscriminators() throws {
+    func `handles gender and skin tone discriminators`() throws {
       #expect(try slackmoji.emojiToShortcodes("👩🏻‍🦳") == Set(["white_haired_woman"]))
       #expect(try slackmoji.emojiToShortcodes("👨🏿‍🦳") == Set(["white_haired_man"]))
     }
@@ -84,7 +84,7 @@ enum SlackmojiTests {
     let slackmoji = Slackmoji()
 
     @Test
-    func convertsShortcodesInAMessageToEmoji() throws {
+    func `converts shortcodes in a message to emoji`() throws {
       #expect(
         try slackmoji.messageWithShortcodesToEmoji("I :heart: N7:heart: :tada:!")
           == "I ❤️ N7❤️ 🎉!"
@@ -97,7 +97,7 @@ enum SlackmojiTests {
   //    let slackmoji = Slackmoji()
   //
   //    @Test
-  //    func convertsEmojiInAMessageToShortcodes() throws {
+  //    func `converts emoji in a message to shortcodes`() throws {
   //      #expect(
   //        try slackmoji.messageWithEmojiToShortcodes("I ❤️ N7❤️ 🎉!")
   //          == "I :heart: N7:heart: :tada:!"
