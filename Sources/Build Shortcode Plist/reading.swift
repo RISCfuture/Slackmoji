@@ -7,7 +7,7 @@ import Glob
 /// and yields their contents as strings.
 ///
 /// - Returns: An async throwing stream of file contents.
-func emojiData() -> AsyncThrowingStream<String, Error> {
+func emojiData() -> AsyncThrowingStream<String, any Error> {
   AsyncThrowingStream { continuation in
     do {
       for file in Glob(pattern: "emoji-data/build/data_emoji_names*.txt") {

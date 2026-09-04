@@ -5,6 +5,8 @@
 # Category C (tools-version 6.0):                macos-15 + 6.1, macos-15 + 6.3, macos-26 + 6.3
 # Linux (if viable):                             ubuntu + Swift 6.1, ubuntu + Swift 6.3
 #
+# Test sources use raw identifiers (SE-0451), so legs below Swift 6.2 build only.
+#
 # When Swift 6.4 ships: bump 6.1→6.2 and 6.3→6.4 in Category C
 # When bumping tools-version to 6.2: drop 6.0/6.1, move to Category A or B
 
@@ -30,10 +32,13 @@ jobs:
         include:
           - os: macos-15
             swift: "6.1"
+            test: false
           - os: macos-15
             swift: "6.3"
+            test: true
           - os: macos-26
             swift: "6.3"
+            test: true
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v6
@@ -51,6 +56,7 @@ jobs:
       - name: Build
         run: swift build -v
       - name: Test
+        if: matrix.test
         run: swift test -v
   test-linux:
     name: Test on Linux
@@ -58,7 +64,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        swift: ["6.1", "6.3"]
+        include:
+          - swift: "6.1"
+            test: false
+          - swift: "6.3"
+            test: true
     container:
       image: swift:${{ matrix.swift }}
     steps:
@@ -74,6 +84,7 @@ jobs:
       - name: Build
         run: swift build -v
       - name: Test
+        if: matrix.test
         run: swift test -v
   lint:
     name: Run SwiftLint
