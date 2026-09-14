@@ -1,5 +1,4 @@
 import Foundation
-import RegularExpressions
 
 /// Intermediate representation of parsed Unicode codepoints from an emoji data line.
 ///

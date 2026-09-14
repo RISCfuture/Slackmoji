@@ -1,5 +1,12 @@
 # Change Log
 
+## [Unreleased]
+
+### Removed
+
+- The Glob and RegularExpressions dependencies, so resolving this package no
+  longer pulls them in
+
 ## [3.0.2] - 2026-09-14
 
 ### Changed
