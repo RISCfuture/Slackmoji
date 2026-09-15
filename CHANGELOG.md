@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Building the library now needs Swift 6.2 or newer. The manifest moves to
+  tools version 6.2 to enable strict memory safety (SE-0458), under which every
+  target compiles without diagnostics
+
 ### Removed
 
 - The Glob and RegularExpressions dependencies, so resolving this package no
